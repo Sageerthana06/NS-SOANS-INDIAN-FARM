@@ -32,6 +32,8 @@ export const products = [
     "shortDescription": "LOVER'S TEA — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "LOVER'S TEA is part of the NS SOANS INDIAN FARM Masala Products catalogue (Beverages range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
+      "/images/products/lover-s-tea.webp",
+      "/images/products/lover-s-tea.jpg",
       "/images/products/lover-s-tea.png"
     ],
     "weightOptions": [

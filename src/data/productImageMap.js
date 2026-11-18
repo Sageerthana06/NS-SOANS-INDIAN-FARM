@@ -13,8 +13,8 @@ export const PRODUCT_IMAGE_MAP = {
     "sku": "masala-1-lover-s-tea",
     "name": "LOVER'S TEA",
     "category": "Beverages",
-    "image": "/images/products/lover-s-tea.png",
-    "fallbackImage": "/images/products/placeholder-product.svg",
+    "image": "/images/products/lover-s-tea.webp",
+    "fallbackImage": "/images/products/lover-s-tea.png",
     "verified": true,
     "isPlaceholder": false
   },
