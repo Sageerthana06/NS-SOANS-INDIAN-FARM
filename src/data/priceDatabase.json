@@ -1,0 +1,262 @@
+{
+  "farm-2-ns-a2-desi-cow-ghee-bilona-method": {
+    "150 Gram": 523,
+    "250 Gram": 935,
+    "500 Gram": 1745,
+    "1 Kg": 3445,
+    "2 Kg": 6540,
+    "5 Kg": 16599,
+    "10 Kg": 32598
+  },
+  "farm-3-ns-moon-cultured-ghee-desi-gir-cow": {
+    "150 Gram": 715,
+    "250 Gram": 1380,
+    "500 Gram": 2400,
+    "1 Kg": 4700,
+    "2 Kg": 9250,
+    "5 Kg": 22700,
+    "10 Kg": 45000
+  },
+  "farm-4-ns-tulsi-ghee": {
+    "150 Gram": 1450,
+    "250 Gram": 2395,
+    "500 Gram": 4690,
+    "1 Kg": 9240,
+    "2 Kg": 18250,
+    "5 Kg": 45200,
+    "10 Kg": 90240
+  },
+  "farm-5-ns-ashwagandha-ghee-cultured": {
+    "150 Gram": 1457,
+    "250 Gram": 2400,
+    "500 Gram": 4700,
+    "1 Kg": 9200,
+    "2 Kg": 18200,
+    "5 Kg": 45700,
+    "10 Kg": 90600
+  },
+  "farm-6-ns-turmeric-ghee": {
+    "150 Gram": 1457,
+    "250 Gram": 2400,
+    "500 Gram": 4700,
+    "1 Kg": 9200,
+    "2 Kg": 18200,
+    "5 Kg": 45700,
+    "10 Kg": 90600
+  },
+  "farm-7-ns-buffalo-ghee": {
+    "150 Gram": 265,
+    "250 Gram": 895,
+    "500 Gram": 1690,
+    "1 Kg": 3280,
+    "2 Kg": 6560,
+    "5 Kg": 16000,
+    "10 Kg": 31200
+  },
+  "farm-8-ns-brahmi-ghee": {
+    "150 Gram": 1457,
+    "250 Gram": 2400,
+    "500 Gram": 4700,
+    "1 Kg": 9200,
+    "2 Kg": 18200,
+    "5 Kg": 45700,
+    "10 Kg": 90600
+  },
+  "farm-9-ns-shatavari-ghee": {
+    "150 Gram": 1457,
+    "250 Gram": 2400,
+    "500 Gram": 4700,
+    "1 Kg": 9200,
+    "2 Kg": 18200,
+    "5 Kg": 45700,
+    "10 Kg": 90600
+  },
+  "farm-10-ns-groundnut-oil-cold-pressed-single-filitered": {
+    "1 Kg": 415,
+    "2 Kg": 820,
+    "5 Kg": 2095,
+    "10 Kg": 4190
+  },
+  "farm-11-ns-black-mustard-oil-i-cold-pressed": {
+    "1 Kg": 400,
+    "2 Kg": 740,
+    "5 Kg": 1990,
+    "10 Kg": 4000
+  },
+  "farm-12-ns-sunflower-oil-i-cold-pressed": {
+    "1 Kg": 420,
+    "2 Kg": 800,
+    "5 Kg": 2000,
+    "10 Kg": 3750
+  },
+  "farm-13-ns-coconut-oil-unrefined": {
+    "1 Kg": 915,
+    "2 Kg": 1715,
+    "5 Kg": 4392,
+    "10 Kg": 8692
+  },
+  "farm-14-ns-cold-pressed-groundnut-oil-spray": {
+    "250 Gram": 500,
+    "500 Gram": 1000
+  },
+  "farm-15-virgin-coconut-oil": {
+    "150 Gram": 300,
+    "250 Gram": 685,
+    "500 Gram": 1300,
+    "1 Kg": 2500,
+    "2 Kg": 4880,
+    "5 Kg": 12200,
+    "10 Kg": 24000
+  },
+  "farm-16-ns-high-protien-khapli-atta": {
+    "1 Kg": 280,
+    "2 Kg": 515,
+    "5 Kg": 1330,
+    "10 Kg": 2251
+  },
+  "farm-17-ns-khapli-whet-atta-emmer-wheat-flour": {
+    "1 Kg": 230,
+    "2 Kg": 400,
+    "5 Kg": 950,
+    "10 Kg": 1850
+  },
+  "farm-18-ns-khapli-multigrain-atta": {
+    "1 Kg": 200,
+    "2 Kg": 370,
+    "5 Kg": 920,
+    "10 Kg": 1700
+  },
+  "farm-19-ns-kuttu-atta": {
+    "500 Gram": 245,
+    "1 Kg": 470,
+    "2 Kg": 920,
+    "5 Kg": 2310,
+    "10 Kg": 4660
+  },
+  "farm-20-ns-unsprouted-rajgira-flour": {
+    "500 Gram": 210,
+    "1 Kg": 400,
+    "2 Kg": 780,
+    "5 Kg": 1970,
+    "10 Kg": 2070
+  },
+  "farm-21-ns-sprouted-rajgira-atta-sprouted-kundapura-flour": {
+    "500 Gram": 380,
+    "1 Kg": 740,
+    "2 Kg": 1460,
+    "5 Kg": 3665,
+    "10 Kg": 7325
+  },
+  "farm-22-ns-sattu-atta-stone-ground": {
+    "1 Kg": 380,
+    "2 Kg": 740,
+    "5 Kg": 1865,
+    "10 Kg": 3700
+  },
+  "farm-23-ns-sprouted-ragi-flour-nachi-satva": {
+    "1 Kg": 429,
+    "2 Kg": 838,
+    "5 Kg": 1646,
+    "10 Kg": 8305
+  },
+  "farm-24-ns-jowar-sorghum-atta-desi-dagdi-stone-ground": {
+    "1 Kg": 215,
+    "2 Kg": 410,
+    "5 Kg": 1035,
+    "10 Kg": 2075
+  },
+  "farm-25-ns-bajra": {
+    "1 Kg": 169,
+    "2 Kg": 328,
+    "5 Kg": 825,
+    "10 Kg": 1640
+  },
+  "farm-26-ns-besan-flour-gram-flour": {
+    "1 Kg": 319,
+    "2 Kg": 618,
+    "5 Kg": 1565,
+    "10 Kg": 3140
+  },
+  "farm-27-ns-singhara-atta": {
+    "500 Gram": 350,
+    "1 Kg": 680,
+    "2 Kg": 1335,
+    "5 Kg": 3350,
+    "10 Kg": 6700
+  },
+  "farm-28-ns-sugarcane-jaggery-crushed-granular": {
+    "500 Gram": 120,
+    "1 Kg": 230,
+    "2 Kg": 445,
+    "5 Kg": 1100,
+    "10 Kg": 2200
+  },
+  "farm-29-ns-sugarcane-jaggery-block": {
+    "1 Kg": 275,
+    "2 Kg": 530,
+    "5 Kg": 1345,
+    "10 Kg": 2710
+  },
+  "farm-30-ns-forest-honey-multifloral": {
+    "500 Gram": 570,
+    "1 Kg": 1110,
+    "2 Kg": 2185,
+    "5 Kg": 5500,
+    "10 Kg": 10950
+  },
+  "farm-31-ns-indian-berry-honey-raw-mono-floral-unfiltered": {
+    "500 Gram": 570,
+    "1 Kg": 1110,
+    "2 Kg": 2185,
+    "5 Kg": 5500,
+    "10 Kg": 10950
+  },
+  "farm-32-ns-acacia-honey-raw-mono-floral-unfiltered": {
+    "500 Gram": 600,
+    "1 Kg": 1150,
+    "2 Kg": 2275,
+    "5 Kg": 5710,
+    "10 Kg": 11400
+  },
+  "farm-33-ns-spiced-jaggery-cubes": {
+    "100 Gram": 85,
+    "500 Gram": 230,
+    "1 Kg": 445,
+    "2 Kg": 870,
+    "5 Kg": 2195,
+    "10 Kg": 4375
+  },
+  "farm-34-ns-date-palm-jaggery-solid-date-palm-sap": {
+    "500 Gram": 875,
+    "1 Kg": 1730,
+    "2 Kg": 3410,
+    "5 Kg": 8550,
+    "10 Kg": 17150
+  },
+  "farm-35-ns-coconut-sap-sugar": {
+    "500 Gram": 1088,
+    "1 Kg": 2146,
+    "2 Kg": 4242,
+    "5 Kg": 10655,
+    "10 Kg": 21260
+  },
+  "farm-36-ns-jaggery-sachet": {
+    "Pack of 30": 95,
+    "500 Gram": 95
+  },
+  "farm-38-ns-moringa-powder": {
+    "500 Gram": 1000
+  },
+  "farm-39-ns-haldi-ground-turmic": {
+    "200 Gram": 260
+  },
+  "farm-40-ns-chyawanprash": {
+    "100 Gram": 160
+  },
+  "farm-41-ns-single-origin-lakadong-turmic-powder": {
+    "150 Gram": 279
+  },
+  "farm-42-ns-golden-honeymoon-milk-mix": {
+    "200 Gram": 600
+  }
+}

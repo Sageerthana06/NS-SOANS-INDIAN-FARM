@@ -1,0 +1,1820 @@
+[
+  {
+    "id": "IMP-1794903620460",
+    "timestamp": "2026-11-17T08:20:20.460Z",
+    "formattedDate": "17 Nov 2026, 01:50:20 pm",
+    "fileName": "products details.xlsx",
+    "currency": "INR",
+    "integrityVerified": true,
+    "counts": {
+      "totalRows": 590,
+      "successful": 180,
+      "skipped": 410,
+      "failed": 0,
+      "duplicates": 0,
+      "unmatched": 0
+    },
+    "changes": [
+      {
+        "productId": "farm-2-ns-a2-desi-cow-ghee-bilona-method",
+        "productName": "NS A2 DESI COW GHEE BILONA METHOD",
+        "category": "Ghee",
+        "weight": "150 Gram",
+        "oldPrice": null,
+        "newPrice": 523,
+        "priceDiff": 523,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-2-ns-a2-desi-cow-ghee-bilona-method",
+        "productName": "NS A2 DESI COW GHEE BILONA METHOD",
+        "category": "Ghee",
+        "weight": "250 Gram",
+        "oldPrice": null,
+        "newPrice": 935,
+        "priceDiff": 935,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-2-ns-a2-desi-cow-ghee-bilona-method",
+        "productName": "NS A2 DESI COW GHEE BILONA METHOD",
+        "category": "Ghee",
+        "weight": "500 Gram",
+        "oldPrice": null,
+        "newPrice": 1745,
+        "priceDiff": 1745,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-2-ns-a2-desi-cow-ghee-bilona-method",
+        "productName": "NS A2 DESI COW GHEE BILONA METHOD",
+        "category": "Ghee",
+        "weight": "1 Kg",
+        "oldPrice": null,
+        "newPrice": 3445,
+        "priceDiff": 3445,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-2-ns-a2-desi-cow-ghee-bilona-method",
+        "productName": "NS A2 DESI COW GHEE BILONA METHOD",
+        "category": "Ghee",
+        "weight": "2 Kg",
+        "oldPrice": null,
+        "newPrice": 6540,
+        "priceDiff": 6540,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-2-ns-a2-desi-cow-ghee-bilona-method",
+        "productName": "NS A2 DESI COW GHEE BILONA METHOD",
+        "category": "Ghee",
+        "weight": "5 Kg",
+        "oldPrice": null,
+        "newPrice": 16599,
+        "priceDiff": 16599,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-2-ns-a2-desi-cow-ghee-bilona-method",
+        "productName": "NS A2 DESI COW GHEE BILONA METHOD",
+        "category": "Ghee",
+        "weight": "10 Kg",
+        "oldPrice": null,
+        "newPrice": 32598,
+        "priceDiff": 32598,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-3-ns-moon-cultured-ghee-desi-gir-cow",
+        "productName": "NS MOON CULTURED GHEE, DESI GIR COW",
+        "category": "Ghee",
+        "weight": "150 Gram",
+        "oldPrice": null,
+        "newPrice": 715,
+        "priceDiff": 715,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-3-ns-moon-cultured-ghee-desi-gir-cow",
+        "productName": "NS MOON CULTURED GHEE, DESI GIR COW",
+        "category": "Ghee",
+        "weight": "250 Gram",
+        "oldPrice": null,
+        "newPrice": 1380,
+        "priceDiff": 1380,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-3-ns-moon-cultured-ghee-desi-gir-cow",
+        "productName": "NS MOON CULTURED GHEE, DESI GIR COW",
+        "category": "Ghee",
+        "weight": "500 Gram",
+        "oldPrice": null,
+        "newPrice": 2400,
+        "priceDiff": 2400,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-3-ns-moon-cultured-ghee-desi-gir-cow",
+        "productName": "NS MOON CULTURED GHEE, DESI GIR COW",
+        "category": "Ghee",
+        "weight": "1 Kg",
+        "oldPrice": null,
+        "newPrice": 4700,
+        "priceDiff": 4700,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-3-ns-moon-cultured-ghee-desi-gir-cow",
+        "productName": "NS MOON CULTURED GHEE, DESI GIR COW",
+        "category": "Ghee",
+        "weight": "2 Kg",
+        "oldPrice": null,
+        "newPrice": 9250,
+        "priceDiff": 9250,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-3-ns-moon-cultured-ghee-desi-gir-cow",
+        "productName": "NS MOON CULTURED GHEE, DESI GIR COW",
+        "category": "Ghee",
+        "weight": "5 Kg",
+        "oldPrice": null,
+        "newPrice": 22700,
+        "priceDiff": 22700,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-3-ns-moon-cultured-ghee-desi-gir-cow",
+        "productName": "NS MOON CULTURED GHEE, DESI GIR COW",
+        "category": "Ghee",
+        "weight": "10 Kg",
+        "oldPrice": null,
+        "newPrice": 45000,
+        "priceDiff": 45000,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-4-ns-tulsi-ghee",
+        "productName": "NS TULSI GHEE",
+        "category": "Ghee",
+        "weight": "150 Gram",
+        "oldPrice": null,
+        "newPrice": 1450,
+        "priceDiff": 1450,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-4-ns-tulsi-ghee",
+        "productName": "NS TULSI GHEE",
+        "category": "Ghee",
+        "weight": "250 Gram",
+        "oldPrice": null,
+        "newPrice": 2395,
+        "priceDiff": 2395,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-4-ns-tulsi-ghee",
+        "productName": "NS TULSI GHEE",
+        "category": "Ghee",
+        "weight": "500 Gram",
+        "oldPrice": null,
+        "newPrice": 4690,
+        "priceDiff": 4690,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-4-ns-tulsi-ghee",
+        "productName": "NS TULSI GHEE",
+        "category": "Ghee",
+        "weight": "1 Kg",
+        "oldPrice": null,
+        "newPrice": 9240,
+        "priceDiff": 9240,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-4-ns-tulsi-ghee",
+        "productName": "NS TULSI GHEE",
+        "category": "Ghee",
+        "weight": "2 Kg",
+        "oldPrice": null,
+        "newPrice": 18250,
+        "priceDiff": 18250,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-4-ns-tulsi-ghee",
+        "productName": "NS TULSI GHEE",
+        "category": "Ghee",
+        "weight": "5 Kg",
+        "oldPrice": null,
+        "newPrice": 45200,
+        "priceDiff": 45200,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-4-ns-tulsi-ghee",
+        "productName": "NS TULSI GHEE",
+        "category": "Ghee",
+        "weight": "10 Kg",
+        "oldPrice": null,
+        "newPrice": 90240,
+        "priceDiff": 90240,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-5-ns-ashwagandha-ghee-cultured",
+        "productName": "NS ASHWAGANDHA GHEE, CULTURED",
+        "category": "Ghee",
+        "weight": "150 Gram",
+        "oldPrice": null,
+        "newPrice": 1457,
+        "priceDiff": 1457,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-5-ns-ashwagandha-ghee-cultured",
+        "productName": "NS ASHWAGANDHA GHEE, CULTURED",
+        "category": "Ghee",
+        "weight": "250 Gram",
+        "oldPrice": null,
+        "newPrice": 2400,
+        "priceDiff": 2400,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-5-ns-ashwagandha-ghee-cultured",
+        "productName": "NS ASHWAGANDHA GHEE, CULTURED",
+        "category": "Ghee",
+        "weight": "500 Gram",
+        "oldPrice": null,
+        "newPrice": 4700,
+        "priceDiff": 4700,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-5-ns-ashwagandha-ghee-cultured",
+        "productName": "NS ASHWAGANDHA GHEE, CULTURED",
+        "category": "Ghee",
+        "weight": "1 Kg",
+        "oldPrice": null,
+        "newPrice": 9200,
+        "priceDiff": 9200,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-5-ns-ashwagandha-ghee-cultured",
+        "productName": "NS ASHWAGANDHA GHEE, CULTURED",
+        "category": "Ghee",
+        "weight": "2 Kg",
+        "oldPrice": null,
+        "newPrice": 18200,
+        "priceDiff": 18200,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-5-ns-ashwagandha-ghee-cultured",
+        "productName": "NS ASHWAGANDHA GHEE, CULTURED",
+        "category": "Ghee",
+        "weight": "5 Kg",
+        "oldPrice": null,
+        "newPrice": 45700,
+        "priceDiff": 45700,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-5-ns-ashwagandha-ghee-cultured",
+        "productName": "NS ASHWAGANDHA GHEE, CULTURED",
+        "category": "Ghee",
+        "weight": "10 Kg",
+        "oldPrice": null,
+        "newPrice": 90600,
+        "priceDiff": 90600,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-6-ns-turmeric-ghee",
+        "productName": "NS TURMERIC GHEE",
+        "category": "Ghee",
+        "weight": "150 Gram",
+        "oldPrice": null,
+        "newPrice": 1457,
+        "priceDiff": 1457,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-6-ns-turmeric-ghee",
+        "productName": "NS TURMERIC GHEE",
+        "category": "Ghee",
+        "weight": "250 Gram",
+        "oldPrice": null,
+        "newPrice": 2400,
+        "priceDiff": 2400,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-6-ns-turmeric-ghee",
+        "productName": "NS TURMERIC GHEE",
+        "category": "Ghee",
+        "weight": "500 Gram",
+        "oldPrice": null,
+        "newPrice": 4700,
+        "priceDiff": 4700,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-6-ns-turmeric-ghee",
+        "productName": "NS TURMERIC GHEE",
+        "category": "Ghee",
+        "weight": "1 Kg",
+        "oldPrice": null,
+        "newPrice": 9200,
+        "priceDiff": 9200,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-6-ns-turmeric-ghee",
+        "productName": "NS TURMERIC GHEE",
+        "category": "Ghee",
+        "weight": "2 Kg",
+        "oldPrice": null,
+        "newPrice": 18200,
+        "priceDiff": 18200,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-6-ns-turmeric-ghee",
+        "productName": "NS TURMERIC GHEE",
+        "category": "Ghee",
+        "weight": "5 Kg",
+        "oldPrice": null,
+        "newPrice": 45700,
+        "priceDiff": 45700,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-6-ns-turmeric-ghee",
+        "productName": "NS TURMERIC GHEE",
+        "category": "Ghee",
+        "weight": "10 Kg",
+        "oldPrice": null,
+        "newPrice": 90600,
+        "priceDiff": 90600,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-7-ns-buffalo-ghee",
+        "productName": "NS BUFFALO GHEE",
+        "category": "Ghee",
+        "weight": "150 Gram",
+        "oldPrice": null,
+        "newPrice": 265,
+        "priceDiff": 265,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-7-ns-buffalo-ghee",
+        "productName": "NS BUFFALO GHEE",
+        "category": "Ghee",
+        "weight": "250 Gram",
+        "oldPrice": null,
+        "newPrice": 895,
+        "priceDiff": 895,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-7-ns-buffalo-ghee",
+        "productName": "NS BUFFALO GHEE",
+        "category": "Ghee",
+        "weight": "500 Gram",
+        "oldPrice": null,
+        "newPrice": 1690,
+        "priceDiff": 1690,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-7-ns-buffalo-ghee",
+        "productName": "NS BUFFALO GHEE",
+        "category": "Ghee",
+        "weight": "1 Kg",
+        "oldPrice": null,
+        "newPrice": 3280,
+        "priceDiff": 3280,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-7-ns-buffalo-ghee",
+        "productName": "NS BUFFALO GHEE",
+        "category": "Ghee",
+        "weight": "2 Kg",
+        "oldPrice": null,
+        "newPrice": 6560,
+        "priceDiff": 6560,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-7-ns-buffalo-ghee",
+        "productName": "NS BUFFALO GHEE",
+        "category": "Ghee",
+        "weight": "5 Kg",
+        "oldPrice": null,
+        "newPrice": 16000,
+        "priceDiff": 16000,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-7-ns-buffalo-ghee",
+        "productName": "NS BUFFALO GHEE",
+        "category": "Ghee",
+        "weight": "10 Kg",
+        "oldPrice": null,
+        "newPrice": 31200,
+        "priceDiff": 31200,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-8-ns-brahmi-ghee",
+        "productName": "NS BRAHMI GHEE",
+        "category": "Ghee",
+        "weight": "150 Gram",
+        "oldPrice": null,
+        "newPrice": 1457,
+        "priceDiff": 1457,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-8-ns-brahmi-ghee",
+        "productName": "NS BRAHMI GHEE",
+        "category": "Ghee",
+        "weight": "250 Gram",
+        "oldPrice": null,
+        "newPrice": 2400,
+        "priceDiff": 2400,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-8-ns-brahmi-ghee",
+        "productName": "NS BRAHMI GHEE",
+        "category": "Ghee",
+        "weight": "500 Gram",
+        "oldPrice": null,
+        "newPrice": 4700,
+        "priceDiff": 4700,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-8-ns-brahmi-ghee",
+        "productName": "NS BRAHMI GHEE",
+        "category": "Ghee",
+        "weight": "1 Kg",
+        "oldPrice": null,
+        "newPrice": 9200,
+        "priceDiff": 9200,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-8-ns-brahmi-ghee",
+        "productName": "NS BRAHMI GHEE",
+        "category": "Ghee",
+        "weight": "2 Kg",
+        "oldPrice": null,
+        "newPrice": 18200,
+        "priceDiff": 18200,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-8-ns-brahmi-ghee",
+        "productName": "NS BRAHMI GHEE",
+        "category": "Ghee",
+        "weight": "5 Kg",
+        "oldPrice": null,
+        "newPrice": 45700,
+        "priceDiff": 45700,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-8-ns-brahmi-ghee",
+        "productName": "NS BRAHMI GHEE",
+        "category": "Ghee",
+        "weight": "10 Kg",
+        "oldPrice": null,
+        "newPrice": 90600,
+        "priceDiff": 90600,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-9-ns-shatavari-ghee",
+        "productName": "NS SHATAVARI GHEE",
+        "category": "Ghee",
+        "weight": "150 Gram",
+        "oldPrice": null,
+        "newPrice": 1457,
+        "priceDiff": 1457,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-9-ns-shatavari-ghee",
+        "productName": "NS SHATAVARI GHEE",
+        "category": "Ghee",
+        "weight": "250 Gram",
+        "oldPrice": null,
+        "newPrice": 2400,
+        "priceDiff": 2400,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-9-ns-shatavari-ghee",
+        "productName": "NS SHATAVARI GHEE",
+        "category": "Ghee",
+        "weight": "500 Gram",
+        "oldPrice": null,
+        "newPrice": 4700,
+        "priceDiff": 4700,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-9-ns-shatavari-ghee",
+        "productName": "NS SHATAVARI GHEE",
+        "category": "Ghee",
+        "weight": "1 Kg",
+        "oldPrice": null,
+        "newPrice": 9200,
+        "priceDiff": 9200,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-9-ns-shatavari-ghee",
+        "productName": "NS SHATAVARI GHEE",
+        "category": "Ghee",
+        "weight": "2 Kg",
+        "oldPrice": null,
+        "newPrice": 18200,
+        "priceDiff": 18200,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-9-ns-shatavari-ghee",
+        "productName": "NS SHATAVARI GHEE",
+        "category": "Ghee",
+        "weight": "5 Kg",
+        "oldPrice": null,
+        "newPrice": 45700,
+        "priceDiff": 45700,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-9-ns-shatavari-ghee",
+        "productName": "NS SHATAVARI GHEE",
+        "category": "Ghee",
+        "weight": "10 Kg",
+        "oldPrice": null,
+        "newPrice": 90600,
+        "priceDiff": 90600,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-10-ns-groundnut-oil-cold-pressed-single-filitered",
+        "productName": "NS GROUNDNUT OIL,COLD PRESSED SINGLE FILITERED",
+        "category": "Oil",
+        "weight": "1 Kg",
+        "oldPrice": null,
+        "newPrice": 415,
+        "priceDiff": 415,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-10-ns-groundnut-oil-cold-pressed-single-filitered",
+        "productName": "NS GROUNDNUT OIL,COLD PRESSED SINGLE FILITERED",
+        "category": "Oil",
+        "weight": "2 Kg",
+        "oldPrice": null,
+        "newPrice": 820,
+        "priceDiff": 820,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-10-ns-groundnut-oil-cold-pressed-single-filitered",
+        "productName": "NS GROUNDNUT OIL,COLD PRESSED SINGLE FILITERED",
+        "category": "Oil",
+        "weight": "5 Kg",
+        "oldPrice": null,
+        "newPrice": 2095,
+        "priceDiff": 2095,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-10-ns-groundnut-oil-cold-pressed-single-filitered",
+        "productName": "NS GROUNDNUT OIL,COLD PRESSED SINGLE FILITERED",
+        "category": "Oil",
+        "weight": "10 Kg",
+        "oldPrice": null,
+        "newPrice": 4190,
+        "priceDiff": 4190,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-11-ns-black-mustard-oil-i-cold-pressed",
+        "productName": "NS BLACK MUSTARD OIL I COLD PRESSED",
+        "category": "Oil",
+        "weight": "1 Kg",
+        "oldPrice": null,
+        "newPrice": 400,
+        "priceDiff": 400,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-11-ns-black-mustard-oil-i-cold-pressed",
+        "productName": "NS BLACK MUSTARD OIL I COLD PRESSED",
+        "category": "Oil",
+        "weight": "2 Kg",
+        "oldPrice": null,
+        "newPrice": 740,
+        "priceDiff": 740,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-11-ns-black-mustard-oil-i-cold-pressed",
+        "productName": "NS BLACK MUSTARD OIL I COLD PRESSED",
+        "category": "Oil",
+        "weight": "5 Kg",
+        "oldPrice": null,
+        "newPrice": 1990,
+        "priceDiff": 1990,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-11-ns-black-mustard-oil-i-cold-pressed",
+        "productName": "NS BLACK MUSTARD OIL I COLD PRESSED",
+        "category": "Oil",
+        "weight": "10 Kg",
+        "oldPrice": null,
+        "newPrice": 4000,
+        "priceDiff": 4000,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-12-ns-sunflower-oil-i-cold-pressed",
+        "productName": "NS SUNFLOWER OIL I COLD PRESSED",
+        "category": "Oil",
+        "weight": "1 Kg",
+        "oldPrice": null,
+        "newPrice": 420,
+        "priceDiff": 420,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-12-ns-sunflower-oil-i-cold-pressed",
+        "productName": "NS SUNFLOWER OIL I COLD PRESSED",
+        "category": "Oil",
+        "weight": "2 Kg",
+        "oldPrice": null,
+        "newPrice": 800,
+        "priceDiff": 800,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-12-ns-sunflower-oil-i-cold-pressed",
+        "productName": "NS SUNFLOWER OIL I COLD PRESSED",
+        "category": "Oil",
+        "weight": "5 Kg",
+        "oldPrice": null,
+        "newPrice": 2000,
+        "priceDiff": 2000,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-12-ns-sunflower-oil-i-cold-pressed",
+        "productName": "NS SUNFLOWER OIL I COLD PRESSED",
+        "category": "Oil",
+        "weight": "10 Kg",
+        "oldPrice": null,
+        "newPrice": 3750,
+        "priceDiff": 3750,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-13-ns-coconut-oil-unrefined",
+        "productName": "NS COCONUT OIL, UNREFINED",
+        "category": "Oil",
+        "weight": "1 Kg",
+        "oldPrice": null,
+        "newPrice": 915,
+        "priceDiff": 915,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-13-ns-coconut-oil-unrefined",
+        "productName": "NS COCONUT OIL, UNREFINED",
+        "category": "Oil",
+        "weight": "2 Kg",
+        "oldPrice": null,
+        "newPrice": 1715,
+        "priceDiff": 1715,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-13-ns-coconut-oil-unrefined",
+        "productName": "NS COCONUT OIL, UNREFINED",
+        "category": "Oil",
+        "weight": "5 Kg",
+        "oldPrice": null,
+        "newPrice": 4392,
+        "priceDiff": 4392,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-13-ns-coconut-oil-unrefined",
+        "productName": "NS COCONUT OIL, UNREFINED",
+        "category": "Oil",
+        "weight": "10 Kg",
+        "oldPrice": null,
+        "newPrice": 8692,
+        "priceDiff": 8692,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-14-ns-cold-pressed-groundnut-oil-spray",
+        "productName": "NS COLD PRESSED GROUNDNUT OIL SPRAY",
+        "category": "Oil",
+        "weight": "250 Gram",
+        "oldPrice": null,
+        "newPrice": 500,
+        "priceDiff": 500,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-14-ns-cold-pressed-groundnut-oil-spray",
+        "productName": "NS COLD PRESSED GROUNDNUT OIL SPRAY",
+        "category": "Oil",
+        "weight": "500 Gram",
+        "oldPrice": null,
+        "newPrice": 1000,
+        "priceDiff": 1000,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-15-virgin-coconut-oil",
+        "productName": "VIRGIN COCONUT OIL",
+        "category": "Oil",
+        "weight": "150 Gram",
+        "oldPrice": null,
+        "newPrice": 300,
+        "priceDiff": 300,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-15-virgin-coconut-oil",
+        "productName": "VIRGIN COCONUT OIL",
+        "category": "Oil",
+        "weight": "250 Gram",
+        "oldPrice": null,
+        "newPrice": 685,
+        "priceDiff": 685,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-15-virgin-coconut-oil",
+        "productName": "VIRGIN COCONUT OIL",
+        "category": "Oil",
+        "weight": "500 Gram",
+        "oldPrice": null,
+        "newPrice": 1300,
+        "priceDiff": 1300,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-15-virgin-coconut-oil",
+        "productName": "VIRGIN COCONUT OIL",
+        "category": "Oil",
+        "weight": "1 Kg",
+        "oldPrice": null,
+        "newPrice": 2500,
+        "priceDiff": 2500,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-15-virgin-coconut-oil",
+        "productName": "VIRGIN COCONUT OIL",
+        "category": "Oil",
+        "weight": "2 Kg",
+        "oldPrice": null,
+        "newPrice": 4880,
+        "priceDiff": 4880,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-15-virgin-coconut-oil",
+        "productName": "VIRGIN COCONUT OIL",
+        "category": "Oil",
+        "weight": "5 Kg",
+        "oldPrice": null,
+        "newPrice": 12200,
+        "priceDiff": 12200,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-15-virgin-coconut-oil",
+        "productName": "VIRGIN COCONUT OIL",
+        "category": "Oil",
+        "weight": "10 Kg",
+        "oldPrice": null,
+        "newPrice": 24000,
+        "priceDiff": 24000,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-16-ns-high-protien-khapli-atta",
+        "productName": "NS HIGH PROTIEN KHAPLI ATTA",
+        "category": "Atta",
+        "weight": "1 Kg",
+        "oldPrice": null,
+        "newPrice": 280,
+        "priceDiff": 280,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-16-ns-high-protien-khapli-atta",
+        "productName": "NS HIGH PROTIEN KHAPLI ATTA",
+        "category": "Atta",
+        "weight": "2 Kg",
+        "oldPrice": null,
+        "newPrice": 515,
+        "priceDiff": 515,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-16-ns-high-protien-khapli-atta",
+        "productName": "NS HIGH PROTIEN KHAPLI ATTA",
+        "category": "Atta",
+        "weight": "5 Kg",
+        "oldPrice": null,
+        "newPrice": 1330,
+        "priceDiff": 1330,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-16-ns-high-protien-khapli-atta",
+        "productName": "NS HIGH PROTIEN KHAPLI ATTA",
+        "category": "Atta",
+        "weight": "10 Kg",
+        "oldPrice": null,
+        "newPrice": 2251,
+        "priceDiff": 2251,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-17-ns-khapli-whet-atta-emmer-wheat-flour",
+        "productName": "NS KHAPLI WHET ATTA ( EMMER WHEAT FLOUR)",
+        "category": "Atta",
+        "weight": "1 Kg",
+        "oldPrice": null,
+        "newPrice": 230,
+        "priceDiff": 230,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-17-ns-khapli-whet-atta-emmer-wheat-flour",
+        "productName": "NS KHAPLI WHET ATTA ( EMMER WHEAT FLOUR)",
+        "category": "Atta",
+        "weight": "2 Kg",
+        "oldPrice": null,
+        "newPrice": 400,
+        "priceDiff": 400,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-17-ns-khapli-whet-atta-emmer-wheat-flour",
+        "productName": "NS KHAPLI WHET ATTA ( EMMER WHEAT FLOUR)",
+        "category": "Atta",
+        "weight": "5 Kg",
+        "oldPrice": null,
+        "newPrice": 950,
+        "priceDiff": 950,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-17-ns-khapli-whet-atta-emmer-wheat-flour",
+        "productName": "NS KHAPLI WHET ATTA ( EMMER WHEAT FLOUR)",
+        "category": "Atta",
+        "weight": "10 Kg",
+        "oldPrice": null,
+        "newPrice": 1850,
+        "priceDiff": 1850,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-18-ns-khapli-multigrain-atta",
+        "productName": "NS KHAPLI MULTIGRAIN ATTA",
+        "category": "Atta",
+        "weight": "1 Kg",
+        "oldPrice": null,
+        "newPrice": 200,
+        "priceDiff": 200,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-18-ns-khapli-multigrain-atta",
+        "productName": "NS KHAPLI MULTIGRAIN ATTA",
+        "category": "Atta",
+        "weight": "2 Kg",
+        "oldPrice": null,
+        "newPrice": 370,
+        "priceDiff": 370,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-18-ns-khapli-multigrain-atta",
+        "productName": "NS KHAPLI MULTIGRAIN ATTA",
+        "category": "Atta",
+        "weight": "5 Kg",
+        "oldPrice": null,
+        "newPrice": 920,
+        "priceDiff": 920,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-18-ns-khapli-multigrain-atta",
+        "productName": "NS KHAPLI MULTIGRAIN ATTA",
+        "category": "Atta",
+        "weight": "10 Kg",
+        "oldPrice": null,
+        "newPrice": 1700,
+        "priceDiff": 1700,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-19-ns-kuttu-atta",
+        "productName": "NS KUTTU ATTA",
+        "category": "Atta",
+        "weight": "500 Gram",
+        "oldPrice": null,
+        "newPrice": 245,
+        "priceDiff": 245,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-19-ns-kuttu-atta",
+        "productName": "NS KUTTU ATTA",
+        "category": "Atta",
+        "weight": "1 Kg",
+        "oldPrice": null,
+        "newPrice": 470,
+        "priceDiff": 470,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-19-ns-kuttu-atta",
+        "productName": "NS KUTTU ATTA",
+        "category": "Atta",
+        "weight": "2 Kg",
+        "oldPrice": null,
+        "newPrice": 920,
+        "priceDiff": 920,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-19-ns-kuttu-atta",
+        "productName": "NS KUTTU ATTA",
+        "category": "Atta",
+        "weight": "5 Kg",
+        "oldPrice": null,
+        "newPrice": 2310,
+        "priceDiff": 2310,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-19-ns-kuttu-atta",
+        "productName": "NS KUTTU ATTA",
+        "category": "Atta",
+        "weight": "10 Kg",
+        "oldPrice": null,
+        "newPrice": 4660,
+        "priceDiff": 4660,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-20-ns-unsprouted-rajgira-flour",
+        "productName": "NS UNSPROUTED RAJGIRA FLOUR",
+        "category": "Atta",
+        "weight": "500 Gram",
+        "oldPrice": null,
+        "newPrice": 210,
+        "priceDiff": 210,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-20-ns-unsprouted-rajgira-flour",
+        "productName": "NS UNSPROUTED RAJGIRA FLOUR",
+        "category": "Atta",
+        "weight": "1 Kg",
+        "oldPrice": null,
+        "newPrice": 400,
+        "priceDiff": 400,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-20-ns-unsprouted-rajgira-flour",
+        "productName": "NS UNSPROUTED RAJGIRA FLOUR",
+        "category": "Atta",
+        "weight": "2 Kg",
+        "oldPrice": null,
+        "newPrice": 780,
+        "priceDiff": 780,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-20-ns-unsprouted-rajgira-flour",
+        "productName": "NS UNSPROUTED RAJGIRA FLOUR",
+        "category": "Atta",
+        "weight": "5 Kg",
+        "oldPrice": null,
+        "newPrice": 1970,
+        "priceDiff": 1970,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-20-ns-unsprouted-rajgira-flour",
+        "productName": "NS UNSPROUTED RAJGIRA FLOUR",
+        "category": "Atta",
+        "weight": "10 Kg",
+        "oldPrice": null,
+        "newPrice": 2070,
+        "priceDiff": 2070,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-21-ns-sprouted-rajgira-atta-sprouted-kundapura-flour",
+        "productName": "NS SPROUTED RAJGIRA ATTA(SPROUTED KUNDAPURA FLOUR)",
+        "category": "Atta",
+        "weight": "500 Gram",
+        "oldPrice": null,
+        "newPrice": 380,
+        "priceDiff": 380,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-21-ns-sprouted-rajgira-atta-sprouted-kundapura-flour",
+        "productName": "NS SPROUTED RAJGIRA ATTA(SPROUTED KUNDAPURA FLOUR)",
+        "category": "Atta",
+        "weight": "1 Kg",
+        "oldPrice": null,
+        "newPrice": 740,
+        "priceDiff": 740,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-21-ns-sprouted-rajgira-atta-sprouted-kundapura-flour",
+        "productName": "NS SPROUTED RAJGIRA ATTA(SPROUTED KUNDAPURA FLOUR)",
+        "category": "Atta",
+        "weight": "2 Kg",
+        "oldPrice": null,
+        "newPrice": 1460,
+        "priceDiff": 1460,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-21-ns-sprouted-rajgira-atta-sprouted-kundapura-flour",
+        "productName": "NS SPROUTED RAJGIRA ATTA(SPROUTED KUNDAPURA FLOUR)",
+        "category": "Atta",
+        "weight": "5 Kg",
+        "oldPrice": null,
+        "newPrice": 3665,
+        "priceDiff": 3665,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-21-ns-sprouted-rajgira-atta-sprouted-kundapura-flour",
+        "productName": "NS SPROUTED RAJGIRA ATTA(SPROUTED KUNDAPURA FLOUR)",
+        "category": "Atta",
+        "weight": "10 Kg",
+        "oldPrice": null,
+        "newPrice": 7325,
+        "priceDiff": 7325,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-22-ns-sattu-atta-stone-ground",
+        "productName": "NS SATTU ATTA, STONE GROUND",
+        "category": "Atta",
+        "weight": "1 Kg",
+        "oldPrice": null,
+        "newPrice": 380,
+        "priceDiff": 380,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-22-ns-sattu-atta-stone-ground",
+        "productName": "NS SATTU ATTA, STONE GROUND",
+        "category": "Atta",
+        "weight": "2 Kg",
+        "oldPrice": null,
+        "newPrice": 740,
+        "priceDiff": 740,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-22-ns-sattu-atta-stone-ground",
+        "productName": "NS SATTU ATTA, STONE GROUND",
+        "category": "Atta",
+        "weight": "5 Kg",
+        "oldPrice": null,
+        "newPrice": 1865,
+        "priceDiff": 1865,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-22-ns-sattu-atta-stone-ground",
+        "productName": "NS SATTU ATTA, STONE GROUND",
+        "category": "Atta",
+        "weight": "10 Kg",
+        "oldPrice": null,
+        "newPrice": 3700,
+        "priceDiff": 3700,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-23-ns-sprouted-ragi-flour-nachi-satva",
+        "productName": "NS SPROUTED RAGI FLOUR NACHI SATVA",
+        "category": "Atta",
+        "weight": "1 Kg",
+        "oldPrice": null,
+        "newPrice": 429,
+        "priceDiff": 429,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-23-ns-sprouted-ragi-flour-nachi-satva",
+        "productName": "NS SPROUTED RAGI FLOUR NACHI SATVA",
+        "category": "Atta",
+        "weight": "2 Kg",
+        "oldPrice": null,
+        "newPrice": 838,
+        "priceDiff": 838,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-23-ns-sprouted-ragi-flour-nachi-satva",
+        "productName": "NS SPROUTED RAGI FLOUR NACHI SATVA",
+        "category": "Atta",
+        "weight": "5 Kg",
+        "oldPrice": null,
+        "newPrice": 1646,
+        "priceDiff": 1646,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-23-ns-sprouted-ragi-flour-nachi-satva",
+        "productName": "NS SPROUTED RAGI FLOUR NACHI SATVA",
+        "category": "Atta",
+        "weight": "10 Kg",
+        "oldPrice": null,
+        "newPrice": 8305,
+        "priceDiff": 8305,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-24-ns-jowar-sorghum-atta-desi-dagdi-stone-ground",
+        "productName": "NS JOWAR (SORGHUM)ATTA, DESI DAGDI STONE GROUND",
+        "category": "Atta",
+        "weight": "1 Kg",
+        "oldPrice": null,
+        "newPrice": 215,
+        "priceDiff": 215,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-24-ns-jowar-sorghum-atta-desi-dagdi-stone-ground",
+        "productName": "NS JOWAR (SORGHUM)ATTA, DESI DAGDI STONE GROUND",
+        "category": "Atta",
+        "weight": "2 Kg",
+        "oldPrice": null,
+        "newPrice": 410,
+        "priceDiff": 410,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-24-ns-jowar-sorghum-atta-desi-dagdi-stone-ground",
+        "productName": "NS JOWAR (SORGHUM)ATTA, DESI DAGDI STONE GROUND",
+        "category": "Atta",
+        "weight": "5 Kg",
+        "oldPrice": null,
+        "newPrice": 1035,
+        "priceDiff": 1035,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-24-ns-jowar-sorghum-atta-desi-dagdi-stone-ground",
+        "productName": "NS JOWAR (SORGHUM)ATTA, DESI DAGDI STONE GROUND",
+        "category": "Atta",
+        "weight": "10 Kg",
+        "oldPrice": null,
+        "newPrice": 2075,
+        "priceDiff": 2075,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-25-ns-bajra",
+        "productName": "NS BAJRA",
+        "category": "Atta",
+        "weight": "1 Kg",
+        "oldPrice": null,
+        "newPrice": 169,
+        "priceDiff": 169,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-25-ns-bajra",
+        "productName": "NS BAJRA",
+        "category": "Atta",
+        "weight": "2 Kg",
+        "oldPrice": null,
+        "newPrice": 328,
+        "priceDiff": 328,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-25-ns-bajra",
+        "productName": "NS BAJRA",
+        "category": "Atta",
+        "weight": "5 Kg",
+        "oldPrice": null,
+        "newPrice": 825,
+        "priceDiff": 825,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-25-ns-bajra",
+        "productName": "NS BAJRA",
+        "category": "Atta",
+        "weight": "10 Kg",
+        "oldPrice": null,
+        "newPrice": 1640,
+        "priceDiff": 1640,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-26-ns-besan-flour-gram-flour",
+        "productName": "NS BESAN FLOUR/ GRAM FLOUR",
+        "category": "Atta",
+        "weight": "1 Kg",
+        "oldPrice": null,
+        "newPrice": 319,
+        "priceDiff": 319,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-26-ns-besan-flour-gram-flour",
+        "productName": "NS BESAN FLOUR/ GRAM FLOUR",
+        "category": "Atta",
+        "weight": "2 Kg",
+        "oldPrice": null,
+        "newPrice": 618,
+        "priceDiff": 618,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-26-ns-besan-flour-gram-flour",
+        "productName": "NS BESAN FLOUR/ GRAM FLOUR",
+        "category": "Atta",
+        "weight": "5 Kg",
+        "oldPrice": null,
+        "newPrice": 1565,
+        "priceDiff": 1565,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-26-ns-besan-flour-gram-flour",
+        "productName": "NS BESAN FLOUR/ GRAM FLOUR",
+        "category": "Atta",
+        "weight": "10 Kg",
+        "oldPrice": null,
+        "newPrice": 3140,
+        "priceDiff": 3140,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-27-ns-singhara-atta",
+        "productName": "NS SINGHARA ATTA",
+        "category": "Atta",
+        "weight": "500 Gram",
+        "oldPrice": null,
+        "newPrice": 350,
+        "priceDiff": 350,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-27-ns-singhara-atta",
+        "productName": "NS SINGHARA ATTA",
+        "category": "Atta",
+        "weight": "1 Kg",
+        "oldPrice": null,
+        "newPrice": 680,
+        "priceDiff": 680,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-27-ns-singhara-atta",
+        "productName": "NS SINGHARA ATTA",
+        "category": "Atta",
+        "weight": "2 Kg",
+        "oldPrice": null,
+        "newPrice": 1335,
+        "priceDiff": 1335,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-27-ns-singhara-atta",
+        "productName": "NS SINGHARA ATTA",
+        "category": "Atta",
+        "weight": "5 Kg",
+        "oldPrice": null,
+        "newPrice": 3350,
+        "priceDiff": 3350,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-27-ns-singhara-atta",
+        "productName": "NS SINGHARA ATTA",
+        "category": "Atta",
+        "weight": "10 Kg",
+        "oldPrice": null,
+        "newPrice": 6700,
+        "priceDiff": 6700,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-28-ns-sugarcane-jaggery-crushed-granular",
+        "productName": "NS SUGARCANE JAGGERY, CRUSHED GRANULAR",
+        "category": "Natural / Sweetener",
+        "weight": "500 Gram",
+        "oldPrice": null,
+        "newPrice": 120,
+        "priceDiff": 120,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-28-ns-sugarcane-jaggery-crushed-granular",
+        "productName": "NS SUGARCANE JAGGERY, CRUSHED GRANULAR",
+        "category": "Natural / Sweetener",
+        "weight": "1 Kg",
+        "oldPrice": null,
+        "newPrice": 230,
+        "priceDiff": 230,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-28-ns-sugarcane-jaggery-crushed-granular",
+        "productName": "NS SUGARCANE JAGGERY, CRUSHED GRANULAR",
+        "category": "Natural / Sweetener",
+        "weight": "2 Kg",
+        "oldPrice": null,
+        "newPrice": 445,
+        "priceDiff": 445,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-28-ns-sugarcane-jaggery-crushed-granular",
+        "productName": "NS SUGARCANE JAGGERY, CRUSHED GRANULAR",
+        "category": "Natural / Sweetener",
+        "weight": "5 Kg",
+        "oldPrice": null,
+        "newPrice": 1100,
+        "priceDiff": 1100,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-28-ns-sugarcane-jaggery-crushed-granular",
+        "productName": "NS SUGARCANE JAGGERY, CRUSHED GRANULAR",
+        "category": "Natural / Sweetener",
+        "weight": "10 Kg",
+        "oldPrice": null,
+        "newPrice": 2200,
+        "priceDiff": 2200,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-29-ns-sugarcane-jaggery-block",
+        "productName": "NS SUGARCANE JAGGERY BLOCK",
+        "category": "Natural / Sweetener",
+        "weight": "1 Kg",
+        "oldPrice": null,
+        "newPrice": 275,
+        "priceDiff": 275,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-29-ns-sugarcane-jaggery-block",
+        "productName": "NS SUGARCANE JAGGERY BLOCK",
+        "category": "Natural / Sweetener",
+        "weight": "2 Kg",
+        "oldPrice": null,
+        "newPrice": 530,
+        "priceDiff": 530,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-29-ns-sugarcane-jaggery-block",
+        "productName": "NS SUGARCANE JAGGERY BLOCK",
+        "category": "Natural / Sweetener",
+        "weight": "5 Kg",
+        "oldPrice": null,
+        "newPrice": 1345,
+        "priceDiff": 1345,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-29-ns-sugarcane-jaggery-block",
+        "productName": "NS SUGARCANE JAGGERY BLOCK",
+        "category": "Natural / Sweetener",
+        "weight": "10 Kg",
+        "oldPrice": null,
+        "newPrice": 2710,
+        "priceDiff": 2710,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-30-ns-forest-honey-multifloral",
+        "productName": "NS FOREST HONEY| MULTIFLORAL",
+        "category": "Natural / Sweetener",
+        "weight": "500 Gram",
+        "oldPrice": null,
+        "newPrice": 570,
+        "priceDiff": 570,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-30-ns-forest-honey-multifloral",
+        "productName": "NS FOREST HONEY| MULTIFLORAL",
+        "category": "Natural / Sweetener",
+        "weight": "1 Kg",
+        "oldPrice": null,
+        "newPrice": 1110,
+        "priceDiff": 1110,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-30-ns-forest-honey-multifloral",
+        "productName": "NS FOREST HONEY| MULTIFLORAL",
+        "category": "Natural / Sweetener",
+        "weight": "2 Kg",
+        "oldPrice": null,
+        "newPrice": 2185,
+        "priceDiff": 2185,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-30-ns-forest-honey-multifloral",
+        "productName": "NS FOREST HONEY| MULTIFLORAL",
+        "category": "Natural / Sweetener",
+        "weight": "5 Kg",
+        "oldPrice": null,
+        "newPrice": 5500,
+        "priceDiff": 5500,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-30-ns-forest-honey-multifloral",
+        "productName": "NS FOREST HONEY| MULTIFLORAL",
+        "category": "Natural / Sweetener",
+        "weight": "10 Kg",
+        "oldPrice": null,
+        "newPrice": 10950,
+        "priceDiff": 10950,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-31-ns-indian-berry-honey-raw-mono-floral-unfiltered",
+        "productName": "NS INDIAN BERRY HONEY, RAW MONO FLORAL UNFILTERED",
+        "category": "Natural / Sweetener",
+        "weight": "500 Gram",
+        "oldPrice": null,
+        "newPrice": 570,
+        "priceDiff": 570,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-31-ns-indian-berry-honey-raw-mono-floral-unfiltered",
+        "productName": "NS INDIAN BERRY HONEY, RAW MONO FLORAL UNFILTERED",
+        "category": "Natural / Sweetener",
+        "weight": "1 Kg",
+        "oldPrice": null,
+        "newPrice": 1110,
+        "priceDiff": 1110,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-31-ns-indian-berry-honey-raw-mono-floral-unfiltered",
+        "productName": "NS INDIAN BERRY HONEY, RAW MONO FLORAL UNFILTERED",
+        "category": "Natural / Sweetener",
+        "weight": "2 Kg",
+        "oldPrice": null,
+        "newPrice": 2185,
+        "priceDiff": 2185,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-31-ns-indian-berry-honey-raw-mono-floral-unfiltered",
+        "productName": "NS INDIAN BERRY HONEY, RAW MONO FLORAL UNFILTERED",
+        "category": "Natural / Sweetener",
+        "weight": "5 Kg",
+        "oldPrice": null,
+        "newPrice": 5500,
+        "priceDiff": 5500,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-31-ns-indian-berry-honey-raw-mono-floral-unfiltered",
+        "productName": "NS INDIAN BERRY HONEY, RAW MONO FLORAL UNFILTERED",
+        "category": "Natural / Sweetener",
+        "weight": "10 Kg",
+        "oldPrice": null,
+        "newPrice": 10950,
+        "priceDiff": 10950,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-32-ns-acacia-honey-raw-mono-floral-unfiltered",
+        "productName": "NS ACACIA HONEY RAW MONO FLORAL UNFILTERED",
+        "category": "Natural / Sweetener",
+        "weight": "500 Gram",
+        "oldPrice": null,
+        "newPrice": 600,
+        "priceDiff": 600,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-32-ns-acacia-honey-raw-mono-floral-unfiltered",
+        "productName": "NS ACACIA HONEY RAW MONO FLORAL UNFILTERED",
+        "category": "Natural / Sweetener",
+        "weight": "1 Kg",
+        "oldPrice": null,
+        "newPrice": 1150,
+        "priceDiff": 1150,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-32-ns-acacia-honey-raw-mono-floral-unfiltered",
+        "productName": "NS ACACIA HONEY RAW MONO FLORAL UNFILTERED",
+        "category": "Natural / Sweetener",
+        "weight": "2 Kg",
+        "oldPrice": null,
+        "newPrice": 2275,
+        "priceDiff": 2275,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-32-ns-acacia-honey-raw-mono-floral-unfiltered",
+        "productName": "NS ACACIA HONEY RAW MONO FLORAL UNFILTERED",
+        "category": "Natural / Sweetener",
+        "weight": "5 Kg",
+        "oldPrice": null,
+        "newPrice": 5710,
+        "priceDiff": 5710,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-32-ns-acacia-honey-raw-mono-floral-unfiltered",
+        "productName": "NS ACACIA HONEY RAW MONO FLORAL UNFILTERED",
+        "category": "Natural / Sweetener",
+        "weight": "10 Kg",
+        "oldPrice": null,
+        "newPrice": 11400,
+        "priceDiff": 11400,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-33-ns-spiced-jaggery-cubes",
+        "productName": "NS SPICED JAGGERY CUBES",
+        "category": "Natural / Sweetener",
+        "weight": "500 Gram",
+        "oldPrice": null,
+        "newPrice": 230,
+        "priceDiff": 230,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-33-ns-spiced-jaggery-cubes",
+        "productName": "NS SPICED JAGGERY CUBES",
+        "category": "Natural / Sweetener",
+        "weight": "1 Kg",
+        "oldPrice": null,
+        "newPrice": 445,
+        "priceDiff": 445,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-33-ns-spiced-jaggery-cubes",
+        "productName": "NS SPICED JAGGERY CUBES",
+        "category": "Natural / Sweetener",
+        "weight": "2 Kg",
+        "oldPrice": null,
+        "newPrice": 870,
+        "priceDiff": 870,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-33-ns-spiced-jaggery-cubes",
+        "productName": "NS SPICED JAGGERY CUBES",
+        "category": "Natural / Sweetener",
+        "weight": "5 Kg",
+        "oldPrice": null,
+        "newPrice": 2195,
+        "priceDiff": 2195,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-33-ns-spiced-jaggery-cubes",
+        "productName": "NS SPICED JAGGERY CUBES",
+        "category": "Natural / Sweetener",
+        "weight": "10 Kg",
+        "oldPrice": null,
+        "newPrice": 4375,
+        "priceDiff": 4375,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-34-ns-date-palm-jaggery-solid-date-palm-sap",
+        "productName": "NS DATE PALM JAGGERY SOLID DATE PALM SAP",
+        "category": "Natural / Sweetener",
+        "weight": "500 Gram",
+        "oldPrice": null,
+        "newPrice": 875,
+        "priceDiff": 875,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-34-ns-date-palm-jaggery-solid-date-palm-sap",
+        "productName": "NS DATE PALM JAGGERY SOLID DATE PALM SAP",
+        "category": "Natural / Sweetener",
+        "weight": "1 Kg",
+        "oldPrice": null,
+        "newPrice": 1730,
+        "priceDiff": 1730,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-34-ns-date-palm-jaggery-solid-date-palm-sap",
+        "productName": "NS DATE PALM JAGGERY SOLID DATE PALM SAP",
+        "category": "Natural / Sweetener",
+        "weight": "2 Kg",
+        "oldPrice": null,
+        "newPrice": 3410,
+        "priceDiff": 3410,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-34-ns-date-palm-jaggery-solid-date-palm-sap",
+        "productName": "NS DATE PALM JAGGERY SOLID DATE PALM SAP",
+        "category": "Natural / Sweetener",
+        "weight": "5 Kg",
+        "oldPrice": null,
+        "newPrice": 8550,
+        "priceDiff": 8550,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-34-ns-date-palm-jaggery-solid-date-palm-sap",
+        "productName": "NS DATE PALM JAGGERY SOLID DATE PALM SAP",
+        "category": "Natural / Sweetener",
+        "weight": "10 Kg",
+        "oldPrice": null,
+        "newPrice": 17150,
+        "priceDiff": 17150,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-35-ns-coconut-sap-sugar",
+        "productName": "NS COCONUT SAP SUGAR",
+        "category": "Natural / Sweetener",
+        "weight": "500 Gram",
+        "oldPrice": null,
+        "newPrice": 1088,
+        "priceDiff": 1088,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-35-ns-coconut-sap-sugar",
+        "productName": "NS COCONUT SAP SUGAR",
+        "category": "Natural / Sweetener",
+        "weight": "1 Kg",
+        "oldPrice": null,
+        "newPrice": 2146,
+        "priceDiff": 2146,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-35-ns-coconut-sap-sugar",
+        "productName": "NS COCONUT SAP SUGAR",
+        "category": "Natural / Sweetener",
+        "weight": "2 Kg",
+        "oldPrice": null,
+        "newPrice": 4242,
+        "priceDiff": 4242,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-35-ns-coconut-sap-sugar",
+        "productName": "NS COCONUT SAP SUGAR",
+        "category": "Natural / Sweetener",
+        "weight": "5 Kg",
+        "oldPrice": null,
+        "newPrice": 10655,
+        "priceDiff": 10655,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-35-ns-coconut-sap-sugar",
+        "productName": "NS COCONUT SAP SUGAR",
+        "category": "Natural / Sweetener",
+        "weight": "10 Kg",
+        "oldPrice": null,
+        "newPrice": 21260,
+        "priceDiff": 21260,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-36-ns-jaggery-sachet",
+        "productName": "NS JAGGERY SACHET",
+        "category": "Natural / Sweetener",
+        "weight": "500 Gram",
+        "oldPrice": null,
+        "newPrice": 95,
+        "priceDiff": 95,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-36-ns-jaggery-sachet",
+        "productName": "NS JAGGERY SACHET",
+        "category": "Natural / Sweetener",
+        "weight": "Pack of 30",
+        "oldPrice": null,
+        "newPrice": 95,
+        "priceDiff": 95,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-33-ns-spiced-jaggery-cubes",
+        "productName": "NS SPICED JAGGERY CUBES",
+        "category": "Natural / Sweetener",
+        "weight": "100 Gram",
+        "oldPrice": null,
+        "newPrice": 85,
+        "priceDiff": 85,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-38-ns-moringa-powder",
+        "productName": "NS MORINGA POWDER",
+        "category": "Immunity Support",
+        "weight": "500 Gram",
+        "oldPrice": null,
+        "newPrice": 1000,
+        "priceDiff": 1000,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-39-ns-haldi-ground-turmic",
+        "productName": "NS HALDI ( Ground Turmic)",
+        "category": "Immunity Support",
+        "weight": "200 Gram",
+        "oldPrice": null,
+        "newPrice": 260,
+        "priceDiff": 260,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-40-ns-chyawanprash",
+        "productName": "NS CHYAWANPRASH",
+        "category": "Immunity Support",
+        "weight": "100 Gram",
+        "oldPrice": null,
+        "newPrice": 160,
+        "priceDiff": 160,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-41-ns-single-origin-lakadong-turmic-powder",
+        "productName": "NS SINGLE ORIGIN LAKADONG TURMIC POWDER",
+        "category": "Immunity Support",
+        "weight": "150 Gram",
+        "oldPrice": null,
+        "newPrice": 279,
+        "priceDiff": 279,
+        "currency": "INR"
+      },
+      {
+        "productId": "farm-42-ns-golden-honeymoon-milk-mix",
+        "productName": "NS GOLDEN HONEYMOON MILK MIX",
+        "category": "Immunity Support",
+        "weight": "200 Gram",
+        "oldPrice": null,
+        "newPrice": 600,
+        "priceDiff": 600,
+        "currency": "INR"
+      }
+    ]
+  }
+]
