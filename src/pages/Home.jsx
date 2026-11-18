@@ -89,7 +89,7 @@ export default function Home() {
           <motion.video
             ref={heroVideoRef}
             src="/videos/homepage-brand-video.mp4"
-            poster="/images/about-spices-bg.png"
+            poster="/images-optimized/about-spices-bg.webp"
             autoPlay
             muted
             loop
@@ -103,7 +103,7 @@ export default function Home() {
           />
           {/* Static fallback for ultra-smooth initialization & zero white flash */}
           <img
-            src="/images/about-spices-bg.png"
+            src="/images-optimized/about-spices-bg.webp"
             alt="NS SOANS Indian Farm authentic spices"
             style={{ filter: 'brightness(1.15) contrast(1.05)' }}
             className="absolute inset-0 w-full h-full object-cover object-center pointer-events-none -z-10 brightness-[1.15] contrast-[1.05]"
@@ -341,7 +341,7 @@ export default function Home() {
           <Reveal className="lg:col-span-6 grid grid-cols-2 gap-4" delay={0.12}>
             <div className="overflow-hidden rounded-3xl shadow-md group">
               <img
-                src="/images/heritage-spices.png"
+                src="/images-optimized/heritage-spices.webp"
                 alt="NS SOANS Heritage Spices"
                 className="w-full aspect-square object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
                 loading="lazy"
@@ -349,7 +349,7 @@ export default function Home() {
             </div>
             <div className="overflow-hidden rounded-3xl shadow-md sm:translate-y-6 group">
               <img
-                src="/images/farm-natural-goodness.png"
+                src="/images-optimized/farm-natural-goodness.webp"
                 alt="NS SOANS Farm Natural Goodness"
                 className="w-full aspect-square object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
                 loading="lazy"

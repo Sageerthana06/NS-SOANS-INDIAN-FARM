@@ -23,7 +23,7 @@ export default function Recipes() {
           </div>
           <div className="lg:col-span-6 aspect-video w-full h-full overflow-hidden group">
             <img
-              src="/images/brand/ns-soans-brand-banner.png"
+              src="/images-optimized/brand/ns-soans-brand-banner.webp"
               alt="NS SOANS INDIAN FARM — Complete Brand Collection Banner"
               className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
             />

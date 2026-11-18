@@ -59,7 +59,7 @@ export default function BrandView() {
             <div className="lg:col-span-5">
               <div className="rounded-2xl overflow-hidden border border-gold-500/30 shadow-xl bg-forest-900/50 aspect-video group">
                 <img
-                  src={isSoans ? '/images/brand/ns-soans-masala.jpg' : '/images/brand/ns-soans-organic.jpg'}
+                  src={isSoans ? '/images-optimized/brand/ns-soans-masala.webp' : '/images-optimized/brand/ns-soans-organic.webp'}
                   alt={brandName}
                   className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
                 />

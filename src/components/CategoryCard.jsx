@@ -29,7 +29,7 @@ export default function CategoryCard({ category }) {
           loading="lazy"
           onError={(e) => {
             e.currentTarget.onerror = null;
-            e.currentTarget.src = `/images/categories/${category.slug}.png`;
+            e.currentTarget.src = `/images-optimized/categories/${category.slug}.webp`;
           }}
         />
 
