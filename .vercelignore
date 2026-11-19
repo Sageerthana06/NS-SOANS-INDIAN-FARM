@@ -1,0 +1,9 @@
+node_modules
+.git
+scripts
+qa-audit-results.json
+optimize-images.cjs
+update-webp.mjs
+ns
+*.log
+.DS_Store

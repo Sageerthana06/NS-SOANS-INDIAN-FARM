@@ -36,6 +36,7 @@ const FEATURED_PRODUCT_IDS = [
 export default function Home() {
   const [quickViewProduct, setQuickViewProduct] = useState(null);
   const heroVideoRef = useRef(null);
+  const brandVideoRef = useRef(null);
   const prefersReducedMotion = useReducedMotion();
 
   // Curated 8 products for Home Page showcase
@@ -44,11 +45,23 @@ export default function Home() {
   ).filter(Boolean);
 
   useEffect(() => {
-    const video = heroVideoRef.current;
-    if (video) {
-      video.defaultMuted = true;
-      video.muted = true;
-      const playPromise = video.play();
+    const heroVid = heroVideoRef.current;
+    if (heroVid) {
+      heroVid.defaultMuted = true;
+      heroVid.muted = true;
+      const playPromise = heroVid.play();
+      if (playPromise !== undefined) {
+        playPromise.catch(() => {
+          // Fallback if browser blocks autoplay
+        });
+      }
+    }
+
+    const brandVid = brandVideoRef.current;
+    if (brandVid) {
+      brandVid.defaultMuted = true;
+      brandVid.muted = true;
+      const playPromise = brandVid.play();
       if (playPromise !== undefined) {
         playPromise.catch(() => {
           // Fallback if browser blocks autoplay
