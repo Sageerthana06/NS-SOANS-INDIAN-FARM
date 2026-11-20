@@ -165,7 +165,7 @@ export const products = [
     "categorySlug": "veg",
     "subcategory": "Veg",
     "subcategorySlug": "veg",
-    "price": null,
+    "price": 75,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Veg",
@@ -183,17 +183,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 75,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 110,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 180,
         "stock": 100
       }
     ],
@@ -213,7 +213,7 @@ export const products = [
     "categorySlug": "veg",
     "subcategory": "Veg",
     "subcategorySlug": "veg",
-    "price": null,
+    "price": 310,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Veg",
@@ -231,17 +231,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 310,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 590,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 1130,
         "stock": 100
       }
     ],
@@ -261,7 +261,7 @@ export const products = [
     "categorySlug": "veg",
     "subcategory": "Veg",
     "subcategorySlug": "veg",
-    "price": null,
+    "price": 310,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Veg",
@@ -279,17 +279,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 310,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 590,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 1130,
         "stock": 100
       }
     ],
@@ -309,7 +309,7 @@ export const products = [
     "categorySlug": "veg",
     "subcategory": "Veg",
     "subcategorySlug": "veg",
-    "price": null,
+    "price": 310,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Veg",
@@ -327,17 +327,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 310,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 590,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 545,
         "stock": 100
       }
     ],
@@ -357,7 +357,7 @@ export const products = [
     "categorySlug": "veg",
     "subcategory": "Veg",
     "subcategorySlug": "veg",
-    "price": null,
+    "price": 450,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Veg",
@@ -373,6 +373,16 @@ export const products = [
       "/images-optimized/products/ns-hing-powder.webp"
     ],
     "weightOptions": [
+      {
+        "weight": "10 Gram",
+        "price": 450,
+        "stock": 100
+      },
+      {
+        "weight": "25 Gram",
+        "price": 999,
+        "stock": 100
+      },
       {
         "weight": "250 Grams",
         "price": null,
@@ -405,7 +415,7 @@ export const products = [
     "categorySlug": "veg",
     "subcategory": "Veg",
     "subcategorySlug": "veg",
-    "price": null,
+    "price": 270,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Veg",
@@ -423,17 +433,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 270,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 450,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 840,
         "stock": 100
       }
     ],
@@ -453,7 +463,7 @@ export const products = [
     "categorySlug": "veg",
     "subcategory": "Veg",
     "subcategorySlug": "veg",
-    "price": null,
+    "price": 700,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Veg",
@@ -471,17 +481,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 700,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 1360,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 2650,
         "stock": 100
       }
     ],
@@ -501,7 +511,7 @@ export const products = [
     "categorySlug": "veg",
     "subcategory": "Veg",
     "subcategorySlug": "veg",
-    "price": null,
+    "price": 340,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Veg",
@@ -519,17 +529,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 340,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 620,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 1190,
         "stock": 100
       }
     ],
@@ -549,7 +559,7 @@ export const products = [
     "categorySlug": "veg",
     "subcategory": "Veg",
     "subcategorySlug": "veg",
-    "price": null,
+    "price": 350,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Veg",
@@ -567,17 +577,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 350,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 665,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 1280,
         "stock": 100
       }
     ],
@@ -597,7 +607,7 @@ export const products = [
     "categorySlug": "veg",
     "subcategory": "Veg",
     "subcategorySlug": "veg",
-    "price": null,
+    "price": 493,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Veg",
@@ -615,17 +625,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 493,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 956,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 1842,
         "stock": 100
       }
     ],
@@ -645,7 +655,7 @@ export const products = [
     "categorySlug": "veg",
     "subcategory": "Veg",
     "subcategorySlug": "veg",
-    "price": null,
+    "price": 657,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Veg",
@@ -663,17 +673,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 657,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 1279,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 2500,
         "stock": 100
       }
     ],
@@ -693,7 +703,7 @@ export const products = [
     "categorySlug": "veg",
     "subcategory": "Veg",
     "subcategorySlug": "veg",
-    "price": null,
+    "price": 300,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Veg",
@@ -711,17 +721,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 300,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 565,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 1080,
         "stock": 100
       }
     ],
@@ -741,7 +751,7 @@ export const products = [
     "categorySlug": "veg",
     "subcategory": "Veg",
     "subcategorySlug": "veg",
-    "price": null,
+    "price": 485,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Veg",
@@ -759,17 +769,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 485,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 770,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 1500,
         "stock": 100
       }
     ],
@@ -789,7 +799,7 @@ export const products = [
     "categorySlug": "veg",
     "subcategory": "Veg",
     "subcategorySlug": "veg",
-    "price": null,
+    "price": 438,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Veg",
@@ -807,17 +817,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 438,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 846,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 1600,
         "stock": 100
       }
     ],
@@ -837,7 +847,7 @@ export const products = [
     "categorySlug": "veg",
     "subcategory": "Veg",
     "subcategorySlug": "veg",
-    "price": null,
+    "price": 600,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Veg",
@@ -855,17 +865,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 600,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 1165,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 2260,
         "stock": 100
       }
     ],
@@ -885,7 +895,7 @@ export const products = [
     "categorySlug": "veg",
     "subcategory": "Veg",
     "subcategorySlug": "veg",
-    "price": null,
+    "price": 600,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Veg",
@@ -903,17 +913,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 600,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 1165,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 2260,
         "stock": 100
       }
     ],
@@ -933,7 +943,7 @@ export const products = [
     "categorySlug": "veg",
     "subcategory": "Veg",
     "subcategorySlug": "veg",
-    "price": null,
+    "price": 361,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Veg",
@@ -951,17 +961,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 361,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 700,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 1300,
         "stock": 100
       }
     ],
@@ -981,7 +991,7 @@ export const products = [
     "categorySlug": "veg",
     "subcategory": "Veg",
     "subcategorySlug": "veg",
-    "price": null,
+    "price": 500,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Veg",
@@ -999,17 +1009,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 500,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 850,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 1500,
         "stock": 100
       }
     ],
@@ -1029,7 +1039,7 @@ export const products = [
     "categorySlug": "veg",
     "subcategory": "Veg",
     "subcategorySlug": "veg",
-    "price": null,
+    "price": 450,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Veg",
@@ -1047,17 +1057,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 450,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 770,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 1340,
         "stock": 100
       }
     ],
@@ -1077,7 +1087,7 @@ export const products = [
     "categorySlug": "veg",
     "subcategory": "Veg",
     "subcategorySlug": "veg",
-    "price": null,
+    "price": 350,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Veg",
@@ -1095,17 +1105,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 350,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 650,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 1100,
         "stock": 100
       }
     ],
@@ -1125,7 +1135,7 @@ export const products = [
     "categorySlug": "veg",
     "subcategory": "Veg",
     "subcategorySlug": "veg",
-    "price": null,
+    "price": 1000,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Veg",
@@ -1143,17 +1153,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 1000,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 1790,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 3280,
         "stock": 100
       }
     ],
@@ -1173,7 +1183,7 @@ export const products = [
     "categorySlug": "veg",
     "subcategory": "Veg",
     "subcategorySlug": "veg",
-    "price": null,
+    "price": 600,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Veg",
@@ -1191,17 +1201,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 600,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 950,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 1650,
         "stock": 100
       }
     ],
@@ -1221,7 +1231,7 @@ export const products = [
     "categorySlug": "veg",
     "subcategory": "Veg",
     "subcategorySlug": "veg",
-    "price": null,
+    "price": 213,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Veg",
@@ -1239,17 +1249,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 213,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 411,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 700,
         "stock": 100
       }
     ],
@@ -1317,7 +1327,7 @@ export const products = [
     "categorySlug": "non-veg",
     "subcategory": "Non Veg",
     "subcategorySlug": "non-veg",
-    "price": null,
+    "price": 800,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Non Veg",
@@ -1335,17 +1345,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 800,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 1570,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 2940,
         "stock": 100
       }
     ],
@@ -1365,7 +1375,7 @@ export const products = [
     "categorySlug": "non-veg",
     "subcategory": "Non Veg",
     "subcategorySlug": "non-veg",
-    "price": null,
+    "price": 750,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Non Veg",
@@ -1383,17 +1393,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 750,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 1400,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 2600,
         "stock": 100
       }
     ],
@@ -1413,7 +1423,7 @@ export const products = [
     "categorySlug": "non-veg",
     "subcategory": "Non Veg",
     "subcategorySlug": "non-veg",
-    "price": null,
+    "price": 750,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Non Veg",
@@ -1431,17 +1441,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 750,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 1400,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 2600,
         "stock": 100
       }
     ],
@@ -1461,7 +1471,7 @@ export const products = [
     "categorySlug": "non-veg",
     "subcategory": "Non Veg",
     "subcategorySlug": "non-veg",
-    "price": null,
+    "price": 340,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Non Veg",
@@ -1479,17 +1489,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 340,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 600,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 1000,
         "stock": 100
       }
     ],
@@ -1509,7 +1519,7 @@ export const products = [
     "categorySlug": "non-veg",
     "subcategory": "Non Veg",
     "subcategorySlug": "non-veg",
-    "price": null,
+    "price": 340,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Non Veg",
@@ -1527,17 +1537,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 340,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 600,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 1000,
         "stock": 100
       }
     ],
@@ -1557,7 +1567,7 @@ export const products = [
     "categorySlug": "non-veg",
     "subcategory": "Non Veg",
     "subcategorySlug": "non-veg",
-    "price": null,
+    "price": 340,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Non Veg",
@@ -1575,17 +1585,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 340,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 600,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 1000,
         "stock": 100
       }
     ],
@@ -1605,7 +1615,7 @@ export const products = [
     "categorySlug": "non-veg",
     "subcategory": "Non Veg",
     "subcategorySlug": "non-veg",
-    "price": null,
+    "price": 700,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Non Veg",
@@ -1623,17 +1633,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 700,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 1250,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 2300,
         "stock": 100
       }
     ],
@@ -1653,7 +1663,7 @@ export const products = [
     "categorySlug": "non-veg",
     "subcategory": "Non Veg",
     "subcategorySlug": "non-veg",
-    "price": null,
+    "price": 280,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Non Veg",
@@ -1671,17 +1681,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 280,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 530,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 950,
         "stock": 100
       }
     ],
@@ -1701,7 +1711,7 @@ export const products = [
     "categorySlug": "non-veg",
     "subcategory": "Non Veg",
     "subcategorySlug": "non-veg",
-    "price": null,
+    "price": 750,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Non Veg",
@@ -1719,17 +1729,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 750,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 1400,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 2600,
         "stock": 100
       }
     ],
@@ -1749,7 +1759,7 @@ export const products = [
     "categorySlug": "non-veg",
     "subcategory": "Non Veg",
     "subcategorySlug": "non-veg",
-    "price": null,
+    "price": 750,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Non Veg",
@@ -1767,17 +1777,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 750,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 1400,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 2600,
         "stock": 100
       }
     ],
@@ -1797,7 +1807,7 @@ export const products = [
     "categorySlug": "non-veg",
     "subcategory": "Non Veg",
     "subcategorySlug": "non-veg",
-    "price": null,
+    "price": 750,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Non Veg",
@@ -1815,17 +1825,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 750,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 1400,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 2600,
         "stock": 100
       }
     ],
@@ -1845,7 +1855,7 @@ export const products = [
     "categorySlug": "non-veg",
     "subcategory": "Non Veg",
     "subcategorySlug": "non-veg",
-    "price": null,
+    "price": 750,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Non Veg",
@@ -1863,17 +1873,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 750,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 1400,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 2600,
         "stock": 100
       }
     ],
@@ -1893,7 +1903,7 @@ export const products = [
     "categorySlug": "non-veg",
     "subcategory": "Non Veg",
     "subcategorySlug": "non-veg",
-    "price": null,
+    "price": 750,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Non Veg",
@@ -1911,17 +1921,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 750,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 1400,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 2600,
         "stock": 100
       }
     ],
@@ -1941,7 +1951,7 @@ export const products = [
     "categorySlug": "non-veg",
     "subcategory": "Non Veg",
     "subcategorySlug": "non-veg",
-    "price": null,
+    "price": 700,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Non Veg",
@@ -1959,17 +1969,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 700,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 1250,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 2300,
         "stock": 100
       }
     ],
@@ -1989,7 +1999,7 @@ export const products = [
     "categorySlug": "non-veg",
     "subcategory": "Non Veg",
     "subcategorySlug": "non-veg",
-    "price": null,
+    "price": 750,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Non Veg",
@@ -2007,17 +2017,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 750,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 1400,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 2600,
         "stock": 100
       }
     ],
@@ -2037,7 +2047,7 @@ export const products = [
     "categorySlug": "non-veg",
     "subcategory": "Non Veg",
     "subcategorySlug": "non-veg",
-    "price": null,
+    "price": 750,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Non Veg",
@@ -2055,17 +2065,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 750,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 1400,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 2600,
         "stock": 100
       }
     ],
@@ -2085,7 +2095,7 @@ export const products = [
     "categorySlug": "non-veg",
     "subcategory": "Non Veg",
     "subcategorySlug": "non-veg",
-    "price": null,
+    "price": 800,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Non Veg",
@@ -2103,17 +2113,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 800,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 1570,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 2940,
         "stock": 100
       }
     ],
@@ -2133,7 +2143,7 @@ export const products = [
     "categorySlug": "non-veg",
     "subcategory": "Non Veg",
     "subcategorySlug": "non-veg",
-    "price": null,
+    "price": 750,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Non Veg",
@@ -2151,17 +2161,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 750,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 1400,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 2600,
         "stock": 100
       }
     ],
@@ -2181,7 +2191,7 @@ export const products = [
     "categorySlug": "non-veg",
     "subcategory": "Non Veg",
     "subcategorySlug": "non-veg",
-    "price": null,
+    "price": 750,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Non Veg",
@@ -2199,17 +2209,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 750,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 1400,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 2600,
         "stock": 100
       }
     ],
@@ -2229,7 +2239,7 @@ export const products = [
     "categorySlug": "non-veg",
     "subcategory": "Non Veg",
     "subcategorySlug": "non-veg",
-    "price": null,
+    "price": 800,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Non Veg",
@@ -2247,17 +2257,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 800,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 1570,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 2940,
         "stock": 100
       }
     ],
@@ -2277,7 +2287,7 @@ export const products = [
     "categorySlug": "non-veg",
     "subcategory": "Non Veg",
     "subcategorySlug": "non-veg",
-    "price": null,
+    "price": 750,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Non Veg",
@@ -2295,17 +2305,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 750,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 1400,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 2600,
         "stock": 100
       }
     ],
@@ -2325,7 +2335,7 @@ export const products = [
     "categorySlug": "non-veg",
     "subcategory": "Non Veg",
     "subcategorySlug": "non-veg",
-    "price": null,
+    "price": 750,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Non Veg",
@@ -2343,17 +2353,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 750,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 1400,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 2600,
         "stock": 100
       }
     ],
@@ -2373,7 +2383,7 @@ export const products = [
     "categorySlug": "non-veg",
     "subcategory": "Non Veg",
     "subcategorySlug": "non-veg",
-    "price": null,
+    "price": 750,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Non Veg",
@@ -2391,17 +2401,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 750,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 1400,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 2600,
         "stock": 100
       }
     ],
@@ -2421,7 +2431,7 @@ export const products = [
     "categorySlug": "non-veg",
     "subcategory": "Non Veg",
     "subcategorySlug": "non-veg",
-    "price": null,
+    "price": 800,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Non Veg",
@@ -2439,17 +2449,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 800,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 1570,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 2940,
         "stock": 100
       }
     ],
@@ -2469,7 +2479,7 @@ export const products = [
     "categorySlug": "non-veg",
     "subcategory": "Non Veg",
     "subcategorySlug": "non-veg",
-    "price": null,
+    "price": 800,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Non Veg",
@@ -2487,17 +2497,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 800,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 1570,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 2940,
         "stock": 100
       }
     ],
@@ -2517,7 +2527,7 @@ export const products = [
     "categorySlug": "non-veg",
     "subcategory": "Non Veg",
     "subcategorySlug": "non-veg",
-    "price": null,
+    "price": 1000,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Non Veg",
@@ -2535,17 +2545,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 1000,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 1800,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 3350,
         "stock": 100
       }
     ],
@@ -2565,7 +2575,7 @@ export const products = [
     "categorySlug": "non-veg",
     "subcategory": "Non Veg",
     "subcategorySlug": "non-veg",
-    "price": null,
+    "price": 800,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Non Veg",
@@ -2583,17 +2593,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 800,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 1570,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 2940,
         "stock": 100
       }
     ],
@@ -2613,7 +2623,7 @@ export const products = [
     "categorySlug": "non-veg",
     "subcategory": "Non Veg",
     "subcategorySlug": "non-veg",
-    "price": null,
+    "price": 800,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Non Veg",
@@ -2631,17 +2641,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 800,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 1570,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 2940,
         "stock": 100
       }
     ],
@@ -2661,7 +2671,7 @@ export const products = [
     "categorySlug": "non-veg",
     "subcategory": "Non Veg",
     "subcategorySlug": "non-veg",
-    "price": null,
+    "price": 800,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Non Veg",
@@ -2679,17 +2689,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 800,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 1570,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 2940,
         "stock": 100
       }
     ],
@@ -2709,7 +2719,7 @@ export const products = [
     "categorySlug": "non-veg",
     "subcategory": "Non Veg",
     "subcategorySlug": "non-veg",
-    "price": null,
+    "price": 800,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Non Veg",
@@ -2727,17 +2737,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 800,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 1570,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 2940,
         "stock": 100
       }
     ],
@@ -2757,7 +2767,7 @@ export const products = [
     "categorySlug": "non-veg",
     "subcategory": "Non Veg",
     "subcategorySlug": "non-veg",
-    "price": null,
+    "price": 800,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Non Veg",
@@ -2775,17 +2785,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 800,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 1570,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 2940,
         "stock": 100
       }
     ],
@@ -2805,7 +2815,7 @@ export const products = [
     "categorySlug": "non-veg",
     "subcategory": "Non Veg",
     "subcategorySlug": "non-veg",
-    "price": null,
+    "price": 800,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Non Veg",
@@ -2823,17 +2833,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 800,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 1570,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 2940,
         "stock": 100
       }
     ],
@@ -2853,7 +2863,7 @@ export const products = [
     "categorySlug": "non-veg",
     "subcategory": "Non Veg",
     "subcategorySlug": "non-veg",
-    "price": null,
+    "price": 250,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Non Veg",
@@ -2871,17 +2881,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 250,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 470,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 900,
         "stock": 100
       }
     ],
@@ -2901,7 +2911,7 @@ export const products = [
     "categorySlug": "paste",
     "subcategory": "Paste",
     "subcategorySlug": "paste",
-    "price": null,
+    "price": 170,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Paste",
@@ -2919,17 +2929,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 170,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 300,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 550,
         "stock": 100
       }
     ],
@@ -5367,7 +5377,7 @@ export const products = [
       },
       {
         "weight": "500 Gram",
-        "price": 95,
+        "price": null,
         "stock": 100
       },
       {
@@ -5830,7 +5840,7 @@ export const products = [
     "categorySlug": "rice",
     "subcategory": "Rice",
     "subcategorySlug": "rice",
-    "price": null,
+    "price": 440,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Rice",
@@ -5863,22 +5873,22 @@ export const products = [
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 440,
         "stock": 100
       },
       {
         "weight": "2 Kg",
-        "price": null,
+        "price": 830,
         "stock": 100
       },
       {
         "weight": "5 Kg",
-        "price": null,
+        "price": 2000,
         "stock": 100
       },
       {
         "weight": "10 Kg",
-        "price": null,
+        "price": 4000,
         "stock": 100
       }
     ],
@@ -5898,7 +5908,7 @@ export const products = [
     "categorySlug": "rice",
     "subcategory": "Rice",
     "subcategorySlug": "rice",
-    "price": null,
+    "price": 235,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Rice",
@@ -5931,22 +5941,22 @@ export const products = [
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 235,
         "stock": 100
       },
       {
         "weight": "2 Kg",
-        "price": null,
+        "price": 450,
         "stock": 100
       },
       {
         "weight": "5 Kg",
-        "price": null,
+        "price": 1100,
         "stock": 100
       },
       {
         "weight": "10 Kg",
-        "price": null,
+        "price": 2275,
         "stock": 100
       }
     ],
@@ -5966,7 +5976,7 @@ export const products = [
     "categorySlug": "rice",
     "subcategory": "Rice",
     "subcategorySlug": "rice",
-    "price": null,
+    "price": 280,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Rice",
@@ -5999,22 +6009,22 @@ export const products = [
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 280,
         "stock": 100
       },
       {
         "weight": "2 Kg",
-        "price": null,
+        "price": 540,
         "stock": 100
       },
       {
         "weight": "5 Kg",
-        "price": null,
+        "price": 1350,
         "stock": 100
       },
       {
         "weight": "10 Kg",
-        "price": null,
+        "price": 2750,
         "stock": 100
       }
     ],
@@ -6102,7 +6112,7 @@ export const products = [
     "categorySlug": "breakfast-snacks",
     "subcategory": "Breakfast & Snacks",
     "subcategorySlug": "breakfast-snacks",
-    "price": null,
+    "price": 360,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Breakfast & Snacks",
@@ -6130,22 +6140,22 @@ export const products = [
       },
       {
         "weight": "500 Gram",
-        "price": null,
+        "price": 360,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 665,
         "stock": 100
       },
       {
         "weight": "2 Kg",
-        "price": null,
+        "price": 1280,
         "stock": 100
       },
       {
         "weight": "5 Kg",
-        "price": null,
+        "price": 3250,
         "stock": 100
       },
       {
@@ -6170,7 +6180,7 @@ export const products = [
     "categorySlug": "breakfast-snacks",
     "subcategory": "Breakfast & Snacks",
     "subcategorySlug": "breakfast-snacks",
-    "price": null,
+    "price": 6500,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Breakfast & Snacks",
@@ -6218,7 +6228,7 @@ export const products = [
       },
       {
         "weight": "10 Kg",
-        "price": null,
+        "price": 6500,
         "stock": 100
       }
     ],
@@ -7247,40 +7257,5 @@ export const products = [
     "storage": "Store in a clean, cool, dry place in an airtight container."
   }
 ];
-
-// Hydrate persisted price-only overrides on browser initialization
-// Strictly updates ONLY variant prices and base display price — never modifies any non-price field.
-if (typeof window !== 'undefined' && window.localStorage) {
-  try {
-    const rawOverrides = window.localStorage.getItem('ns_soans_price_overrides_v1');
-    if (rawOverrides) {
-      const overridesMap = JSON.parse(rawOverrides);
-      if (overridesMap && typeof overridesMap === 'object') {
-        for (const prod of products) {
-          const prodOverrides = overridesMap[prod.id];
-          if (prodOverrides && typeof prodOverrides === 'object' && Array.isArray(prod.weightOptions)) {
-            let minPrice = null;
-            for (const opt of prod.weightOptions) {
-              if (Object.prototype.hasOwnProperty.call(prodOverrides, opt.weight)) {
-                const val = prodOverrides[opt.weight];
-                opt.price = val !== null && val !== undefined && Number.isFinite(Number(val)) && Number(val) > 0
-                  ? Number(val)
-                  : null;
-              }
-              if (opt.price !== null && opt.price > 0) {
-                if (minPrice === null || opt.price < minPrice) {
-                  minPrice = opt.price;
-                }
-              }
-            }
-            prod.price = minPrice;
-          }
-        }
-      }
-    }
-  } catch (err) {
-    console.error('Failed to hydrate price overrides from localStorage', err);
-  }
-}
 
 export default products;

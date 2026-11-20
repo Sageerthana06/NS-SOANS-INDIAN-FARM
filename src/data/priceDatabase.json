@@ -1,4 +1,288 @@
 {
+  "masala-4-ns-special-black-salt": {
+    "250 Grams": 75,
+    "500 Grams": 110,
+    "1 Kg": 180
+  },
+  "masala-5-ns-special-kabooli-chhole-masala": {
+    "250 Grams": 310,
+    "500 Grams": 590,
+    "1 Kg": 1130
+  },
+  "masala-6-ns-pav-bhaji": {
+    "250 Grams": 310,
+    "500 Grams": 590,
+    "1 Kg": 1130
+  },
+  "masala-7-ns-chat-masala": {
+    "250 Grams": 310,
+    "500 Grams": 590,
+    "1 Kg": 545
+  },
+  "masala-8-ns-hing-powder": {
+    "10 Gram": 450,
+    "25 Gram": 999
+  },
+  "masala-9-ns-gobi-manchuri": {
+    "250 Grams": 270,
+    "500 Grams": 450,
+    "1 Kg": 840
+  },
+  "masala-10-ns-special-usal-misal-masala": {
+    "250 Grams": 700,
+    "500 Grams": 1360,
+    "1 Kg": 2650
+  },
+  "masala-11-ns-special-paneer-masala": {
+    "250 Grams": 340,
+    "500 Grams": 620,
+    "1 Kg": 1190
+  },
+  "masala-12-ns-special-garam-masala": {
+    "250 Grams": 350,
+    "500 Grams": 665,
+    "1 Kg": 1280
+  },
+  "masala-13-ns-special-veg-curry-masala": {
+    "250 Grams": 493,
+    "500 Grams": 956,
+    "1 Kg": 1842
+  },
+  "masala-14-ns-special-korma-masala": {
+    "250 Grams": 657,
+    "500 Grams": 1279,
+    "1 Kg": 2500
+  },
+  "masala-15-ns-millet-health-food-masala": {
+    "250 Grams": 300,
+    "500 Grams": 565,
+    "1 Kg": 1080
+  },
+  "masala-16-ns-malwani-masala": {
+    "250 Grams": 485,
+    "500 Grams": 770,
+    "1 Kg": 1500
+  },
+  "masala-17-ns-special-chana-masala": {
+    "250 Grams": 438,
+    "500 Grams": 846,
+    "1 Kg": 1600
+  },
+  "masala-18-ns-special-kashmiri-extra-red-chilli-powder-stemless": {
+    "250 Grams": 600,
+    "500 Grams": 1165,
+    "1 Kg": 2260
+  },
+  "masala-19-ns-special-byadgi-extra-red-chilli-powder-stemless": {
+    "250 Grams": 600,
+    "500 Grams": 1165,
+    "1 Kg": 2260
+  },
+  "masala-20-ns-special-paneer-green-tikka-haryali-no-arificial-colour-no-msg": {
+    "250 Grams": 361,
+    "500 Grams": 700,
+    "1 Kg": 1300
+  },
+  "masala-21-ns-special-sambar-powder": {
+    "250 Grams": 500,
+    "500 Grams": 850,
+    "1 Kg": 1500
+  },
+  "masala-22-ns-special-rasam-powder": {
+    "250 Grams": 450,
+    "500 Grams": 770,
+    "1 Kg": 1340
+  },
+  "masala-23-ns-special-puliogare-powder": {
+    "250 Grams": 350,
+    "500 Grams": 650,
+    "1 Kg": 1100
+  },
+  "masala-24-ns-special-veg-pulao": {
+    "250 Grams": 1000,
+    "500 Grams": 1790,
+    "1 Kg": 3280
+  },
+  "masala-25-ns-special-veg-biryani-powder": {
+    "250 Grams": 600,
+    "500 Grams": 950,
+    "1 Kg": 1650
+  },
+  "masala-26-ns-special-coriander-powder": {
+    "250 Grams": 213,
+    "500 Grams": 411,
+    "1 Kg": 700
+  },
+  "masala-28-kundapura-butter-chicken": {
+    "250 Grams": 800,
+    "500 Grams": 1570,
+    "1 Kg": 2940
+  },
+  "masala-29-kundapura-chicken-ghee-roast": {
+    "250 Grams": 750,
+    "500 Grams": 1400,
+    "1 Kg": 2600
+  },
+  "masala-30-kundapura-chicken-masala": {
+    "250 Grams": 750,
+    "500 Grams": 1400,
+    "1 Kg": 2600
+  },
+  "masala-31-kundapura-chicken-kabab": {
+    "250 Grams": 340,
+    "500 Grams": 600,
+    "1 Kg": 1000
+  },
+  "masala-32-kundapura-chicken-chilli": {
+    "250 Grams": 340,
+    "500 Grams": 600,
+    "1 Kg": 1000
+  },
+  "masala-33-kundapura-special-fish-curry-masala": {
+    "250 Grams": 340,
+    "500 Grams": 600,
+    "1 Kg": 1000
+  },
+  "masala-34-hyderabadi-biryani-masala": {
+    "250 Grams": 700,
+    "500 Grams": 1250,
+    "1 Kg": 2300
+  },
+  "masala-35-kundapura-fish-fry-masala": {
+    "250 Grams": 280,
+    "500 Grams": 530,
+    "1 Kg": 950
+  },
+  "masala-36-karvali-chicken-puli-munchi-spicy-chicken": {
+    "250 Grams": 750,
+    "500 Grams": 1400,
+    "1 Kg": 2600
+  },
+  "masala-37-kundapura-chicken-mutton-korma": {
+    "250 Grams": 750,
+    "500 Grams": 1400,
+    "1 Kg": 2600
+  },
+  "masala-38-kundapura-beef-masala": {
+    "250 Grams": 750,
+    "500 Grams": 1400,
+    "1 Kg": 2600
+  },
+  "masala-39-kundapura-kori-roti-gravy-masala": {
+    "250 Grams": 750,
+    "500 Grams": 1400,
+    "1 Kg": 2600
+  },
+  "masala-40-kundapura-chicken-65": {
+    "250 Grams": 750,
+    "500 Grams": 1400,
+    "1 Kg": 2600
+  },
+  "masala-41-kundapura-chicken-mutton-biryani": {
+    "250 Grams": 700,
+    "500 Grams": 1250,
+    "1 Kg": 2300
+  },
+  "masala-42-kundapura-mutton-masala": {
+    "250 Grams": 750,
+    "500 Grams": 1400,
+    "1 Kg": 2600
+  },
+  "masala-43-kundapura-bafat-east-indian-masala-powder": {
+    "250 Grams": 750,
+    "500 Grams": 1400,
+    "1 Kg": 2600
+  },
+  "masala-44-kundapura-chicken-angara": {
+    "250 Grams": 800,
+    "500 Grams": 1570,
+    "1 Kg": 2940
+  },
+  "masala-45-kundapura-green-chicken-masala": {
+    "250 Grams": 750,
+    "500 Grams": 1400,
+    "1 Kg": 2600
+  },
+  "masala-46-kundapura-chicken-manchurian": {
+    "250 Grams": 750,
+    "500 Grams": 1400,
+    "1 Kg": 2600
+  },
+  "masala-47-kundapura-chicken-kholapuri": {
+    "250 Grams": 800,
+    "500 Grams": 1570,
+    "1 Kg": 2940
+  },
+  "masala-48-kundapura-chicken-lollipop": {
+    "250 Grams": 750,
+    "500 Grams": 1400,
+    "1 Kg": 2600
+  },
+  "masala-49-kundapura-chicken-tandoori": {
+    "250 Grams": 750,
+    "500 Grams": 1400,
+    "1 Kg": 2600
+  },
+  "masala-50-kundapura-pepper-lemon-chicken": {
+    "250 Grams": 750,
+    "500 Grams": 1400,
+    "1 Kg": 2600
+  },
+  "masala-51-kundapura-pepper-ghee-roast-chicken": {
+    "250 Grams": 800,
+    "500 Grams": 1570,
+    "1 Kg": 2940
+  },
+  "masala-52-kundapura-malwani-masala": {
+    "250 Grams": 800,
+    "500 Grams": 1570,
+    "1 Kg": 2940
+  },
+  "masala-53-kundapura-biryani-kit": {
+    "250 Grams": 1000,
+    "500 Grams": 1800,
+    "1 Kg": 3350
+  },
+  "masala-54-kundapura-cafrial-goan-masala": {
+    "250 Grams": 800,
+    "500 Grams": 1570,
+    "1 Kg": 2940
+  },
+  "masala-55-kundapura-xacuti-goan-masala": {
+    "250 Grams": 800,
+    "500 Grams": 1570,
+    "1 Kg": 2940
+  },
+  "masala-56-kundapura-kadai-chicken-masala": {
+    "250 Grams": 800,
+    "500 Grams": 1570,
+    "1 Kg": 2940
+  },
+  "masala-57-coorg-pork": {
+    "250 Grams": 800,
+    "500 Grams": 1570,
+    "1 Kg": 2940
+  },
+  "masala-58-kerala-special-masala": {
+    "250 Grams": 800,
+    "500 Grams": 1570,
+    "1 Kg": 2940
+  },
+  "masala-59-udupi-special-masala": {
+    "250 Grams": 800,
+    "500 Grams": 1570,
+    "1 Kg": 2940
+  },
+  "masala-60-kundapura-pork-masala": {
+    "250 Grams": 250,
+    "500 Grams": 470,
+    "1 Kg": 900
+  },
+  "masala-61-ginger-garlic-paste": {
+    "250 Grams": 170,
+    "500 Grams": 300,
+    "1 Kg": 550
+  },
   "farm-2-ns-a2-desi-cow-ghee-bilona-method": {
     "150 Gram": 523,
     "250 Gram": 935,
@@ -241,8 +525,7 @@
     "10 Kg": 21260
   },
   "farm-36-ns-jaggery-sachet": {
-    "Pack of 30": 95,
-    "500 Gram": 95
+    "Pack of 30": 95
   },
   "farm-38-ns-moringa-powder": {
     "500 Gram": 1000
@@ -258,5 +541,32 @@
   },
   "farm-42-ns-golden-honeymoon-milk-mix": {
     "200 Gram": 600
+  },
+  "farm-43-low-gi-rice-kalanamak-varity-ns": {
+    "1 Kg": 440,
+    "2 Kg": 830,
+    "5 Kg": 2000,
+    "10 Kg": 4000
+  },
+  "farm-44-ajara-ghansal-rice-ns": {
+    "1 Kg": 235,
+    "2 Kg": 450,
+    "5 Kg": 1100,
+    "10 Kg": 2275
+  },
+  "farm-45-ns-stony-ambemohar-rice": {
+    "1 Kg": 280,
+    "2 Kg": 540,
+    "5 Kg": 1350,
+    "10 Kg": 2750
+  },
+  "farm-47-ns-loversmoto-ketchup": {
+    "500 Gram": 360,
+    "1 Kg": 665,
+    "2 Kg": 1280,
+    "5 Kg": 3250
+  },
+  "farm-48-ns-sattu-laddoo": {
+    "10 Kg": 6500
   }
 }
