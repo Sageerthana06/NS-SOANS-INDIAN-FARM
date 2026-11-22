@@ -1,11 +1,58 @@
 import { create } from 'zustand';
 import { products } from '../data/products.js';
+import initialPriceDatabase from '../data/priceDatabase.json' with { type: 'json' };
 import initialHistoryData from '../data/priceImportHistory.json' with { type: 'json' };
 import { normalizeWeightKey } from '../utils/excelPriceParser.js';
 import { useCartStore } from './cartStore.js';
 
 export const PRICE_OVERRIDES_STORAGE_KEY = 'ns_soans_price_overrides_v1';
 export const PRICE_HISTORY_STORAGE_KEY = 'ns_soans_price_import_history_v1';
+
+/**
+ * Apply a { [productId]: { [weightLabel]: price } } map onto the catalogue in place.
+ * Matches variants by exact label or normalized weight key (e.g., "250 Gram" <-> "250 Grams").
+ * Strictly mutates ONLY price fields — never alters names, images, descriptions, or categories.
+ */
+export function applyPriceOverridesToCatalogue(catalogue, overridesMap) {
+  if (!Array.isArray(catalogue) || !overridesMap || typeof overridesMap !== 'object') return;
+  for (const prod of catalogue) {
+    const po = overridesMap[prod.id];
+    if (!po || typeof po !== 'object' || !Array.isArray(prod.weightOptions)) continue;
+
+    // Build normalized lookup for this product's override weights
+    const normalizedPo = new Map();
+    for (const [wKey, wVal] of Object.entries(po)) {
+      const num = Number(wVal);
+      if (wVal !== null && wVal !== undefined && Number.isFinite(num) && num > 0) {
+        normalizedPo.set(normalizeWeightKey(wKey), num);
+      }
+    }
+
+    let minPrice = null;
+    for (const opt of prod.weightOptions) {
+      if (Object.prototype.hasOwnProperty.call(po, opt.weight)) {
+        const raw = po[opt.weight];
+        const num = Number(raw);
+        opt.price = raw !== null && raw !== undefined && Number.isFinite(num) && num > 0 ? num : null;
+      } else {
+        const normKey = normalizeWeightKey(opt.weight);
+        if (normalizedPo.has(normKey)) {
+          opt.price = normalizedPo.get(normKey);
+        }
+      }
+      if (opt.price !== null && opt.price !== undefined && opt.price > 0) {
+        if (minPrice === null || opt.price < minPrice) {
+          minPrice = opt.price;
+        }
+      }
+    }
+    prod.price = minPrice;
+  }
+}
+
+// Immediately hydrate catalogue from the authoritative bundled priceDatabase.json on startup
+// so stale localStorage from earlier builds can never leave priced products stuck as null.
+applyPriceOverridesToCatalogue(products, initialPriceDatabase);
 
 /**
  * Compute a strict deterministic fingerprint of all NON-PRICE fields across the entire
@@ -124,27 +171,14 @@ export const useProductStore = create((set, get) => ({
       const res = await fetch('/api/admin/price-state');
       if (!res.ok) return;
       const data = await res.json();
-      if (data && data.overrides && typeof data.overrides === 'object') {
-        const localRaw = window.localStorage.getItem(PRICE_OVERRIDES_STORAGE_KEY);
-        // If localStorage is empty and server has overrides, hydrate from server
-        if (!localRaw && Object.keys(data.overrides).length > 0) {
-          for (const prod of products) {
-            const po = data.overrides[prod.id];
-            if (po && Array.isArray(prod.weightOptions)) {
-              let minPrice = null;
-              for (const opt of prod.weightOptions) {
-                if (Object.prototype.hasOwnProperty.call(po, opt.weight)) {
-                  opt.price = po[opt.weight];
-                }
-                if (opt.price !== null && opt.price > 0) {
-                  if (minPrice === null || opt.price < minPrice) minPrice = opt.price;
-                }
-              }
-              prod.price = minPrice;
-            }
-          }
+      if (data && data.overrides && typeof data.overrides === 'object' && Object.keys(data.overrides).length > 0) {
+        applyPriceOverridesToCatalogue(products, data.overrides);
+        try {
           window.localStorage.setItem(PRICE_OVERRIDES_STORAGE_KEY, JSON.stringify(data.overrides));
+        } catch {
+          // Ignore storage quota errors
         }
+        useCartStore.getState().syncCartPricesWithCatalogue(products);
       }
       if (data && Array.isArray(data.history) && data.history.length > 0) {
         const currentHistory = get().importHistory;
@@ -156,7 +190,10 @@ export const useProductStore = create((set, get) => ({
       }
       set({ priceVersion: get().priceVersion + 1 });
     } catch {
-      // Static build / offline mode — localStorage is primary
+      // Static build / offline mode — bundled initialPriceDatabase already hydrated products
+      applyPriceOverridesToCatalogue(products, initialPriceDatabase);
+      useCartStore.getState().syncCartPricesWithCatalogue(products);
+      set({ priceVersion: get().priceVersion + 1 });
     }
   },
 

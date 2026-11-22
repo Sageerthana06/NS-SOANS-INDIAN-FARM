@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { X, Heart, Eye, Sparkles, ArrowRight, Package, ShoppingBag } from 'lucide-react';
 import { motion } from 'framer-motion';
@@ -12,7 +12,7 @@ import { LUXURY_EASE } from './LuxuryMotion';
 export default function QuickViewModal({ product, onClose }) {
   if (!product) return null;
 
-  useProductStore((state) => state.priceVersion);
+  const priceVersion = useProductStore((state) => state.priceVersion);
   const addToCart = useCartStore((state) => state.addToCart);
 
   const getInitialWeight = () => {
@@ -26,6 +26,16 @@ export default function QuickViewModal({ product, onClose }) {
   };
 
   const [selectedWeight, setSelectedWeight] = useState(getInitialWeight);
+
+  useEffect(() => {
+    const liveCurrent = product.weightOptions?.find((opt) => opt.weight === selectedWeight?.weight);
+    if (!liveCurrent || liveCurrent.price === null || liveCurrent.price === undefined) {
+      const nextInitial = getInitialWeight();
+      if (nextInitial && nextInitial.weight !== selectedWeight?.weight) {
+        setSelectedWeight(nextInitial);
+      }
+    }
+  }, [priceVersion, product.id]);
 
   const activeWeightObj =
     (product.weightOptions &&

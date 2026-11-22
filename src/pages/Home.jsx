@@ -9,15 +9,22 @@ import {
   Mail,
   MapPin,
   CheckCircle,
-  MessageCircle
+  MessageCircle,
+  ShieldCheck,
+  Award,
+  HeartHandshake,
+  PackageCheck,
+  Star,
+  Quote
 } from 'lucide-react';
 import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
 import ProductCard from '../components/ProductCard';
 import CategoryCard from '../components/CategoryCard';
 import QuickViewModal from '../components/QuickViewModal';
-import { Reveal, StaggerGrid, StaggerItem, LUXURY_EASE } from '../components/LuxuryMotion';
+import { Reveal, StaggerGrid, StaggerItem, AnimatedCounter, LUXURY_EASE } from '../components/LuxuryMotion';
 import { products } from '../data/products';
 import { categories } from '../data/categories';
+import { reviews } from '../data/reviews';
 
 // Curated 8 Featured Products: Balanced 4 Masala + 4 Farm Products
 const FEATURED_PRODUCT_IDS = [
@@ -99,28 +106,40 @@ export default function Home() {
       >
         {/* Full-Width Full-Screen Background Video & Poster — Bright, Vivid & Vibrant */}
         <div className="absolute inset-0 w-full h-full z-0 overflow-hidden">
+          {/* Static fallback behind the video for smooth initialization */}
+          <img
+            src="/images/about-spices-bg.webp"
+            alt="NS SOANS Indian Farm authentic spices"
+            style={{ filter: 'brightness(1.15) contrast(1.05)' }}
+            className="absolute inset-0 w-full h-full object-cover object-center pointer-events-none z-0 brightness-[1.15] contrast-[1.05]"
+          />
           <motion.video
             ref={heroVideoRef}
             src="/videos/homepage-brand-video.mp4"
-            poster="/images-optimized/about-spices-bg.webp"
+            poster="/images/about-spices-bg.webp"
             autoPlay
             muted
             loop
             playsInline
             preload="auto"
+            onLoadedMetadata={(e) => {
+              e.currentTarget.defaultMuted = true;
+              e.currentTarget.muted = true;
+              e.currentTarget.play().catch(() => {});
+            }}
+            onCanPlay={(e) => {
+              e.currentTarget.defaultMuted = true;
+              e.currentTarget.muted = true;
+              e.currentTarget.play().catch(() => {});
+            }}
             initial={prefersReducedMotion ? false : { scale: 1.02 }}
             animate={prefersReducedMotion ? undefined : { scale: 1 }}
             transition={{ duration: 1.15, ease: LUXURY_EASE }}
             style={{ filter: 'brightness(1.15) contrast(1.05)' }}
-            className="w-full h-full object-cover object-center brightness-[1.15] contrast-[1.05]"
-          />
-          {/* Static fallback for ultra-smooth initialization & zero white flash */}
-          <img
-            src="/images-optimized/about-spices-bg.webp"
-            alt="NS SOANS Indian Farm authentic spices"
-            style={{ filter: 'brightness(1.15) contrast(1.05)' }}
-            className="absolute inset-0 w-full h-full object-cover object-center pointer-events-none -z-10 brightness-[1.15] contrast-[1.05]"
-          />
+            className="relative z-[1] w-full h-full object-cover object-center brightness-[1.15] contrast-[1.05]"
+          >
+            <source src="/videos/homepage-brand-video.mp4" type="video/mp4" />
+          </motion.video>
         </div>
 
         {/* Subtle 10–15% Ambient & Directional Gradient Overlay for Optimal Text Readability & Natural Video Colors */}
@@ -132,6 +151,22 @@ export default function Home() {
           className="absolute inset-0 bg-gradient-to-r from-forest-950/30 via-forest-950/15 to-transparent z-[1] pointer-events-none"
           aria-hidden="true"
         />
+
+        {/* Subtle Floating Decorative Accents */}
+        {!prefersReducedMotion && (
+          <div className="absolute inset-0 z-[2] pointer-events-none overflow-hidden" aria-hidden="true">
+            <motion.div
+              animate={{ y: [-8, 8, -8], opacity: [0.35, 0.65, 0.35] }}
+              transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut' }}
+              className="hidden lg:block absolute top-16 right-16 w-28 h-28 rounded-full border border-[#D4AF37]/30 bg-[#D4AF37]/5 backdrop-blur-[1px]"
+            />
+            <motion.div
+              animate={{ y: [6, -10, 6], opacity: [0.25, 0.55, 0.25] }}
+              transition={{ duration: 7.5, repeat: Infinity, ease: 'easeInOut', delay: 1 }}
+              className="hidden lg:block absolute bottom-20 right-32 w-16 h-16 rounded-full border border-[#D4AF37]/25 bg-forest-900/20"
+            />
+          </div>
+        )}
 
         <div className="max-w-7xl mx-auto w-full relative z-10">
           <div className="max-w-2xl space-y-5 sm:space-y-6 text-center lg:text-left">
@@ -208,11 +243,15 @@ export default function Home() {
               className="pt-4 sm:pt-5 border-t border-[#D4AF37]/40 grid grid-cols-2 sm:grid-cols-4 gap-3 text-center lg:text-left"
             >
               <div>
-                <h4 className="text-lg sm:text-xl font-black font-serif text-[#D4AF37] drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]">Since 1920</h4>
+                <h4 className="text-lg sm:text-xl font-black font-serif text-[#D4AF37] drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]">
+                  Since <AnimatedCounter target={1920} duration={1.4} />
+                </h4>
                 <p className="text-[10px] sm:text-[11px] text-white/95 font-semibold drop-shadow-[0_1px_6px_rgba(0,0,0,0.9)]">Kundapura Heritage</p>
               </div>
               <div>
-                <h4 className="text-lg sm:text-xl font-black font-serif text-[#D4AF37] drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]">100% Pure</h4>
+                <h4 className="text-lg sm:text-xl font-black font-serif text-[#D4AF37] drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]">
+                  <AnimatedCounter target={100} suffix="%" duration={1.4} /> Pure
+                </h4>
                 <p className="text-[10px] sm:text-[11px] text-white/95 font-semibold drop-shadow-[0_1px_6px_rgba(0,0,0,0.9)]">Authentic Spices</p>
               </div>
               <div>
@@ -220,7 +259,9 @@ export default function Home() {
                 <p className="text-[10px] sm:text-[11px] text-white/95 font-semibold drop-shadow-[0_1px_6px_rgba(0,0,0,0.9)]">Ghee, Honey &amp; Oils</p>
               </div>
               <div>
-                <h4 className="text-lg sm:text-xl font-black font-serif text-[#D4AF37] drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]">124 Items</h4>
+                <h4 className="text-lg sm:text-xl font-black font-serif text-[#D4AF37] drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]">
+                  <AnimatedCounter target={124} duration={1.4} /> Items
+                </h4>
                 <p className="text-[10px] sm:text-[11px] text-white/95 font-semibold drop-shadow-[0_1px_6px_rgba(0,0,0,0.9)]">Verified Catalogue</p>
               </div>
             </motion.div>
@@ -244,11 +285,13 @@ export default function Home() {
           </p>
         </Reveal>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
+        <StaggerGrid className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6" stagger={0.05}>
           {categories.map((cat) => (
-            <CategoryCard key={cat.id} category={cat} />
+            <StaggerItem key={cat.id} className="h-full">
+              <CategoryCard category={cat} />
+            </StaggerItem>
           ))}
-        </div>
+        </StaggerGrid>
       </section>
 
       {/* =========================================================================
@@ -268,15 +311,16 @@ export default function Home() {
             </p>
           </Reveal>
 
-          <div className="product-grid grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2.5 sm:gap-4 lg:gap-6 w-full">
+          <StaggerGrid className="product-grid grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2.5 sm:gap-4 lg:gap-6 w-full" stagger={0.06}>
             {featuredProducts.map((product) => (
-              <ProductCard
-                key={product.id}
-                product={product}
-                onQuickView={(p) => setQuickViewProduct(p)}
-              />
+              <StaggerItem key={product.id} className="h-full">
+                <ProductCard
+                  product={product}
+                  onQuickView={(p) => setQuickViewProduct(p)}
+                />
+              </StaggerItem>
             ))}
-          </div>
+          </StaggerGrid>
 
           <Reveal className="text-center mt-12 sm:mt-14">
             <Link
@@ -285,6 +329,52 @@ export default function Home() {
             >
               <span>VIEW ALL 124 PRODUCTS →</span>
             </Link>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* =========================================================================
+          3B. HOMEPAGE BRAND VIDEO SHOWCASE SECTION
+      ========================================================================= */}
+      <section className="py-12 sm:py-20 px-3 sm:px-6 lg:px-8 bg-forest-950 text-white relative overflow-hidden border-b border-gold-500/20">
+        <div className="max-w-5xl mx-auto relative z-10">
+          <Reveal className="text-center max-w-2xl mx-auto mb-8 sm:mb-10">
+            <span className="text-xs font-bold text-gold-400 uppercase tracking-widest block mb-2">
+              Tradition in Motion &bull; Since 1920
+            </span>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-black font-serif text-white mb-2.5">
+              NS SOANS INDIAN FARM
+            </h2>
+            <p className="text-xs sm:text-sm text-cream-200/90 leading-relaxed">
+              Experience authentic Kundapura spices and pure farm harvests crafted with natural goodness.
+            </p>
+          </Reveal>
+
+          <Reveal className="relative w-full aspect-video rounded-2xl sm:rounded-3xl overflow-hidden border-2 border-gold-500/40 shadow-2xl bg-forest-900">
+            <video
+              ref={brandVideoRef}
+              src="/videos/homepage-brand-video.mp4"
+              poster="/images/about-spices-bg.webp"
+              autoPlay
+              muted
+              loop
+              playsInline
+              controls
+              preload="auto"
+              onLoadedMetadata={(e) => {
+                e.currentTarget.defaultMuted = true;
+                e.currentTarget.muted = true;
+                e.currentTarget.play().catch(() => {});
+              }}
+              onCanPlay={(e) => {
+                e.currentTarget.defaultMuted = true;
+                e.currentTarget.muted = true;
+                e.currentTarget.play().catch(() => {});
+              }}
+              className="relative z-10 w-full h-full object-cover"
+            >
+              <source src="/videos/homepage-brand-video.mp4" type="video/mp4" />
+            </video>
           </Reveal>
         </div>
       </section>
@@ -354,7 +444,7 @@ export default function Home() {
           <Reveal className="lg:col-span-6 grid grid-cols-2 gap-4" delay={0.12}>
             <div className="overflow-hidden rounded-3xl shadow-md group">
               <img
-                src="/images-optimized/heritage-spices.webp"
+                src="/images/heritage-spices.webp"
                 alt="NS SOANS Heritage Spices"
                 className="w-full aspect-square object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
                 loading="lazy"
@@ -362,7 +452,7 @@ export default function Home() {
             </div>
             <div className="overflow-hidden rounded-3xl shadow-md sm:translate-y-6 group">
               <img
-                src="/images-optimized/farm-natural-goodness.webp"
+                src="/images/farm-natural-goodness.webp"
                 alt="NS SOANS Farm Natural Goodness"
                 className="w-full aspect-square object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
                 loading="lazy"
@@ -370,6 +460,188 @@ export default function Home() {
             </div>
           </Reveal>
         </div>
+      </section>
+
+      <div className="luxury-divider max-w-5xl mx-auto" aria-hidden="true" />
+
+      {/* =========================================================================
+          4B. WHY CHOOSE NS SOANS & AUTHENTIC QUALITY HIGHLIGHTS
+      ========================================================================= */}
+      <section className="py-12 sm:py-20 px-3 sm:px-6 lg:px-8 bg-cream-100/60 border-y border-stone-200">
+        <div className="max-w-7xl mx-auto">
+          <Reveal className="text-center max-w-3xl mx-auto mb-10 sm:mb-12">
+            <span className="text-xs font-bold text-gold-700 uppercase tracking-widest block mb-2">
+              Why Choose NS SOANS INDIAN FARM
+            </span>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-black font-serif text-forest-950 mb-3">
+              Authentic Ingredients &amp; Traditional Preparation
+            </h2>
+            <p className="text-xs sm:text-sm md:text-base text-stone-600">
+              Every jar, bottle, and spice pouch carries the trust of Soans Home Industries — crafted with pure whole spices and natural farm harvests.
+            </p>
+          </Reveal>
+
+          {/* Animated Brand Statistics Counter Bar */}
+          <Reveal className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-5 mb-10 sm:mb-12">
+            {[
+              { value: 1920, suffix: '', label: 'Established Heritage', sub: 'Kundapura, Karnataka' },
+              { value: 124, suffix: '', label: 'Catalogue Products', sub: 'Complete Authentic Range' },
+              { value: 61, suffix: '', label: 'Traditional Masalas', sub: 'Veg, Non-Veg & Beverages' },
+              { value: 63, suffix: '', label: 'Natural Farm Products', sub: 'Ghee, Oils, Atta & Grains' }
+            ].map((stat) => (
+              <div
+                key={stat.label}
+                className="p-4 sm:p-6 rounded-2xl sm:rounded-3xl bg-white border border-gold-500/25 shadow-sm text-center"
+              >
+                <div className="text-2xl sm:text-3xl md:text-4xl font-black font-serif text-forest-950 mb-1">
+                  <AnimatedCounter target={stat.value} suffix={stat.suffix} duration={1.5} />
+                </div>
+                <div className="text-xs sm:text-sm font-bold text-gold-700">{stat.label}</div>
+                <div className="text-[11px] text-stone-500 mt-0.5">{stat.sub}</div>
+              </div>
+            ))}
+          </Reveal>
+
+          {/* 4 Quality Pillar Cards */}
+          <StaggerGrid className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mb-10" stagger={0.07}>
+            <StaggerItem className="h-full">
+              <div className="h-full p-6 rounded-3xl bg-white border border-stone-200/90 shadow-xs hover:shadow-luxury-hover hover:border-gold-500/40 transition-all duration-300 card-hover-3d flex flex-col">
+                <div className="w-11 h-11 rounded-2xl bg-forest-900 text-gold-300 flex items-center justify-center mb-4 shadow-sm">
+                  <Award className="w-5 h-5" />
+                </div>
+                <h3 className="text-base font-bold font-serif text-forest-950 mb-2">
+                  Kundapura Heritage Since 1920
+                </h3>
+                <p className="text-xs sm:text-[13px] text-stone-600 leading-relaxed">
+                  Time-tested family recipes from Soans Home Industries in Kundapura, upholding coastal Karnataka’s authentic culinary traditions for over a century.
+                </p>
+              </div>
+            </StaggerItem>
+
+            <StaggerItem className="h-full">
+              <div className="h-full p-6 rounded-3xl bg-white border border-stone-200/90 shadow-xs hover:shadow-luxury-hover hover:border-gold-500/40 transition-all duration-300 card-hover-3d flex flex-col">
+                <div className="w-11 h-11 rounded-2xl bg-forest-900 text-gold-300 flex items-center justify-center mb-4 shadow-sm">
+                  <Flame className="w-5 h-5" />
+                </div>
+                <h3 className="text-base font-bold font-serif text-forest-950 mb-2">
+                  Authentic Roasted Masalas (61 Varieties)
+                </h3>
+                <p className="text-xs sm:text-[13px] text-stone-600 leading-relaxed">
+                  Crafted from carefully cleaned and roasted whole spices, Byadgi chillies, and traditional aromatic blends with natural aroma and colour.
+                </p>
+              </div>
+            </StaggerItem>
+
+            <StaggerItem className="h-full">
+              <div className="h-full p-6 rounded-3xl bg-white border border-stone-200/90 shadow-xs hover:shadow-luxury-hover hover:border-gold-500/40 transition-all duration-300 card-hover-3d flex flex-col">
+                <div className="w-11 h-11 rounded-2xl bg-forest-900 text-gold-300 flex items-center justify-center mb-4 shadow-sm">
+                  <ShieldCheck className="w-5 h-5" />
+                </div>
+                <h3 className="text-base font-bold font-serif text-forest-950 mb-2">
+                  Pure Natural Farm Goodness (63 Varieties)
+                </h3>
+                <p className="text-xs sm:text-[13px] text-stone-600 leading-relaxed">
+                  Bilona-cultured A2 Desi Cow Ghee, cold-pressed oils, stone-ground Khapli wheat atta, raw honey, Lakadong turmeric, and heritage rice varieties.
+                </p>
+              </div>
+            </StaggerItem>
+
+            <StaggerItem className="h-full">
+              <div className="h-full p-6 rounded-3xl bg-white border border-stone-200/90 shadow-xs hover:shadow-luxury-hover hover:border-gold-500/40 transition-all duration-300 card-hover-3d flex flex-col">
+                <div className="w-11 h-11 rounded-2xl bg-forest-900 text-gold-300 flex items-center justify-center mb-4 shadow-sm">
+                  <PackageCheck className="w-5 h-5" />
+                </div>
+                <h3 className="text-base font-bold font-serif text-forest-950 mb-2">
+                  Fresh Aroma-Locked Packs
+                </h3>
+                <p className="text-xs sm:text-[13px] text-stone-600 leading-relaxed">
+                  Hygienically packed in convenient household and trade weights including 150g, 250g, 500g, 1Kg, 2Kg, 5Kg, and 10Kg packs.
+                </p>
+              </div>
+            </StaggerItem>
+          </StaggerGrid>
+
+          {/* Dual Collection Call-to-Action */}
+          <Reveal className="flex flex-wrap items-center justify-center gap-3.5 sm:gap-4">
+            <Link
+              to="/shop?collection=masala"
+              className="gold-btn inline-flex items-center justify-center gap-2.5 px-7 sm:px-8 py-3 sm:py-3.5 rounded-full text-xs sm:text-sm font-extrabold tracking-widest uppercase"
+            >
+              <span>Shop Masala Collection</span>
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+            <Link
+              to="/shop?collection=organic"
+              className="forest-btn inline-flex items-center justify-center gap-2.5 px-7 sm:px-8 py-3 sm:py-3.5 rounded-full text-xs sm:text-sm font-extrabold tracking-widest uppercase"
+            >
+              <span>Shop Farm Products</span>
+              <Leaf className="w-4 h-4 text-gold-400" />
+            </Link>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* =========================================================================
+          4C. CUSTOMER TESTIMONIALS (GENUINE VERIFIED REVIEWS)
+      ========================================================================= */}
+      <section className="py-12 sm:py-20 px-3 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <Reveal className="text-center max-w-2xl mx-auto mb-8 sm:mb-12">
+          <span className="inline-flex items-center gap-1.5 text-xs font-bold text-gold-700 uppercase tracking-widest mb-2">
+            <HeartHandshake className="w-4 h-4 text-gold-600" />
+            <span>Customer Trust</span>
+          </span>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-black font-serif text-forest-950 mb-2.5">
+            What Our Customers Say
+          </h2>
+          <p className="text-xs sm:text-sm md:text-base text-stone-600">
+            Verified reviews from families and practitioners enjoying NS SOANS traditional masalas and farm harvests.
+          </p>
+        </Reveal>
+
+        <StaggerGrid className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6" stagger={0.07}>
+          {reviews.map((rev) => (
+            <StaggerItem key={rev.id} className="h-full">
+              <div className="h-full p-6 rounded-3xl bg-white border border-stone-200/90 shadow-xs hover:shadow-luxury-hover hover:border-gold-500/40 transition-all duration-300 card-hover-3d flex flex-col justify-between">
+                <div>
+                  <div className="flex items-center justify-between gap-2 mb-3">
+                    <div className="flex items-center gap-0.5 text-gold-500" aria-label={`${rev.rating} out of 5 stars`}>
+                      {Array.from({ length: rev.rating }).map((_, idx) => (
+                        <Star key={idx} className="w-4 h-4 fill-current" />
+                      ))}
+                    </div>
+                    {rev.verified && (
+                      <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-forest-50 text-forest-800 border border-forest-200 text-[10px] font-bold uppercase tracking-wider">
+                        <CheckCircle className="w-3 h-3 text-emerald-600" />
+                        Verified
+                      </span>
+                    )}
+                  </div>
+
+                  <div className="mb-3">
+                    <span className="inline-block text-[10.5px] font-bold text-gold-700 bg-gold-50 border border-gold-200/70 px-2.5 py-0.5 rounded-lg">
+                      {rev.product}
+                    </span>
+                  </div>
+
+                  <div className="relative mb-4">
+                    <Quote className="w-5 h-5 text-gold-300/70 mb-1" aria-hidden="true" />
+                    <p className="text-xs sm:text-[13px] text-stone-700 leading-relaxed">
+                      &ldquo;{rev.comment}&rdquo;
+                    </p>
+                  </div>
+                </div>
+
+                <div className="pt-3 border-t border-stone-100 flex items-center justify-between gap-2">
+                  <div>
+                    <h4 className="text-xs sm:text-sm font-bold text-forest-950">{rev.name}</h4>
+                    <p className="text-[11px] text-stone-500">{rev.location}</p>
+                  </div>
+                  <span className="text-[10.5px] text-stone-400 font-medium">{rev.date}</span>
+                </div>
+              </div>
+            </StaggerItem>
+          ))}
+        </StaggerGrid>
       </section>
 
       {/* =========================================================================

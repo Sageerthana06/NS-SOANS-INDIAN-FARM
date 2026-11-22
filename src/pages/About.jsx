@@ -18,7 +18,7 @@ export default function About() {
           {/* Heritage Spice Photographic Background */}
           <div
             className="absolute inset-0 bg-cover bg-no-repeat bg-[position:78%_center] sm:bg-[position:84%_center] lg:bg-[position:right_center]"
-            style={{ backgroundImage: "url('/images-optimized/about-spices-bg.webp')" }}
+            style={{ backgroundImage: "url('/images/about-spices-bg.webp')" }}
             aria-hidden="true"
           />
           {/* Cinematic Left-to-Right Readability Gradient */}
@@ -145,14 +145,14 @@ export default function About() {
           <Reveal className="lg:col-span-5 grid grid-cols-2 gap-4" delay={0.12}>
             <div className="overflow-hidden rounded-3xl shadow-md group">
               <img
-                src="/images-optimized/heritage-spices.webp"
+                src="/images/heritage-spices.webp"
                 alt="Whole Spices"
                 className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
               />
             </div>
             <div className="overflow-hidden rounded-3xl shadow-md translate-y-6 group">
               <img
-                src="/images-optimized/farm-natural-goodness.webp"
+                src="/images/farm-natural-goodness.webp"
                 alt="Organic Farm"
                 className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
               />

@@ -1,7 +1,58 @@
-import React from 'react';
-import { motion, useReducedMotion } from 'framer-motion';
+import React, { useEffect, useRef, useState } from 'react';
+import { motion, useInView, useReducedMotion } from 'framer-motion';
 
 export const LUXURY_EASE = [0.22, 1, 0.36, 1];
+
+export function AnimatedCounter({
+  target,
+  duration = 1.6,
+  prefix = '',
+  suffix = '',
+  className = ''
+}) {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true, amount: 0.3 });
+  const shouldReduceMotion = useReducedMotion();
+  const startValue = target === 1920 ? 1900 : 0;
+  const [count, setCount] = useState(shouldReduceMotion ? target : startValue);
+
+  useEffect(() => {
+    if (shouldReduceMotion) {
+      setCount(target);
+      return;
+    }
+    if (!isInView) return;
+
+    let rafId = null;
+    const startTime = performance.now();
+    const durationMs = Math.max(200, duration * 1000);
+
+    const tick = (now) => {
+      const elapsed = now - startTime;
+      const progress = Math.min(elapsed / durationMs, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      const current = Math.round(startValue + (target - startValue) * eased);
+      setCount(current);
+
+      if (progress < 1) {
+        rafId = requestAnimationFrame(tick);
+      }
+    };
+
+    rafId = requestAnimationFrame(tick);
+    return () => {
+      if (rafId !== null) cancelAnimationFrame(rafId);
+    };
+  }, [isInView, shouldReduceMotion, startValue, target, duration]);
+
+  return (
+    <span ref={ref} className={className}>
+      {prefix}
+      {shouldReduceMotion ? target : count}
+      {suffix}
+    </span>
+  );
+}
 
 export function Reveal({
   children,

@@ -30,7 +30,7 @@ export default function ProductDetails() {
   const prefersReducedMotion = useReducedMotion();
 
   // Subscribe to priceVersion for real-time bulk price synchronization
-  useProductStore((state) => state.priceVersion);
+  const priceVersion = useProductStore((state) => state.priceVersion);
   const addToCart = useCartStore((state) => state.addToCart);
 
   const product = products.find((p) => p.slug === slug) || products[0];
@@ -46,6 +46,17 @@ export default function ProductDetails() {
   };
 
   const [selectedWeight, setSelectedWeight] = useState(() => getInitialWeight(product));
+
+  // If prices hydrate after mount, auto-select the first priced variant if current has no price
+  useEffect(() => {
+    const liveCurrent = product.weightOptions?.find((opt) => opt.weight === selectedWeight?.weight);
+    if (!liveCurrent || liveCurrent.price === null || liveCurrent.price === undefined) {
+      const nextInitial = getInitialWeight(product);
+      if (nextInitial && nextInitial.weight !== selectedWeight?.weight) {
+        setSelectedWeight(nextInitial);
+      }
+    }
+  }, [priceVersion, product.id]);
 
   // Always read the live variant object from product.weightOptions so updated prices appear immediately
   const activeWeightObj =

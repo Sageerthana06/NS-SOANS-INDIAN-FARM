@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
 import {
   Search,
   ShoppingBag,
@@ -14,6 +14,7 @@ import {
 import { useCartStore } from '../store/cartStore';
 import { useWishlistStore } from '../store/wishlistStore';
 import { products } from '../data/products';
+import { getProductImage, PRODUCT_PLACEHOLDER_IMAGE } from '../data/productImageMap';
 import { LUXURY_EASE } from './LuxuryMotion';
 
 const NAV_LINKS = [
@@ -39,14 +40,28 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
+  const [cartBump, setCartBump] = useState(false);
 
   const searchInputRef = useRef(null);
+  const prevCartCountRef = useRef(null);
   const navigate = useNavigate();
   const location = useLocation();
+  const prefersReducedMotion = useReducedMotion();
 
   const totalCartItems = useCartStore((state) => state.getTotalItemsCount());
   const toggleCart = useCartStore((state) => state.toggleCart);
   const wishlistItems = useWishlistStore((state) => state.items);
+
+  // Micro-feedback pulse when cart items increase
+  useEffect(() => {
+    if (prevCartCountRef.current !== null && totalCartItems > prevCartCountRef.current) {
+      setCartBump(true);
+      const timer = setTimeout(() => setCartBump(false), 450);
+      prevCartCountRef.current = totalCartItems;
+      return () => clearTimeout(timer);
+    }
+    prevCartCountRef.current = totalCartItems;
+  }, [totalCartItems]);
 
   // Close mobile menu on route change
   useEffect(() => {
@@ -202,10 +217,20 @@ export default function Header() {
 
               {/* Cart Drawer Trigger */}
               <motion.button
-                whileHover={{ scale: 1.03 }}
-                whileTap={{ scale: 0.97 }}
+                whileHover={prefersReducedMotion ? undefined : { scale: 1.03 }}
+                whileTap={prefersReducedMotion ? undefined : { scale: 0.97 }}
+                animate={
+                  cartBump && !prefersReducedMotion
+                    ? { scale: [1, 1.08, 1] }
+                    : { scale: 1 }
+                }
+                transition={{ duration: 0.32, ease: LUXURY_EASE }}
                 onClick={toggleCart}
-                className="relative flex items-center gap-2.5 px-3.5 py-2 rounded-full bg-[#143823] hover:bg-[#0f291a] text-[#D4AF37] border border-[#D4AF37]/40 transition-colors duration-250"
+                className={`relative flex items-center gap-2.5 px-3.5 py-2 rounded-full bg-[#143823] hover:bg-[#0f291a] text-[#D4AF37] border transition-all duration-250 ${
+                  cartBump
+                    ? 'border-[#D4AF37] ring-2 ring-[#D4AF37]/40'
+                    : 'border-[#D4AF37]/40'
+                }`}
                 title="Shopping Bag"
               >
                 <ShoppingBag className="w-4 h-4 text-[#D4AF37]" />
@@ -279,11 +304,17 @@ export default function Header() {
                         onClick={() => setSearchOpen(false)}
                         className="flex items-center gap-4 p-2.5 rounded-2xl hover:bg-forest-50 transition-colors group"
                       >
-                        <img
-                          src={item.images[0]}
-                          alt={item.name}
-                          className="w-14 h-14 object-cover rounded-xl border border-stone-200"
-                        />
+                        <div className="w-14 h-14 rounded-xl border border-stone-200 overflow-hidden bg-stone-50 shrink-0">
+                          <img
+                            src={getProductImage(item)}
+                            alt={item.name}
+                            onError={(e) => {
+                              e.currentTarget.onerror = null;
+                              e.currentTarget.src = PRODUCT_PLACEHOLDER_IMAGE;
+                            }}
+                            className="w-full h-full object-contain p-0.5 group-hover:scale-105 transition-transform duration-300"
+                          />
+                        </div>
                         <div className="flex-1 min-w-0">
                           <span className="text-[10px] font-bold text-gold-700 uppercase tracking-wider">
                             {item.brand}

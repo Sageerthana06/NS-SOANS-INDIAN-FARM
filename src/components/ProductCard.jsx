@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Heart, Eye, ArrowRight, ShoppingBag } from 'lucide-react';
+import { Heart, Eye, ArrowRight, ShoppingBag, Check } from 'lucide-react';
 import { motion, useReducedMotion } from 'framer-motion';
 import { useWishlistStore } from '../store/wishlistStore';
 import { useCartStore } from '../store/cartStore';
@@ -10,7 +10,7 @@ import { LUXURY_EASE } from './LuxuryMotion';
 
 export default function ProductCard({ product, onQuickView }) {
   // Subscribe to priceVersion so bulk price imports re-render cards immediately
-  useProductStore((state) => state.priceVersion);
+  const priceVersion = useProductStore((state) => state.priceVersion);
 
   const getInitialWeight = () => {
     if (!product.weightOptions || product.weightOptions.length === 0) {
@@ -23,6 +23,19 @@ export default function ProductCard({ product, onQuickView }) {
   };
 
   const [selectedWeight, setSelectedWeight] = useState(getInitialWeight);
+  const [justAdded, setJustAdded] = useState(false);
+
+  // If prices hydrate asynchronously or update via HMR, auto-select the first priced variant
+  // when the currently selected variant has no price.
+  useEffect(() => {
+    const liveCurrent = product.weightOptions?.find((opt) => opt.weight === selectedWeight?.weight);
+    if (!liveCurrent || liveCurrent.price === null || liveCurrent.price === undefined) {
+      const nextInitial = getInitialWeight();
+      if (nextInitial && nextInitial.weight !== selectedWeight?.weight) {
+        setSelectedWeight(nextInitial);
+      }
+    }
+  }, [priceVersion, product.id]);
 
   // Resolve active weight option from live product.weightOptions to reflect latest imported price
   const activeWeightObj =
@@ -38,6 +51,8 @@ export default function ProductCard({ product, onQuickView }) {
     e.preventDefault();
     e.stopPropagation();
     addToCart(product, activeWeightObj, 1);
+    setJustAdded(true);
+    setTimeout(() => setJustAdded(false), 950);
   };
 
   const handleWishlistClick = (e) => {
@@ -91,8 +106,14 @@ export default function ProductCard({ product, onQuickView }) {
 
           {/* Wishlist Button (Top Right) */}
           <motion.button
-            whileHover={{ scale: 1.08 }}
-            whileTap={{ scale: 0.92 }}
+            whileHover={prefersReducedMotion ? undefined : { scale: 1.08 }}
+            whileTap={prefersReducedMotion ? undefined : { scale: 0.92 }}
+            animate={
+              isInWishlist && !prefersReducedMotion
+                ? { scale: [1, 1.28, 0.94, 1] }
+                : { scale: 1 }
+            }
+            transition={{ duration: 0.35, ease: LUXURY_EASE }}
             onClick={handleWishlistClick}
             className={`absolute top-2 right-2 z-10 p-1.5 sm:p-2 rounded-full backdrop-blur-md transition-colors duration-200 shadow-md ${
               isInWishlist
@@ -170,9 +191,15 @@ export default function ProductCard({ product, onQuickView }) {
 
           <div className="text-right shrink-0">
             {activeWeightObj?.price !== null && activeWeightObj?.price !== undefined ? (
-              <span className="text-xs sm:text-[13px] font-black text-forest-950 whitespace-nowrap">
+              <motion.span
+                key={activeWeightObj.weight}
+                initial={prefersReducedMotion ? false : { opacity: 0, y: 4 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.2, ease: LUXURY_EASE }}
+                className="inline-block text-xs sm:text-[13px] font-black text-forest-950 whitespace-nowrap"
+              >
                 ₹{Number(activeWeightObj.price).toLocaleString('en-IN')}
-              </span>
+              </motion.span>
             ) : (
               <span className="text-[10px] sm:text-[11px] font-bold text-gold-700 whitespace-nowrap">
                 Price Coming Soon
@@ -184,14 +211,25 @@ export default function ProductCard({ product, onQuickView }) {
         {/* Action Buttons Row */}
         <div className="flex items-center gap-1.5 w-full">
           {activeWeightObj?.price !== null && activeWeightObj?.price !== undefined && (
-            <button
+            <motion.button
               type="button"
+              whileHover={prefersReducedMotion ? undefined : { scale: 1.06 }}
+              whileTap={prefersReducedMotion ? undefined : { scale: 0.92 }}
               onClick={handleAddToCartClick}
               title={`Add ${product.name} (${activeWeightObj.weight}) to Cart`}
-              className="p-1.5 sm:p-2 rounded-xl bg-forest-900 hover:bg-forest-950 text-gold-300 border border-gold-500/30 transition-colors shrink-0 min-h-[32px] sm:min-h-[34px] flex items-center justify-center px-2.5"
+              aria-label={`Add ${product.name} (${activeWeightObj.weight}) to Cart`}
+              className={`p-1.5 sm:p-2 rounded-xl border transition-all duration-250 shrink-0 min-h-[32px] sm:min-h-[34px] flex items-center justify-center px-2.5 ${
+                justAdded
+                  ? 'bg-emerald-700 text-gold-200 border-gold-400 shadow-md'
+                  : 'bg-forest-900 hover:bg-forest-950 text-gold-300 border-gold-500/30'
+              }`}
             >
-              <ShoppingBag className="w-3.5 h-3.5" />
-            </button>
+              {justAdded ? (
+                <Check className="w-3.5 h-3.5 text-gold-300" />
+              ) : (
+                <ShoppingBag className="w-3.5 h-3.5" />
+              )}
+            </motion.button>
           )}
           <Link
             to={`/product/${product.slug}`}

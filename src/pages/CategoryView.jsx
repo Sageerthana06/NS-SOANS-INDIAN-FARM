@@ -35,7 +35,7 @@ export default function CategoryView() {
             className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out select-none"
             onError={(e) => {
               e.currentTarget.onerror = null;
-              e.currentTarget.src = `/images-optimized/categories/${category.slug}.webp`;
+              e.currentTarget.src = `/images/categories/${category.slug}.webp`;
             }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-forest-950 via-forest-950/70 to-transparent" />

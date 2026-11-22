@@ -32,9 +32,9 @@ export const products = [
     "shortDescription": "LOVER'S TEA — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "LOVER'S TEA is part of the NS SOANS INDIAN FARM Masala Products catalogue (Beverages range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images/products/lover-s-tea.webp",
-      "/images-optimized/products/lover-s-tea.webp",
-      "/images-optimized/products/lover-s-tea.webp"
+      "/images/products/lover-s-tea.jpg",
+      "/images/products/lover-s-tea.jpg",
+      "/images/products/lover-s-tea.jpg"
     ],
     "weightOptions": [
       {
@@ -82,7 +82,7 @@ export const products = [
     "shortDescription": "LOVER'S MASALA KASHAYA — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "LOVER'S MASALA KASHAYA is part of the NS SOANS INDIAN FARM Masala Products catalogue (Beverages range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/lover-s-masala-kashaya.webp"
+      "/images/products/lover-s-masala-kashaya.jpg"
     ],
     "weightOptions": [
       {
@@ -130,7 +130,7 @@ export const products = [
     "shortDescription": "HONEYMOON  BADAM POWDER — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "HONEYMOON  BADAM POWDER is part of the NS SOANS INDIAN FARM Masala Products catalogue (Beverages range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/honeymoon-badam-powder.webp"
+      "/images/products/honeymoon-badam-powder.jpg"
     ],
     "weightOptions": [
       {
@@ -178,7 +178,7 @@ export const products = [
     "shortDescription": "NS SPECIAL BLACK SALT — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "NS SPECIAL BLACK SALT is part of the NS SOANS INDIAN FARM Masala Products catalogue (Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/ns-special-black-salt.webp"
+      "/images/products/ns-special-black-salt.jpg"
     ],
     "weightOptions": [
       {
@@ -226,7 +226,7 @@ export const products = [
     "shortDescription": "NS SPECIAL KABOOLI CHHOLE MASALA — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "NS SPECIAL KABOOLI CHHOLE MASALA is part of the NS SOANS INDIAN FARM Masala Products catalogue (Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/ns-special-kabooli-chhole-masala.webp"
+      "/images/products/ns-special-kabooli-chhole-masala.jpg"
     ],
     "weightOptions": [
       {
@@ -274,7 +274,7 @@ export const products = [
     "shortDescription": "NS PAV BHAJI — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "NS PAV BHAJI is part of the NS SOANS INDIAN FARM Masala Products catalogue (Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/ns-pav-bhaji.webp"
+      "/images/products/ns-pav-bhaji.jpg"
     ],
     "weightOptions": [
       {
@@ -322,7 +322,7 @@ export const products = [
     "shortDescription": "NS CHAT MASALA — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "NS CHAT MASALA is part of the NS SOANS INDIAN FARM Masala Products catalogue (Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/ns-chat-masala.webp"
+      "/images/products/ns-chat-masala.jpg"
     ],
     "weightOptions": [
       {
@@ -370,7 +370,7 @@ export const products = [
     "shortDescription": "NS HING POWDER — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "NS HING POWDER is part of the NS SOANS INDIAN FARM Masala Products catalogue (Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/ns-hing-powder.webp"
+      "/images/products/ns-hing-powder.jpg"
     ],
     "weightOptions": [
       {
@@ -428,7 +428,7 @@ export const products = [
     "shortDescription": "NS GOBI MANCHURI — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "NS GOBI MANCHURI is part of the NS SOANS INDIAN FARM Masala Products catalogue (Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/ns-gobi-manchuri.webp"
+      "/images/products/ns-gobi-manchuri.jpg"
     ],
     "weightOptions": [
       {
@@ -476,7 +476,7 @@ export const products = [
     "shortDescription": "NS SPECIAL USAL MISAL MASALA — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "NS SPECIAL USAL MISAL MASALA is part of the NS SOANS INDIAN FARM Masala Products catalogue (Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/ns-special-usal-misal-masala.webp"
+      "/images/products/ns-special-usal-misal-masala.jpg"
     ],
     "weightOptions": [
       {
@@ -524,7 +524,7 @@ export const products = [
     "shortDescription": "NS SPECIAL PANEER MASALA — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "NS SPECIAL PANEER MASALA is part of the NS SOANS INDIAN FARM Masala Products catalogue (Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/ns-special-paneer-masala.webp"
+      "/images/products/ns-special-paneer-masala.jpg"
     ],
     "weightOptions": [
       {
@@ -572,7 +572,7 @@ export const products = [
     "shortDescription": "NS SPECIAL GARAM MASALA — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "NS SPECIAL GARAM MASALA is part of the NS SOANS INDIAN FARM Masala Products catalogue (Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/ns-special-garam-masala.webp"
+      "/images/products/ns-special-garam-masala.jpg"
     ],
     "weightOptions": [
       {
@@ -620,7 +620,7 @@ export const products = [
     "shortDescription": "NS SPECIAL VEG CURRY MASALA — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "NS SPECIAL VEG CURRY MASALA is part of the NS SOANS INDIAN FARM Masala Products catalogue (Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/ns-special-veg-curry-masala.webp"
+      "/images/products/ns-special-veg-curry-masala.jpg"
     ],
     "weightOptions": [
       {
@@ -668,7 +668,7 @@ export const products = [
     "shortDescription": "NS SPECIAL KORMA MASALA — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "NS SPECIAL KORMA MASALA is part of the NS SOANS INDIAN FARM Masala Products catalogue (Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/ns-special-korma-masala.webp"
+      "/images/products/ns-special-korma-masala.jpg"
     ],
     "weightOptions": [
       {
@@ -716,7 +716,7 @@ export const products = [
     "shortDescription": "NS MILLET HEALTH FOOD MASALA — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "NS MILLET HEALTH FOOD MASALA is part of the NS SOANS INDIAN FARM Masala Products catalogue (Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/ns-millet-health-food-masala.webp"
+      "/images/products/ns-millet-health-food-masala.jpg"
     ],
     "weightOptions": [
       {
@@ -764,7 +764,7 @@ export const products = [
     "shortDescription": "NS MALWANI MASALA — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "NS MALWANI MASALA is part of the NS SOANS INDIAN FARM Masala Products catalogue (Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/ns-malwani-masala.webp"
+      "/images/products/ns-malwani-masala.jpg"
     ],
     "weightOptions": [
       {
@@ -812,7 +812,7 @@ export const products = [
     "shortDescription": "NS SPECIAL CHANA MASALA — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "NS SPECIAL CHANA MASALA is part of the NS SOANS INDIAN FARM Masala Products catalogue (Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/ns-special-chana-masala.webp"
+      "/images/products/ns-special-chana-masala.jpg"
     ],
     "weightOptions": [
       {
@@ -860,7 +860,7 @@ export const products = [
     "shortDescription": "NS SPECIAL  KASHMIRI EXTRA RED CHILLI POWDER STEMLESS — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "NS SPECIAL  KASHMIRI EXTRA RED CHILLI POWDER STEMLESS is part of the NS SOANS INDIAN FARM Masala Products catalogue (Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/ns-special-kashmiri-extra-red-chilli-powder-stemless.webp"
+      "/images/products/ns-special-kashmiri-extra-red-chilli-powder-stemless.jpg"
     ],
     "weightOptions": [
       {
@@ -908,7 +908,7 @@ export const products = [
     "shortDescription": "NS SPECIAL BYADGI EXTRA RED CHILLI POWDER STEMLESS — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "NS SPECIAL BYADGI EXTRA RED CHILLI POWDER STEMLESS is part of the NS SOANS INDIAN FARM Masala Products catalogue (Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/ns-special-byadgi-extra-red-chilli-powder-stemless.webp"
+      "/images/products/ns-special-byadgi-extra-red-chilli-powder-stemless.jpg"
     ],
     "weightOptions": [
       {
@@ -956,7 +956,7 @@ export const products = [
     "shortDescription": "NS SPECIAL PANEER GREEN TIKKA / HARYALI(NO ARIFICIAL COLOUR,NO MSG) — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "NS SPECIAL PANEER GREEN TIKKA / HARYALI(NO ARIFICIAL COLOUR,NO MSG) is part of the NS SOANS INDIAN FARM Masala Products catalogue (Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/ns-special-paneer-green-tikka-haryali-no-arificial-colour-no-msg.webp"
+      "/images/products/ns-special-paneer-green-tikka-haryali-no-arificial-colour-no-msg.jpg"
     ],
     "weightOptions": [
       {
@@ -1004,7 +1004,7 @@ export const products = [
     "shortDescription": "NS SPECIAL SAMBAR POWDER — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "NS SPECIAL SAMBAR POWDER is part of the NS SOANS INDIAN FARM Masala Products catalogue (Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/ns-special-sambar-powder.webp"
+      "/images/products/ns-special-sambar-powder.jpg"
     ],
     "weightOptions": [
       {
@@ -1052,7 +1052,7 @@ export const products = [
     "shortDescription": "NS SPECIAL RASAM POWDER — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "NS SPECIAL RASAM POWDER is part of the NS SOANS INDIAN FARM Masala Products catalogue (Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/ns-special-rasam-powder.webp"
+      "/images/products/ns-special-rasam-powder.jpg"
     ],
     "weightOptions": [
       {
@@ -1100,7 +1100,7 @@ export const products = [
     "shortDescription": "NS SPECIAL PULIOGARE POWDER — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "NS SPECIAL PULIOGARE POWDER is part of the NS SOANS INDIAN FARM Masala Products catalogue (Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/ns-special-puliogare-powder.webp"
+      "/images/products/ns-special-puliogare-powder.jpg"
     ],
     "weightOptions": [
       {
@@ -1148,7 +1148,7 @@ export const products = [
     "shortDescription": "NS SPECIAL VEG PULAO — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "NS SPECIAL VEG PULAO is part of the NS SOANS INDIAN FARM Masala Products catalogue (Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/ns-special-veg-pulao.webp"
+      "/images/products/ns-special-veg-pulao.jpg"
     ],
     "weightOptions": [
       {
@@ -1196,7 +1196,7 @@ export const products = [
     "shortDescription": "NS SPECIAL VEG BIRYANI POWDER — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "NS SPECIAL VEG BIRYANI POWDER is part of the NS SOANS INDIAN FARM Masala Products catalogue (Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/ns-special-veg-biryani-powder.webp"
+      "/images/products/ns-special-veg-biryani-powder.jpg"
     ],
     "weightOptions": [
       {
@@ -1244,7 +1244,7 @@ export const products = [
     "shortDescription": "NS SPECIAL CORIANDER POWDER — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "NS SPECIAL CORIANDER POWDER is part of the NS SOANS INDIAN FARM Masala Products catalogue (Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/ns-special-coriander-powder.webp"
+      "/images/products/ns-special-coriander-powder.jpg"
     ],
     "weightOptions": [
       {
@@ -1292,7 +1292,7 @@ export const products = [
     "shortDescription": "KUNDAPURA SPECIAL CHICKEN SUKKA MASALA — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "KUNDAPURA SPECIAL CHICKEN SUKKA MASALA is part of the NS SOANS INDIAN FARM Masala Products catalogue (Non Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/kundapura-special-chicken-sukka-masala.webp"
+      "/images/products/kundapura-special-chicken-sukka-masala.jpg"
     ],
     "weightOptions": [
       {
@@ -1340,7 +1340,7 @@ export const products = [
     "shortDescription": "KUNDAPURA BUTTER CHICKEN — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "KUNDAPURA BUTTER CHICKEN is part of the NS SOANS INDIAN FARM Masala Products catalogue (Non Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/kundapura-butter-chicken.webp"
+      "/images/products/kundapura-butter-chicken.jpg"
     ],
     "weightOptions": [
       {
@@ -1388,7 +1388,7 @@ export const products = [
     "shortDescription": "KUNDAPURA CHICKEN GHEE ROAST — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "KUNDAPURA CHICKEN GHEE ROAST is part of the NS SOANS INDIAN FARM Masala Products catalogue (Non Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/kundapura-chicken-ghee-roast.webp"
+      "/images/products/kundapura-chicken-ghee-roast.jpg"
     ],
     "weightOptions": [
       {
@@ -1436,7 +1436,7 @@ export const products = [
     "shortDescription": "KUNDAPURA CHICKEN MASALA — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "KUNDAPURA CHICKEN MASALA is part of the NS SOANS INDIAN FARM Masala Products catalogue (Non Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/kundapura-chicken-masala.webp"
+      "/images/products/kundapura-chicken-masala.jpg"
     ],
     "weightOptions": [
       {
@@ -1484,7 +1484,7 @@ export const products = [
     "shortDescription": "KUNDAPURA CHICKEN KABAB — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "KUNDAPURA CHICKEN KABAB is part of the NS SOANS INDIAN FARM Masala Products catalogue (Non Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/kundapura-chicken-kabab.webp"
+      "/images/products/kundapura-chicken-kabab.jpg"
     ],
     "weightOptions": [
       {
@@ -1532,7 +1532,7 @@ export const products = [
     "shortDescription": "KUNDAPURA CHICKEN CHILLI — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "KUNDAPURA CHICKEN CHILLI is part of the NS SOANS INDIAN FARM Masala Products catalogue (Non Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/kundapura-chicken-chilli.webp"
+      "/images/products/kundapura-chicken-chilli.jpg"
     ],
     "weightOptions": [
       {
@@ -1580,7 +1580,7 @@ export const products = [
     "shortDescription": "KUNDAPURA SPECIAL FISH CURRY MASALA — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "KUNDAPURA SPECIAL FISH CURRY MASALA is part of the NS SOANS INDIAN FARM Masala Products catalogue (Non Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/kundapura-special-fish-curry-masala.webp"
+      "/images/products/kundapura-special-fish-curry-masala.jpg"
     ],
     "weightOptions": [
       {
@@ -1628,7 +1628,7 @@ export const products = [
     "shortDescription": "HYDERABADI BIRYANI MASALA — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "HYDERABADI BIRYANI MASALA is part of the NS SOANS INDIAN FARM Masala Products catalogue (Non Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/hyderabadi-biryani-masala.webp"
+      "/images/products/hyderabadi-biryani-masala.jpg"
     ],
     "weightOptions": [
       {
@@ -1676,7 +1676,7 @@ export const products = [
     "shortDescription": "KUNDAPURA FISH FRY MASALA — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "KUNDAPURA FISH FRY MASALA is part of the NS SOANS INDIAN FARM Masala Products catalogue (Non Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/kundapura-fish-fry-masala.webp"
+      "/images/products/kundapura-fish-fry-masala.jpg"
     ],
     "weightOptions": [
       {
@@ -1724,7 +1724,7 @@ export const products = [
     "shortDescription": "KARVALI CHICKEN PULI MUNCHI / SPICY CHICKEN — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "KARVALI CHICKEN PULI MUNCHI / SPICY CHICKEN is part of the NS SOANS INDIAN FARM Masala Products catalogue (Non Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/karvali-chicken-puli-munchi-spicy-chicken.webp"
+      "/images/products/karvali-chicken-puli-munchi-spicy-chicken.jpg"
     ],
     "weightOptions": [
       {
@@ -1772,7 +1772,7 @@ export const products = [
     "shortDescription": "KUNDAPURA CHICKEN/ MUTTON KORMA — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "KUNDAPURA CHICKEN/ MUTTON KORMA is part of the NS SOANS INDIAN FARM Masala Products catalogue (Non Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/kundapura-chicken-mutton-korma.webp"
+      "/images/products/kundapura-chicken-mutton-korma.jpg"
     ],
     "weightOptions": [
       {
@@ -1820,7 +1820,7 @@ export const products = [
     "shortDescription": "KUNDAPURA BEEF MASALA — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "KUNDAPURA BEEF MASALA is part of the NS SOANS INDIAN FARM Masala Products catalogue (Non Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/kundapura-beef-masala.webp"
+      "/images/products/kundapura-beef-masala.jpg"
     ],
     "weightOptions": [
       {
@@ -1868,7 +1868,7 @@ export const products = [
     "shortDescription": "KUNDAPURA KORI ROTI GRAVY MASALA — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "KUNDAPURA KORI ROTI GRAVY MASALA is part of the NS SOANS INDIAN FARM Masala Products catalogue (Non Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/kundapura-kori-roti-gravy-masala.webp"
+      "/images/products/kundapura-kori-roti-gravy-masala.jpg"
     ],
     "weightOptions": [
       {
@@ -1916,7 +1916,7 @@ export const products = [
     "shortDescription": "KUNDAPURA CHICKEN 65 — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "KUNDAPURA CHICKEN 65 is part of the NS SOANS INDIAN FARM Masala Products catalogue (Non Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/kundapura-chicken-65.webp"
+      "/images/products/kundapura-chicken-65.jpg"
     ],
     "weightOptions": [
       {
@@ -1964,7 +1964,7 @@ export const products = [
     "shortDescription": "KUNDAPURA CHICKEN / MUTTON BIRYANI — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "KUNDAPURA CHICKEN / MUTTON BIRYANI is part of the NS SOANS INDIAN FARM Masala Products catalogue (Non Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/kundapura-chicken-mutton-biryani.webp"
+      "/images/products/kundapura-chicken-mutton-biryani.jpg"
     ],
     "weightOptions": [
       {
@@ -2012,7 +2012,7 @@ export const products = [
     "shortDescription": "KUNDAPURA MUTTON MASALA — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "KUNDAPURA MUTTON MASALA is part of the NS SOANS INDIAN FARM Masala Products catalogue (Non Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/kundapura-mutton-masala.webp"
+      "/images/products/kundapura-mutton-masala.jpg"
     ],
     "weightOptions": [
       {
@@ -2060,7 +2060,7 @@ export const products = [
     "shortDescription": "KUNDAPURA BAFAT EAST INDIAN MASALA POWDER — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "KUNDAPURA BAFAT EAST INDIAN MASALA POWDER is part of the NS SOANS INDIAN FARM Masala Products catalogue (Non Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/kundapura-bafat-east-indian-masala-powder.webp"
+      "/images/products/kundapura-bafat-east-indian-masala-powder.jpg"
     ],
     "weightOptions": [
       {
@@ -2108,7 +2108,7 @@ export const products = [
     "shortDescription": "KUNDAPURA CHICKEN ANGARA — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "KUNDAPURA CHICKEN ANGARA is part of the NS SOANS INDIAN FARM Masala Products catalogue (Non Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/kundapura-chicken-angara.webp"
+      "/images/products/kundapura-chicken-angara.jpg"
     ],
     "weightOptions": [
       {
@@ -2156,7 +2156,7 @@ export const products = [
     "shortDescription": "KUNDAPURA GREEN CHICKEN MASALA — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "KUNDAPURA GREEN CHICKEN MASALA is part of the NS SOANS INDIAN FARM Masala Products catalogue (Non Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/kundapura-green-chicken-masala.webp"
+      "/images/products/kundapura-green-chicken-masala.jpg"
     ],
     "weightOptions": [
       {
@@ -2204,7 +2204,7 @@ export const products = [
     "shortDescription": "KUNDAPURA CHICKEN MANCHURIAN — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "KUNDAPURA CHICKEN MANCHURIAN is part of the NS SOANS INDIAN FARM Masala Products catalogue (Non Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/kundapura-chicken-manchurian.webp"
+      "/images/products/kundapura-chicken-manchurian.jpg"
     ],
     "weightOptions": [
       {
@@ -2252,7 +2252,7 @@ export const products = [
     "shortDescription": "KUNDAPURA CHICKEN KHOLAPURI — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "KUNDAPURA CHICKEN KHOLAPURI is part of the NS SOANS INDIAN FARM Masala Products catalogue (Non Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/kundapura-chicken-kholapuri.webp"
+      "/images/products/kundapura-chicken-kholapuri.jpg"
     ],
     "weightOptions": [
       {
@@ -2300,7 +2300,7 @@ export const products = [
     "shortDescription": "KUNDAPURA CHICKEN LOLLIPOP — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "KUNDAPURA CHICKEN LOLLIPOP is part of the NS SOANS INDIAN FARM Masala Products catalogue (Non Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/kundapura-chicken-lollipop.webp"
+      "/images/products/kundapura-chicken-lollipop.jpg"
     ],
     "weightOptions": [
       {
@@ -2348,7 +2348,7 @@ export const products = [
     "shortDescription": "KUNDAPURA CHICKEN TANDOORI — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "KUNDAPURA CHICKEN TANDOORI is part of the NS SOANS INDIAN FARM Masala Products catalogue (Non Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/kundapura-chicken-tandoori.webp"
+      "/images/products/kundapura-chicken-tandoori.jpg"
     ],
     "weightOptions": [
       {
@@ -2396,7 +2396,7 @@ export const products = [
     "shortDescription": "KUNDAPURA PEPPER LEMON CHICKEN — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "KUNDAPURA PEPPER LEMON CHICKEN is part of the NS SOANS INDIAN FARM Masala Products catalogue (Non Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/kundapura-pepper-lemon-chicken.webp"
+      "/images/products/kundapura-pepper-lemon-chicken.jpg"
     ],
     "weightOptions": [
       {
@@ -2444,7 +2444,7 @@ export const products = [
     "shortDescription": "KUNDAPURA PEPPER GHEE ROAST CHICKEN — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "KUNDAPURA PEPPER GHEE ROAST CHICKEN is part of the NS SOANS INDIAN FARM Masala Products catalogue (Non Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/kundapura-pepper-ghee-roast-chicken.webp"
+      "/images/products/kundapura-pepper-ghee-roast-chicken.jpg"
     ],
     "weightOptions": [
       {
@@ -2492,7 +2492,7 @@ export const products = [
     "shortDescription": "KUNDAPURA MALWANI MASALA — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "KUNDAPURA MALWANI MASALA is part of the NS SOANS INDIAN FARM Masala Products catalogue (Non Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/kundapura-malwani-masala.webp"
+      "/images/products/kundapura-malwani-masala.jpg"
     ],
     "weightOptions": [
       {
@@ -2540,7 +2540,7 @@ export const products = [
     "shortDescription": "KUNDAPURA BIRYANI KIT — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "KUNDAPURA BIRYANI KIT is part of the NS SOANS INDIAN FARM Masala Products catalogue (Non Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/kundapura-biryani-kit.webp"
+      "/images/products/kundapura-biryani-kit.jpg"
     ],
     "weightOptions": [
       {
@@ -2588,7 +2588,7 @@ export const products = [
     "shortDescription": "KUNDAPURA CAFRIAL (GOAN MASALA) — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "KUNDAPURA CAFRIAL (GOAN MASALA) is part of the NS SOANS INDIAN FARM Masala Products catalogue (Non Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/kundapura-cafrial-goan-masala.webp"
+      "/images/products/kundapura-cafrial-goan-masala.jpg"
     ],
     "weightOptions": [
       {
@@ -2636,7 +2636,7 @@ export const products = [
     "shortDescription": "KUNDAPURA XACUTI (GOAN MASALA) — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "KUNDAPURA XACUTI (GOAN MASALA) is part of the NS SOANS INDIAN FARM Masala Products catalogue (Non Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/kundapura-xacuti-goan-masala.webp"
+      "/images/products/kundapura-xacuti-goan-masala.jpg"
     ],
     "weightOptions": [
       {
@@ -2684,7 +2684,7 @@ export const products = [
     "shortDescription": "KUNDAPURA KADAI CHICKEN MASALA — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "KUNDAPURA KADAI CHICKEN MASALA is part of the NS SOANS INDIAN FARM Masala Products catalogue (Non Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/kundapura-kadai-chicken-masala.webp"
+      "/images/products/kundapura-kadai-chicken-masala.jpg"
     ],
     "weightOptions": [
       {
@@ -2732,7 +2732,7 @@ export const products = [
     "shortDescription": "COORG PORK — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "COORG PORK is part of the NS SOANS INDIAN FARM Masala Products catalogue (Non Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/coorg-pork.webp"
+      "/images/products/coorg-pork.jpg"
     ],
     "weightOptions": [
       {
@@ -2780,7 +2780,7 @@ export const products = [
     "shortDescription": "KERALA SPECIAL MASALA — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "KERALA SPECIAL MASALA is part of the NS SOANS INDIAN FARM Masala Products catalogue (Non Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/kerala-special-masala.webp"
+      "/images/products/kerala-special-masala.jpg"
     ],
     "weightOptions": [
       {
@@ -2828,7 +2828,7 @@ export const products = [
     "shortDescription": "UDUPI SPECIAL MASALA — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "UDUPI SPECIAL MASALA is part of the NS SOANS INDIAN FARM Masala Products catalogue (Non Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/udupi-special-masala.webp"
+      "/images/products/udupi-special-masala.jpg"
     ],
     "weightOptions": [
       {
@@ -2876,7 +2876,7 @@ export const products = [
     "shortDescription": "KUNDAPURA PORK MASALA — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "KUNDAPURA PORK MASALA is part of the NS SOANS INDIAN FARM Masala Products catalogue (Non Veg range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/kundapura-pork-masala.webp"
+      "/images/products/kundapura-pork-masala.jpg"
     ],
     "weightOptions": [
       {
@@ -2924,7 +2924,7 @@ export const products = [
     "shortDescription": "GINGER GARLIC PASTE — Authentic preparation from the NS SOANS INDIAN FARM Masala Products collection.",
     "description": "GINGER GARLIC PASTE is part of the NS SOANS INDIAN FARM Masala Products catalogue (Paste range), rooted in the traditional culinary heritage of Kundapura, Karnataka. Available in 250 Grams, 500 Grams, and 1 Kg pack sizes.",
     "images": [
-      "/images-optimized/products/ginger-garlic-paste.webp"
+      "/images/products/ginger-garlic-paste.jpg"
     ],
     "weightOptions": [
       {
@@ -2972,7 +2972,7 @@ export const products = [
     "shortDescription": "NS DESI GIR COW CULTURED GHEE — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS DESI GIR COW CULTURED GHEE is part of the NS SOANS INDIAN FARM Farm Products catalogue (Ghee range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-desi-gir-cow-cultured-ghee.webp"
+      "/images/products/ns-desi-gir-cow-cultured-ghee.jpg"
     ],
     "weightOptions": [
       {
@@ -3040,7 +3040,7 @@ export const products = [
     "shortDescription": "NS A2 DESI COW GHEE BILONA METHOD — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS A2 DESI COW GHEE BILONA METHOD is part of the NS SOANS INDIAN FARM Farm Products catalogue (Ghee range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-a2-desi-cow-ghee-bilona-method.webp"
+      "/images/products/ns-a2-desi-cow-ghee-bilona-method.jpg"
     ],
     "weightOptions": [
       {
@@ -3108,7 +3108,7 @@ export const products = [
     "shortDescription": "NS MOON CULTURED GHEE, DESI GIR COW — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS MOON CULTURED GHEE, DESI GIR COW is part of the NS SOANS INDIAN FARM Farm Products catalogue (Ghee range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-moon-cultured-ghee-desi-gir-cow.webp"
+      "/images/products/ns-moon-cultured-ghee-desi-gir-cow.jpg"
     ],
     "weightOptions": [
       {
@@ -3176,7 +3176,7 @@ export const products = [
     "shortDescription": "NS TULSI GHEE — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS TULSI GHEE is part of the NS SOANS INDIAN FARM Farm Products catalogue (Ghee range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-tulsi-ghee.webp"
+      "/images/products/ns-tulsi-ghee.jpg"
     ],
     "weightOptions": [
       {
@@ -3244,7 +3244,7 @@ export const products = [
     "shortDescription": "NS ASHWAGANDHA GHEE, CULTURED — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS ASHWAGANDHA GHEE, CULTURED is part of the NS SOANS INDIAN FARM Farm Products catalogue (Ghee range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-ashwagandha-ghee-cultured.webp"
+      "/images/products/ns-ashwagandha-ghee-cultured.jpg"
     ],
     "weightOptions": [
       {
@@ -3312,7 +3312,7 @@ export const products = [
     "shortDescription": "NS TURMERIC GHEE — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS TURMERIC GHEE is part of the NS SOANS INDIAN FARM Farm Products catalogue (Ghee range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-turmeric-ghee.webp"
+      "/images/products/ns-turmeric-ghee.jpg"
     ],
     "weightOptions": [
       {
@@ -3380,7 +3380,7 @@ export const products = [
     "shortDescription": "NS BUFFALO GHEE — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS BUFFALO GHEE is part of the NS SOANS INDIAN FARM Farm Products catalogue (Ghee range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-buffalo-ghee.webp"
+      "/images/products/ns-buffalo-ghee.jpg"
     ],
     "weightOptions": [
       {
@@ -3448,7 +3448,7 @@ export const products = [
     "shortDescription": "NS BRAHMI GHEE — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS BRAHMI GHEE is part of the NS SOANS INDIAN FARM Farm Products catalogue (Ghee range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-brahmi-ghee.webp"
+      "/images/products/ns-brahmi-ghee.jpg"
     ],
     "weightOptions": [
       {
@@ -3516,7 +3516,7 @@ export const products = [
     "shortDescription": "NS SHATAVARI GHEE — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS SHATAVARI GHEE is part of the NS SOANS INDIAN FARM Farm Products catalogue (Ghee range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-shatavari-ghee.webp"
+      "/images/products/ns-shatavari-ghee.jpg"
     ],
     "weightOptions": [
       {
@@ -3584,7 +3584,7 @@ export const products = [
     "shortDescription": "NS GROUNDNUT OIL,COLD PRESSED SINGLE FILITERED — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS GROUNDNUT OIL,COLD PRESSED SINGLE FILITERED is part of the NS SOANS INDIAN FARM Farm Products catalogue (Oil range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-groundnut-oil-cold-pressed-single-filitered.webp"
+      "/images/products/ns-groundnut-oil-cold-pressed-single-filitered.jpg"
     ],
     "weightOptions": [
       {
@@ -3652,7 +3652,7 @@ export const products = [
     "shortDescription": "NS BLACK MUSTARD OIL I COLD PRESSED — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS BLACK MUSTARD OIL I COLD PRESSED is part of the NS SOANS INDIAN FARM Farm Products catalogue (Oil range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-black-mustard-oil-i-cold-pressed.webp"
+      "/images/products/ns-black-mustard-oil-i-cold-pressed.jpg"
     ],
     "weightOptions": [
       {
@@ -3720,7 +3720,7 @@ export const products = [
     "shortDescription": "NS SUNFLOWER OIL I COLD PRESSED — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS SUNFLOWER OIL I COLD PRESSED is part of the NS SOANS INDIAN FARM Farm Products catalogue (Oil range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-sunflower-oil-i-cold-pressed.webp"
+      "/images/products/ns-sunflower-oil-i-cold-pressed.jpg"
     ],
     "weightOptions": [
       {
@@ -3788,7 +3788,7 @@ export const products = [
     "shortDescription": "NS COCONUT OIL, UNREFINED — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS COCONUT OIL, UNREFINED is part of the NS SOANS INDIAN FARM Farm Products catalogue (Oil range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-coconut-oil-unrefined.webp"
+      "/images/products/ns-coconut-oil-unrefined.jpg"
     ],
     "weightOptions": [
       {
@@ -3856,7 +3856,7 @@ export const products = [
     "shortDescription": "NS COLD PRESSED GROUNDNUT OIL SPRAY — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS COLD PRESSED GROUNDNUT OIL SPRAY is part of the NS SOANS INDIAN FARM Farm Products catalogue (Oil range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-cold-pressed-groundnut-oil-spray.webp"
+      "/images/products/ns-cold-pressed-groundnut-oil-spray.jpg"
     ],
     "weightOptions": [
       {
@@ -3924,7 +3924,7 @@ export const products = [
     "shortDescription": "VIRGIN COCONUT OIL — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "VIRGIN COCONUT OIL is part of the NS SOANS INDIAN FARM Farm Products catalogue (Oil range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/virgin-coconut-oil.webp"
+      "/images/products/virgin-coconut-oil.jpg"
     ],
     "weightOptions": [
       {
@@ -3992,7 +3992,7 @@ export const products = [
     "shortDescription": "NS HIGH PROTIEN KHAPLI ATTA — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS HIGH PROTIEN KHAPLI ATTA is part of the NS SOANS INDIAN FARM Farm Products catalogue (Atta range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-high-protien-khapli-atta.webp"
+      "/images/products/ns-high-protien-khapli-atta.jpg"
     ],
     "weightOptions": [
       {
@@ -4060,7 +4060,7 @@ export const products = [
     "shortDescription": "NS KHAPLI WHET ATTA ( EMMER WHEAT FLOUR) — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS KHAPLI WHET ATTA ( EMMER WHEAT FLOUR) is part of the NS SOANS INDIAN FARM Farm Products catalogue (Atta range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-khapli-whet-atta-emmer-wheat-flour.webp"
+      "/images/products/ns-khapli-whet-atta-emmer-wheat-flour.jpg"
     ],
     "weightOptions": [
       {
@@ -4128,7 +4128,7 @@ export const products = [
     "shortDescription": "NS KHAPLI MULTIGRAIN ATTA — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS KHAPLI MULTIGRAIN ATTA is part of the NS SOANS INDIAN FARM Farm Products catalogue (Atta range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-khapli-multigrain-atta.webp"
+      "/images/products/ns-khapli-multigrain-atta.jpg"
     ],
     "weightOptions": [
       {
@@ -4196,7 +4196,7 @@ export const products = [
     "shortDescription": "NS KUTTU ATTA — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS KUTTU ATTA is part of the NS SOANS INDIAN FARM Farm Products catalogue (Atta range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-kuttu-atta.webp"
+      "/images/products/ns-kuttu-atta.jpg"
     ],
     "weightOptions": [
       {
@@ -4264,7 +4264,7 @@ export const products = [
     "shortDescription": "NS UNSPROUTED RAJGIRA FLOUR — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS UNSPROUTED RAJGIRA FLOUR is part of the NS SOANS INDIAN FARM Farm Products catalogue (Atta range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-unsprouted-rajgira-flour.webp"
+      "/images/products/ns-unsprouted-rajgira-flour.jpg"
     ],
     "weightOptions": [
       {
@@ -4332,7 +4332,7 @@ export const products = [
     "shortDescription": "NS SPROUTED RAJGIRA ATTA(SPROUTED KUNDAPURA FLOUR) — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS SPROUTED RAJGIRA ATTA(SPROUTED KUNDAPURA FLOUR) is part of the NS SOANS INDIAN FARM Farm Products catalogue (Atta range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-sprouted-rajgira-atta-sprouted-kundapura-flour.webp"
+      "/images/products/ns-sprouted-rajgira-atta-sprouted-kundapura-flour.jpg"
     ],
     "weightOptions": [
       {
@@ -4400,7 +4400,7 @@ export const products = [
     "shortDescription": "NS SATTU ATTA, STONE GROUND — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS SATTU ATTA, STONE GROUND is part of the NS SOANS INDIAN FARM Farm Products catalogue (Atta range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-sattu-atta-stone-ground.webp"
+      "/images/products/ns-sattu-atta-stone-ground.jpg"
     ],
     "weightOptions": [
       {
@@ -4468,7 +4468,7 @@ export const products = [
     "shortDescription": "NS SPROUTED RAGI FLOUR NACHI SATVA — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS SPROUTED RAGI FLOUR NACHI SATVA is part of the NS SOANS INDIAN FARM Farm Products catalogue (Atta range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-sprouted-ragi-flour-nachi-satva.webp"
+      "/images/products/ns-sprouted-ragi-flour-nachi-satva.jpg"
     ],
     "weightOptions": [
       {
@@ -4536,7 +4536,7 @@ export const products = [
     "shortDescription": "NS JOWAR (SORGHUM)ATTA, DESI DAGDI STONE GROUND — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS JOWAR (SORGHUM)ATTA, DESI DAGDI STONE GROUND is part of the NS SOANS INDIAN FARM Farm Products catalogue (Atta range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-jowar-sorghum-atta-desi-dagdi-stone-ground.webp"
+      "/images/products/ns-jowar-sorghum-atta-desi-dagdi-stone-ground.jpg"
     ],
     "weightOptions": [
       {
@@ -4604,7 +4604,7 @@ export const products = [
     "shortDescription": "NS BAJRA — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS BAJRA is part of the NS SOANS INDIAN FARM Farm Products catalogue (Atta range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images/products/ns-bajra.webp"
+      "/images/products/ns-bajra.jpg"
     ],
     "weightOptions": [
       {
@@ -4672,7 +4672,7 @@ export const products = [
     "shortDescription": "NS BESAN FLOUR/ GRAM FLOUR — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS BESAN FLOUR/ GRAM FLOUR is part of the NS SOANS INDIAN FARM Farm Products catalogue (Atta range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-besan-flour-gram-flour.webp"
+      "/images/products/ns-besan-flour-gram-flour.jpg"
     ],
     "weightOptions": [
       {
@@ -4740,7 +4740,7 @@ export const products = [
     "shortDescription": "NS SINGHARA ATTA — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS SINGHARA ATTA is part of the NS SOANS INDIAN FARM Farm Products catalogue (Atta range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-singhara-atta.webp"
+      "/images/products/ns-singhara-atta.jpg"
     ],
     "weightOptions": [
       {
@@ -4808,7 +4808,7 @@ export const products = [
     "shortDescription": "NS SUGARCANE JAGGERY, CRUSHED GRANULAR — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS SUGARCANE JAGGERY, CRUSHED GRANULAR is part of the NS SOANS INDIAN FARM Farm Products catalogue (Natural / Sweetener range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-sugarcane-jaggery-crushed-granular.webp"
+      "/images/products/ns-sugarcane-jaggery-crushed-granular.jpg"
     ],
     "weightOptions": [
       {
@@ -4876,7 +4876,7 @@ export const products = [
     "shortDescription": "NS SUGARCANE JAGGERY BLOCK — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS SUGARCANE JAGGERY BLOCK is part of the NS SOANS INDIAN FARM Farm Products catalogue (Natural / Sweetener range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-sugarcane-jaggery-block.webp"
+      "/images/products/ns-sugarcane-jaggery-block.jpg"
     ],
     "weightOptions": [
       {
@@ -4944,7 +4944,7 @@ export const products = [
     "shortDescription": "NS FOREST HONEY| MULTIFLORAL — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS FOREST HONEY| MULTIFLORAL is part of the NS SOANS INDIAN FARM Farm Products catalogue (Natural / Sweetener range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-forest-honey-multifloral.webp"
+      "/images/products/ns-forest-honey-multifloral.jpg"
     ],
     "weightOptions": [
       {
@@ -5012,7 +5012,7 @@ export const products = [
     "shortDescription": "NS INDIAN BERRY HONEY, RAW MONO FLORAL UNFILTERED — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS INDIAN BERRY HONEY, RAW MONO FLORAL UNFILTERED is part of the NS SOANS INDIAN FARM Farm Products catalogue (Natural / Sweetener range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-indian-berry-honey-raw-mono-floral-unfiltered.webp"
+      "/images/products/ns-indian-berry-honey-raw-mono-floral-unfiltered.jpg"
     ],
     "weightOptions": [
       {
@@ -5080,7 +5080,7 @@ export const products = [
     "shortDescription": "NS ACACIA HONEY RAW MONO FLORAL UNFILTERED — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS ACACIA HONEY RAW MONO FLORAL UNFILTERED is part of the NS SOANS INDIAN FARM Farm Products catalogue (Natural / Sweetener range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-acacia-honey-raw-mono-floral-unfiltered.webp"
+      "/images/products/ns-acacia-honey-raw-mono-floral-unfiltered.jpg"
     ],
     "weightOptions": [
       {
@@ -5148,7 +5148,7 @@ export const products = [
     "shortDescription": "NS SPICED JAGGERY CUBES — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS SPICED JAGGERY CUBES is part of the NS SOANS INDIAN FARM Farm Products catalogue (Natural / Sweetener range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-spiced-jaggery-cubes.webp"
+      "/images/products/ns-spiced-jaggery-cubes.jpg"
     ],
     "weightOptions": [
       {
@@ -5221,7 +5221,7 @@ export const products = [
     "shortDescription": "NS DATE PALM JAGGERY SOLID DATE PALM SAP — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS DATE PALM JAGGERY SOLID DATE PALM SAP is part of the NS SOANS INDIAN FARM Farm Products catalogue (Natural / Sweetener range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-date-palm-jaggery-solid-date-palm-sap.webp"
+      "/images/products/ns-date-palm-jaggery-solid-date-palm-sap.jpg"
     ],
     "weightOptions": [
       {
@@ -5289,7 +5289,7 @@ export const products = [
     "shortDescription": "NS COCONUT SAP SUGAR — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS COCONUT SAP SUGAR is part of the NS SOANS INDIAN FARM Farm Products catalogue (Natural / Sweetener range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-coconut-sap-sugar.webp"
+      "/images/products/ns-coconut-sap-sugar.jpg"
     ],
     "weightOptions": [
       {
@@ -5357,7 +5357,7 @@ export const products = [
     "shortDescription": "NS JAGGERY SACHET — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS JAGGERY SACHET is part of the NS SOANS INDIAN FARM Farm Products catalogue (Natural / Sweetener range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-jaggery-sachet.webp"
+      "/images/products/ns-jaggery-sachet.jpg"
     ],
     "weightOptions": [
       {
@@ -5430,7 +5430,7 @@ export const products = [
     "shortDescription": "NS AMLAPARSH ( Limited Edition Chyawanprash) — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS AMLAPARSH ( Limited Edition Chyawanprash) is part of the NS SOANS INDIAN FARM Farm Products catalogue (Immunity Support range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images/products/ns-amlaparsh-limited-edition-chyawanprash.webp"
+      "/images/products/ns-amlaparsh-limited-edition-chyawanprash.jpg"
     ],
     "weightOptions": [
       {
@@ -5498,7 +5498,7 @@ export const products = [
     "shortDescription": "NS MORINGA POWDER — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS MORINGA POWDER is part of the NS SOANS INDIAN FARM Farm Products catalogue (Immunity Support range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images/products/ns-moringa-powder.webp"
+      "/images/products/ns-moringa-powder.jpg"
     ],
     "weightOptions": [
       {
@@ -5566,7 +5566,7 @@ export const products = [
     "shortDescription": "NS HALDI ( Ground Turmic) — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS HALDI ( Ground Turmic) is part of the NS SOANS INDIAN FARM Farm Products catalogue (Immunity Support range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images/products/ns-haldi-ground-turmic.webp"
+      "/images/products/ns-haldi-ground-turmic.jpg"
     ],
     "weightOptions": [
       {
@@ -5639,7 +5639,7 @@ export const products = [
     "shortDescription": "NS CHYAWANPRASH — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS CHYAWANPRASH is part of the NS SOANS INDIAN FARM Farm Products catalogue (Immunity Support range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images/products/ns-chyawanprash.webp"
+      "/images/products/ns-chyawanprash.jpg"
     ],
     "weightOptions": [
       {
@@ -5712,7 +5712,7 @@ export const products = [
     "shortDescription": "NS SINGLE ORIGIN LAKADONG TURMIC POWDER — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS SINGLE ORIGIN LAKADONG TURMIC POWDER is part of the NS SOANS INDIAN FARM Farm Products catalogue (Immunity Support range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images/products/ns-single-origin-lakadong-turmic-powder.webp"
+      "/images/products/ns-single-origin-lakadong-turmic-powder.jpg"
     ],
     "weightOptions": [
       {
@@ -5780,7 +5780,7 @@ export const products = [
     "shortDescription": "NS GOLDEN HONEYMOON MILK MIX — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS GOLDEN HONEYMOON MILK MIX is part of the NS SOANS INDIAN FARM Farm Products catalogue (Immunity Support range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images/products/ns-golden-honeymoon-milk-mix.webp"
+      "/images/products/ns-golden-honeymoon-milk-mix.jpg"
     ],
     "weightOptions": [
       {
@@ -5853,7 +5853,7 @@ export const products = [
     "shortDescription": "LOW GI RICE | KALANAMAK VARITY NS — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "LOW GI RICE | KALANAMAK VARITY NS is part of the NS SOANS INDIAN FARM Farm Products catalogue (Rice range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images/products/low-gi-rice-kalanamak-varity-ns.webp"
+      "/images/products/low-gi-rice-kalanamak-varity-ns.jpg"
     ],
     "weightOptions": [
       {
@@ -5921,7 +5921,7 @@ export const products = [
     "shortDescription": "AJARA GHANSAL RICE NS — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "AJARA GHANSAL RICE NS is part of the NS SOANS INDIAN FARM Farm Products catalogue (Rice range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images/products/ajara-ghansal-rice-ns.webp"
+      "/images/products/ajara-ghansal-rice-ns.jpg"
     ],
     "weightOptions": [
       {
@@ -5989,7 +5989,7 @@ export const products = [
     "shortDescription": "NS STONY AMBEMOHAR RICE — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS STONY AMBEMOHAR RICE is part of the NS SOANS INDIAN FARM Farm Products catalogue (Rice range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images/products/ns-stony-ambemohar-rice.webp"
+      "/images/products/ns-stony-ambemohar-rice.jpg"
     ],
     "weightOptions": [
       {
@@ -6057,7 +6057,7 @@ export const products = [
     "shortDescription": "NS INDARAYANI RICE — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS INDARAYANI RICE is part of the NS SOANS INDIAN FARM Farm Products catalogue (Rice range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images/products/ns-indarayani-rice.webp"
+      "/images/products/ns-indarayani-rice.jpg"
     ],
     "weightOptions": [
       {
@@ -6125,7 +6125,7 @@ export const products = [
     "shortDescription": "NS LOVERSMOTO KETCHUP — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS LOVERSMOTO KETCHUP is part of the NS SOANS INDIAN FARM Farm Products catalogue (Breakfast & Snacks range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-loversmoto-ketchup.webp"
+      "/images/products/ns-loversmoto-ketchup.jpg"
     ],
     "weightOptions": [
       {
@@ -6193,7 +6193,7 @@ export const products = [
     "shortDescription": "NS SATTU LADDOO — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS SATTU LADDOO is part of the NS SOANS INDIAN FARM Farm Products catalogue (Breakfast & Snacks range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-sattu-laddoo.webp"
+      "/images/products/ns-sattu-laddoo.jpg"
     ],
     "weightOptions": [
       {
@@ -6261,7 +6261,7 @@ export const products = [
     "shortDescription": "NS ALIV LADDOO — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS ALIV LADDOO is part of the NS SOANS INDIAN FARM Farm Products catalogue (Breakfast & Snacks range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-aliv-laddoo.webp"
+      "/images/products/ns-aliv-laddoo.jpg"
     ],
     "weightOptions": [
       {
@@ -6329,7 +6329,7 @@ export const products = [
     "shortDescription": "NS VERMICELLI — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS VERMICELLI is part of the NS SOANS INDIAN FARM Farm Products catalogue (Breakfast & Snacks range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-vermicelli.webp"
+      "/images/products/ns-vermicelli.jpg"
     ],
     "weightOptions": [
       {
@@ -6397,7 +6397,7 @@ export const products = [
     "shortDescription": "NS BAJRA POHA — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS BAJRA POHA is part of the NS SOANS INDIAN FARM Farm Products catalogue (Breakfast & Snacks range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-bajra-poha.webp"
+      "/images/products/ns-bajra-poha.jpg"
     ],
     "weightOptions": [
       {
@@ -6465,7 +6465,7 @@ export const products = [
     "shortDescription": "NS RAGI POHA|Gluten Free — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS RAGI POHA|Gluten Free is part of the NS SOANS INDIAN FARM Farm Products catalogue (Breakfast & Snacks range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-ragi-poha-gluten-free.webp"
+      "/images/products/ns-ragi-poha-gluten-free.jpg"
     ],
     "weightOptions": [
       {
@@ -6533,7 +6533,7 @@ export const products = [
     "shortDescription": "NS RAW CASHEW NUTS — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS RAW CASHEW NUTS is part of the NS SOANS INDIAN FARM Farm Products catalogue (Breakfast & Snacks range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-raw-cashew-nuts.webp"
+      "/images/products/ns-raw-cashew-nuts.jpg"
     ],
     "weightOptions": [
       {
@@ -6601,7 +6601,7 @@ export const products = [
     "shortDescription": "NS KHAPLI MATHRI STICKS NS — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS KHAPLI MATHRI STICKS NS is part of the NS SOANS INDIAN FARM Farm Products catalogue (Breakfast & Snacks range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-khapli-mathri-sticks-ns.webp"
+      "/images/products/ns-khapli-mathri-sticks-ns.jpg"
     ],
     "weightOptions": [
       {
@@ -6669,7 +6669,7 @@ export const products = [
     "shortDescription": "NS CRUNCHY ALMOND BUTTERR — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS CRUNCHY ALMOND BUTTERR is part of the NS SOANS INDIAN FARM Farm Products catalogue (Breakfast & Snacks range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-crunchy-almond-butterr.webp"
+      "/images/products/ns-crunchy-almond-butterr.jpg"
     ],
     "weightOptions": [
       {
@@ -6737,7 +6737,7 @@ export const products = [
     "shortDescription": "NS GONDH LADOO (EDIBLE GUM LADDOO) — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS GONDH LADOO (EDIBLE GUM LADDOO) is part of the NS SOANS INDIAN FARM Farm Products catalogue (Breakfast & Snacks range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-gondh-ladoo-edible-gum-laddoo.webp"
+      "/images/products/ns-gondh-ladoo-edible-gum-laddoo.jpg"
     ],
     "weightOptions": [
       {
@@ -6805,7 +6805,7 @@ export const products = [
     "shortDescription": "NS CREAMY PEANUT BUTTER — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS CREAMY PEANUT BUTTER is part of the NS SOANS INDIAN FARM Farm Products catalogue (Breakfast & Snacks range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-creamy-peanut-butter.webp"
+      "/images/products/ns-creamy-peanut-butter.jpg"
     ],
     "weightOptions": [
       {
@@ -6873,7 +6873,7 @@ export const products = [
     "shortDescription": "NS CRUCHY PEANUT BUTTER — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS CRUCHY PEANUT BUTTER is part of the NS SOANS INDIAN FARM Farm Products catalogue (Breakfast & Snacks range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-cruchy-peanut-butter.webp"
+      "/images/products/ns-cruchy-peanut-butter.jpg"
     ],
     "weightOptions": [
       {
@@ -6941,7 +6941,7 @@ export const products = [
     "shortDescription": "NS TUR (PIGEON PEA ) DAL UNPOLISHED DESI VARIETY — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS TUR (PIGEON PEA ) DAL UNPOLISHED DESI VARIETY is part of the NS SOANS INDIAN FARM Farm Products catalogue (Grain and Pulses range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-tur-pigeon-pea-dal-unpolished-desi-variety.webp"
+      "/images/products/ns-tur-pigeon-pea-dal-unpolished-desi-variety.jpg"
     ],
     "weightOptions": [
       {
@@ -7009,7 +7009,7 @@ export const products = [
     "shortDescription": "NS WHOLE GREEN GRAM — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS WHOLE GREEN GRAM is part of the NS SOANS INDIAN FARM Farm Products catalogue (Grain and Pulses range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-whole-green-gram.webp"
+      "/images/products/ns-whole-green-gram.jpg"
     ],
     "weightOptions": [
       {
@@ -7077,7 +7077,7 @@ export const products = [
     "shortDescription": "NS KUNDAPURA RAJMA RAJA — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS KUNDAPURA RAJMA RAJA is part of the NS SOANS INDIAN FARM Farm Products catalogue (Grain and Pulses range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-kundapura-rajma-raja.webp"
+      "/images/products/ns-kundapura-rajma-raja.jpg"
     ],
     "weightOptions": [
       {
@@ -7145,7 +7145,7 @@ export const products = [
     "shortDescription": "NS RAW PEANUTS KUNDAPURA — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS RAW PEANUTS KUNDAPURA is part of the NS SOANS INDIAN FARM Farm Products catalogue (Grain and Pulses range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-raw-peanuts-kundapura.webp"
+      "/images/products/ns-raw-peanuts-kundapura.jpg"
     ],
     "weightOptions": [
       {
@@ -7213,7 +7213,7 @@ export const products = [
     "shortDescription": "NS PINK SALT HIMALAYA — Natural offering from the NS SOANS INDIAN FARM Farm Products collection.",
     "description": "NS PINK SALT HIMALAYA is part of the NS SOANS INDIAN FARM Farm Products catalogue (Grain and Pulses range). Available across standard pack sizes from 150 Gram to 10 Kg.",
     "images": [
-      "/images-optimized/products/ns-pink-salt-himalaya.webp"
+      "/images/products/ns-pink-salt-himalaya.jpg"
     ],
     "weightOptions": [
       {

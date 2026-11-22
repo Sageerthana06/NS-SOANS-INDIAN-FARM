@@ -68,7 +68,7 @@ const uploadMap = [
     title: 'BREAKFAST & SNACKS'
   },
   {
-    src: 'media_1794977720411_58ffe86f.jpg',
+    src: 'media_1795185275754_d43a626b.jpg',
     baseName: 'lover-s-tea',
     title: "LOVER'S TEA"
   }
