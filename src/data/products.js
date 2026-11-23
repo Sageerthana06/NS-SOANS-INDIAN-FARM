@@ -1279,7 +1279,7 @@ export const products = [
     "categorySlug": "non-veg",
     "subcategory": "Non Veg",
     "subcategorySlug": "non-veg",
-    "price": null,
+    "price": 800,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Non Veg",
@@ -1297,17 +1297,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 800,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 1570,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 2940,
         "stock": 100
       }
     ],
@@ -6044,7 +6044,7 @@ export const products = [
     "categorySlug": "rice",
     "subcategory": "Rice",
     "subcategorySlug": "rice",
-    "price": null,
+    "price": 205,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Rice",
@@ -6077,7 +6077,7 @@ export const products = [
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 205,
         "stock": 100
       },
       {

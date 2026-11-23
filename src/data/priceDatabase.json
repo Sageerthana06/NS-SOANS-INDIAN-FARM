@@ -128,6 +128,11 @@
     "500 Grams": 411,
     "1 Kg": 700
   },
+  "masala-27-kundapura-special-chicken-sukka-masala": {
+    "250 Grams": 800,
+    "500 Grams": 1570,
+    "1 Kg": 2940
+  },
   "masala-28-kundapura-butter-chicken": {
     "250 Grams": 800,
     "500 Grams": 1570,
@@ -574,6 +579,9 @@
     "2 Kg": 540,
     "5 Kg": 1350,
     "10 Kg": 2750
+  },
+  "farm-46-ns-indarayani-rice": {
+    "1 Kg": 205
   },
   "farm-47-ns-loversmoto-ketchup": {
     "500 Gram": 360,
