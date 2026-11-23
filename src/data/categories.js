@@ -52,7 +52,7 @@ export const categories = [
     "badge": "A2 Desi Ghee",
     "description": "Vedic Bilona method A2 Desi Gir cow cultured ghee, buffalo ghee, and Ayurvedic herbal ghees.",
     "image": "/images/categories/ghee.webp",
-    "itemCount": 9
+    "itemCount": 8
   },
   {
     "id": "oil",

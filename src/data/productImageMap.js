@@ -618,16 +618,6 @@ export const PRODUCT_IMAGE_MAP = {
     "verified": true,
     "isPlaceholder": false
   },
-  "farm-1-ns-desi-gir-cow-cultured-ghee": {
-    "id": "farm-1-ns-desi-gir-cow-cultured-ghee",
-    "sku": "farm-1-ns-desi-gir-cow-cultured-ghee",
-    "name": "NS DESI GIR COW CULTURED GHEE",
-    "category": "Ghee",
-    "image": "/images/products/ns-desi-gir-cow-cultured-ghee.jpg",
-    "fallbackImage": "/images/products/placeholder-product.svg",
-    "verified": true,
-    "isPlaceholder": false
-  },
   "farm-2-ns-a2-desi-cow-ghee-bilona-method": {
     "id": "farm-2-ns-a2-desi-cow-ghee-bilona-method",
     "sku": "farm-2-ns-a2-desi-cow-ghee-bilona-method",
