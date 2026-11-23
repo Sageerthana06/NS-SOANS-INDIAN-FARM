@@ -19,7 +19,7 @@ export const products = [
     "categorySlug": "beverages",
     "subcategory": "Beverages",
     "subcategorySlug": "beverages",
-    "price": null,
+    "price": 275,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Beverages",
@@ -39,17 +39,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 275,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 520,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 900,
         "stock": 100
       }
     ],
@@ -69,7 +69,7 @@ export const products = [
     "categorySlug": "beverages",
     "subcategory": "Beverages",
     "subcategorySlug": "beverages",
-    "price": null,
+    "price": 328,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Beverages",
@@ -87,17 +87,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 328,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 626,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 1102,
         "stock": 100
       }
     ],
@@ -117,7 +117,7 @@ export const products = [
     "categorySlug": "beverages",
     "subcategory": "Beverages",
     "subcategorySlug": "beverages",
-    "price": null,
+    "price": 1300,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Beverages",
@@ -135,17 +135,17 @@ export const products = [
     "weightOptions": [
       {
         "weight": "250 Grams",
-        "price": null,
+        "price": 1300,
         "stock": 100
       },
       {
         "weight": "500 Grams",
-        "price": null,
+        "price": 2450,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 4600,
         "stock": 100
       }
     ],
@@ -6180,7 +6180,7 @@ export const products = [
     "categorySlug": "breakfast-snacks",
     "subcategory": "Breakfast & Snacks",
     "subcategorySlug": "breakfast-snacks",
-    "price": 6500,
+    "price": 565,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Breakfast & Snacks",
@@ -6203,17 +6203,17 @@ export const products = [
       },
       {
         "weight": "250 Gram",
-        "price": null,
+        "price": 565,
         "stock": 100
       },
       {
         "weight": "500 Gram",
-        "price": null,
+        "price": 1100,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 2000,
         "stock": 100
       },
       {
@@ -6248,7 +6248,7 @@ export const products = [
     "categorySlug": "breakfast-snacks",
     "subcategory": "Breakfast & Snacks",
     "subcategorySlug": "breakfast-snacks",
-    "price": null,
+    "price": 539,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Breakfast & Snacks",
@@ -6264,6 +6264,21 @@ export const products = [
       "/images/products/ns-aliv-laddoo.jpg"
     ],
     "weightOptions": [
+      {
+        "weight": "6 Pack",
+        "price": 539,
+        "stock": 100
+      },
+      {
+        "weight": "12 Pack",
+        "price": 1078,
+        "stock": 100
+      },
+      {
+        "weight": "24 Pack",
+        "price": 2000,
+        "stock": 100
+      },
       {
         "weight": "150 Gram",
         "price": null,
@@ -6316,7 +6331,7 @@ export const products = [
     "categorySlug": "breakfast-snacks",
     "subcategory": "Breakfast & Snacks",
     "subcategorySlug": "breakfast-snacks",
-    "price": null,
+    "price": 400,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Breakfast & Snacks",
@@ -6339,17 +6354,17 @@ export const products = [
       },
       {
         "weight": "250 Gram",
-        "price": null,
+        "price": 400,
         "stock": 100
       },
       {
         "weight": "500 Gram",
-        "price": null,
+        "price": 765,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 1455,
         "stock": 100
       },
       {
@@ -6384,7 +6399,7 @@ export const products = [
     "categorySlug": "breakfast-snacks",
     "subcategory": "Breakfast & Snacks",
     "subcategorySlug": "breakfast-snacks",
-    "price": null,
+    "price": 210,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Breakfast & Snacks",
@@ -6407,17 +6422,17 @@ export const products = [
       },
       {
         "weight": "250 Gram",
-        "price": null,
+        "price": 210,
         "stock": 100
       },
       {
         "weight": "500 Gram",
-        "price": null,
+        "price": 370,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 695,
         "stock": 100
       },
       {
@@ -6452,7 +6467,7 @@ export const products = [
     "categorySlug": "breakfast-snacks",
     "subcategory": "Breakfast & Snacks",
     "subcategorySlug": "breakfast-snacks",
-    "price": null,
+    "price": 210,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Breakfast & Snacks",
@@ -6475,17 +6490,17 @@ export const products = [
       },
       {
         "weight": "250 Gram",
-        "price": null,
+        "price": 210,
         "stock": 100
       },
       {
         "weight": "500 Gram",
-        "price": null,
+        "price": 370,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 695,
         "stock": 100
       },
       {
@@ -6520,7 +6535,7 @@ export const products = [
     "categorySlug": "breakfast-snacks",
     "subcategory": "Breakfast & Snacks",
     "subcategorySlug": "breakfast-snacks",
-    "price": null,
+    "price": 500,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Breakfast & Snacks",
@@ -6543,17 +6558,17 @@ export const products = [
       },
       {
         "weight": "250 Gram",
-        "price": null,
+        "price": 500,
         "stock": 100
       },
       {
         "weight": "500 Gram",
-        "price": null,
+        "price": 1000,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 1500,
         "stock": 100
       },
       {
@@ -6588,7 +6603,7 @@ export const products = [
     "categorySlug": "breakfast-snacks",
     "subcategory": "Breakfast & Snacks",
     "subcategorySlug": "breakfast-snacks",
-    "price": null,
+    "price": 500,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Breakfast & Snacks",
@@ -6611,17 +6626,17 @@ export const products = [
       },
       {
         "weight": "250 Gram",
-        "price": null,
+        "price": 500,
         "stock": 100
       },
       {
         "weight": "500 Gram",
-        "price": null,
+        "price": 955,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 1710,
         "stock": 100
       },
       {
@@ -6656,7 +6671,7 @@ export const products = [
     "categorySlug": "breakfast-snacks",
     "subcategory": "Breakfast & Snacks",
     "subcategorySlug": "breakfast-snacks",
-    "price": null,
+    "price": 1200,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Breakfast & Snacks",
@@ -6679,17 +6694,17 @@ export const products = [
       },
       {
         "weight": "250 Gram",
-        "price": null,
+        "price": 1200,
         "stock": 100
       },
       {
         "weight": "500 Gram",
-        "price": null,
+        "price": 2335,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 4520,
         "stock": 100
       },
       {
@@ -6724,7 +6739,7 @@ export const products = [
     "categorySlug": "breakfast-snacks",
     "subcategory": "Breakfast & Snacks",
     "subcategorySlug": "breakfast-snacks",
-    "price": null,
+    "price": 539,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Breakfast & Snacks",
@@ -6740,6 +6755,21 @@ export const products = [
       "/images/products/ns-gondh-ladoo-edible-gum-laddoo.jpg"
     ],
     "weightOptions": [
+      {
+        "weight": "6 Pack",
+        "price": 539,
+        "stock": 100
+      },
+      {
+        "weight": "12 Pack",
+        "price": 1078,
+        "stock": 100
+      },
+      {
+        "weight": "24 Pack",
+        "price": 2000,
+        "stock": 100
+      },
       {
         "weight": "150 Gram",
         "price": null,
@@ -6792,7 +6822,7 @@ export const products = [
     "categorySlug": "breakfast-snacks",
     "subcategory": "Breakfast & Snacks",
     "subcategorySlug": "breakfast-snacks",
-    "price": null,
+    "price": 440,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Breakfast & Snacks",
@@ -6815,17 +6845,17 @@ export const products = [
       },
       {
         "weight": "250 Gram",
-        "price": null,
+        "price": 440,
         "stock": 100
       },
       {
         "weight": "500 Gram",
-        "price": null,
+        "price": 845,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 1590,
         "stock": 100
       },
       {
@@ -6860,7 +6890,7 @@ export const products = [
     "categorySlug": "breakfast-snacks",
     "subcategory": "Breakfast & Snacks",
     "subcategorySlug": "breakfast-snacks",
-    "price": null,
+    "price": 400,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Breakfast & Snacks",
@@ -6883,17 +6913,17 @@ export const products = [
       },
       {
         "weight": "250 Gram",
-        "price": null,
+        "price": 400,
         "stock": 100
       },
       {
         "weight": "500 Gram",
-        "price": null,
+        "price": 750,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 1350,
         "stock": 100
       },
       {
@@ -6928,7 +6958,7 @@ export const products = [
     "categorySlug": "grain-and-pulses",
     "subcategory": "Grain and Pulses",
     "subcategorySlug": "grain-and-pulses",
-    "price": null,
+    "price": 120,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Grain and Pulses",
@@ -6951,17 +6981,17 @@ export const products = [
       },
       {
         "weight": "250 Gram",
-        "price": null,
+        "price": 120,
         "stock": 100
       },
       {
         "weight": "500 Gram",
-        "price": null,
+        "price": 199,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 358,
         "stock": 100
       },
       {
@@ -6996,7 +7026,7 @@ export const products = [
     "categorySlug": "grain-and-pulses",
     "subcategory": "Grain and Pulses",
     "subcategorySlug": "grain-and-pulses",
-    "price": null,
+    "price": 118,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Grain and Pulses",
@@ -7019,17 +7049,17 @@ export const products = [
       },
       {
         "weight": "250 Gram",
-        "price": null,
+        "price": 118,
         "stock": 100
       },
       {
         "weight": "500 Gram",
-        "price": null,
+        "price": 195,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 350,
         "stock": 100
       },
       {
@@ -7064,7 +7094,7 @@ export const products = [
     "categorySlug": "grain-and-pulses",
     "subcategory": "Grain and Pulses",
     "subcategorySlug": "grain-and-pulses",
-    "price": null,
+    "price": 148,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Grain and Pulses",
@@ -7087,17 +7117,17 @@ export const products = [
       },
       {
         "weight": "250 Gram",
-        "price": null,
+        "price": 148,
         "stock": 100
       },
       {
         "weight": "500 Gram",
-        "price": null,
+        "price": 245,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 450,
         "stock": 100
       },
       {
@@ -7132,7 +7162,7 @@ export const products = [
     "categorySlug": "grain-and-pulses",
     "subcategory": "Grain and Pulses",
     "subcategorySlug": "grain-and-pulses",
-    "price": null,
+    "price": 155,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Grain and Pulses",
@@ -7155,17 +7185,17 @@ export const products = [
       },
       {
         "weight": "250 Gram",
-        "price": null,
+        "price": 155,
         "stock": 100
       },
       {
         "weight": "500 Gram",
-        "price": null,
+        "price": 270,
         "stock": 100
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 505,
         "stock": 100
       },
       {
@@ -7200,7 +7230,7 @@ export const products = [
     "categorySlug": "grain-and-pulses",
     "subcategory": "Grain and Pulses",
     "subcategorySlug": "grain-and-pulses",
-    "price": null,
+    "price": 270,
     "originalPrice": null,
     "discountPercent": 0,
     "badge": "Grain and Pulses",
@@ -7233,7 +7263,7 @@ export const products = [
       },
       {
         "weight": "1 Kg",
-        "price": null,
+        "price": 270,
         "stock": 100
       },
       {

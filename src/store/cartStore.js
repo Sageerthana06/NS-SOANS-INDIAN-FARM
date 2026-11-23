@@ -41,9 +41,20 @@ export const useCartStore = create((set, get) => ({
         ? liveVariant.price
         : rawWeight?.price ?? product.price;
 
+    // Prevent COMING SOON / unpriced items from ever being added to cart with a zero or invalid price
+    const numericPrice = Number(latestPrice);
+    if (
+      latestPrice === null ||
+      latestPrice === undefined ||
+      !Number.isFinite(numericPrice) ||
+      numericPrice <= 0
+    ) {
+      return;
+    }
+
     const chosenWeight = {
       ...rawWeight,
-      price: latestPrice
+      price: numericPrice
     };
     const cartItemId = `${product.id}-${chosenWeight.weight}`;
 

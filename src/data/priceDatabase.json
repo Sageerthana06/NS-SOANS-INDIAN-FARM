@@ -1,4 +1,19 @@
 {
+  "masala-1-lover-s-tea": {
+    "250 Grams": 275,
+    "500 Grams": 520,
+    "1 Kg": 900
+  },
+  "masala-2-lover-s-masala-kashaya": {
+    "250 Grams": 328,
+    "500 Grams": 626,
+    "1 Kg": 1102
+  },
+  "masala-3-honeymoon-badam-powder": {
+    "250 Grams": 1300,
+    "500 Grams": 2450,
+    "1 Kg": 4600
+  },
   "masala-4-ns-special-black-salt": {
     "250 Grams": 75,
     "500 Grams": 110,
@@ -567,6 +582,82 @@
     "5 Kg": 3250
   },
   "farm-48-ns-sattu-laddoo": {
+    "250 Gram": 565,
+    "500 Gram": 1100,
+    "1 Kg": 2000,
     "10 Kg": 6500
+  },
+  "farm-49-ns-aliv-laddoo": {
+    "6 Pack": 539,
+    "12 Pack": 1078,
+    "24 Pack": 2000
+  },
+  "farm-50-ns-vermicelli": {
+    "250 Gram": 400,
+    "500 Gram": 765,
+    "1 Kg": 1455
+  },
+  "farm-51-ns-bajra-poha": {
+    "250 Gram": 210,
+    "500 Gram": 370,
+    "1 Kg": 695
+  },
+  "farm-52-ns-ragi-poha-gluten-free": {
+    "250 Gram": 210,
+    "500 Gram": 370,
+    "1 Kg": 695
+  },
+  "farm-53-ns-raw-cashew-nuts": {
+    "250 Gram": 500,
+    "500 Gram": 1000,
+    "1 Kg": 1500
+  },
+  "farm-54-ns-khapli-mathri-sticks-ns": {
+    "250 Gram": 500,
+    "500 Gram": 955,
+    "1 Kg": 1710
+  },
+  "farm-55-ns-crunchy-almond-butterr": {
+    "250 Gram": 1200,
+    "500 Gram": 2335,
+    "1 Kg": 4520
+  },
+  "farm-56-ns-gondh-ladoo-edible-gum-laddoo": {
+    "6 Pack": 539,
+    "12 Pack": 1078,
+    "24 Pack": 2000
+  },
+  "farm-57-ns-creamy-peanut-butter": {
+    "250 Gram": 440,
+    "500 Gram": 845,
+    "1 Kg": 1590
+  },
+  "farm-58-ns-cruchy-peanut-butter": {
+    "250 Gram": 400,
+    "500 Gram": 750,
+    "1 Kg": 1350
+  },
+  "farm-59-ns-tur-pigeon-pea-dal-unpolished-desi-variety": {
+    "250 Gram": 120,
+    "500 Gram": 199,
+    "1 Kg": 358
+  },
+  "farm-60-ns-whole-green-gram": {
+    "250 Gram": 118,
+    "500 Gram": 195,
+    "1 Kg": 350
+  },
+  "farm-61-ns-kundapura-rajma-raja": {
+    "250 Gram": 148,
+    "500 Gram": 245,
+    "1 Kg": 450
+  },
+  "farm-62-ns-raw-peanuts-kundapura": {
+    "250 Gram": 155,
+    "500 Gram": 270,
+    "1 Kg": 505
+  },
+  "farm-63-ns-pink-salt-himalaya": {
+    "1 Kg": 270
   }
 }
