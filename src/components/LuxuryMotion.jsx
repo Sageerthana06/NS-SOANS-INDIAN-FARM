@@ -160,10 +160,22 @@ export function PageTransition({ children, routeKey }) {
   return (
     <motion.div
       key={routeKey}
-      initial={isInitialMount ? false : { opacity: 0, y: 10 }}
+      initial={isInitialMount ? false : { opacity: 0, y: 12 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.42, ease: LUXURY_EASE }}
+      transition={{ duration: 0.45, ease: LUXURY_EASE }}
+      className="relative"
     >
+      {/* Subtle Top Gold Route Loading Bar on Page Transitions */}
+      {!isInitialMount && (
+        <motion.div
+          initial={{ scaleX: 0, opacity: 1 }}
+          animate={{ scaleX: 1, opacity: 0 }}
+          transition={{ duration: 0.55, ease: LUXURY_EASE }}
+          style={{ transformOrigin: 'left center' }}
+          className="fixed top-0 left-0 right-0 h-[2.5px] bg-gradient-to-r from-[#D4AF37] via-[#f6ecc2] to-[#D4AF37] z-[60] pointer-events-none"
+          aria-hidden="true"
+        />
+      )}
       {children}
     </motion.div>
   );

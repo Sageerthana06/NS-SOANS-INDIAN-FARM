@@ -37,6 +37,30 @@
   min-height: calc(100vh - var(--header-height, 100px));
 }
 
+/* Cinematic Hero Slow Ken-Burns Zoom */
+@keyframes heroKenBurns {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.065);
+  }
+}
+
+.hero-cinematic-zoom {
+  animation: heroKenBurns 18s ease-in-out infinite alternate;
+  will-change: transform;
+}
+
+/* Hide Horizontal Scrollbar for Smooth Carousel */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
   width: 9px;
@@ -385,11 +409,68 @@
   animation: floatSlow 6s ease-in-out infinite;
 }
 
+.animate-float-slow-delayed {
+  animation: floatSlow 6.5s ease-in-out 1.2s infinite;
+}
+
+/* Gentle floating wrapper for product images (separate from img hover scale to prevent transform conflict) */
+@keyframes productFloatGentle {
+  0%, 100% {
+    transform: translate3d(0, 0px, 0);
+  }
+  50% {
+    transform: translate3d(0, -4px, 0);
+  }
+}
+
+.product-img-float {
+  animation: productFloatGentle 5.2s ease-in-out infinite;
+  will-change: transform;
+}
+
+.group:hover .product-img-float {
+  animation-play-state: paused;
+}
+
+/* Subtle CTA Button Light Sheen Animation */
+.cta-sheen-btn {
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-sheen-btn::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -120%;
+  width: 65%;
+  height: 100%;
+  background: linear-gradient(
+    110deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.28) 50%,
+    transparent 100%
+  );
+  transform: skewX(-20deg);
+  transition: left 0.65s cubic-bezier(0.22, 1, 0.36, 1);
+  pointer-events: none;
+}
+
+.cta-sheen-btn:hover::after {
+  left: 140%;
+}
+
 /* Reduced motion accessibility */
 @media (prefers-reduced-motion: reduce) {
-  .animate-float-slow {
+  .animate-float-slow,
+  .animate-float-slow-delayed,
+  .product-img-float,
+  .hero-cinematic-zoom {
     animation: none !important;
     transform: none !important;
+  }
+  .cta-sheen-btn::after {
+    display: none !important;
   }
   *:not(.announcement-marquee-ltr):not(.hero-text-pure-spices):not(.hero-text-natural-goodness):not(.hero-gold-underline),
   *::before,

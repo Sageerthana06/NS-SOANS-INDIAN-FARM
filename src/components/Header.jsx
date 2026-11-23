@@ -41,6 +41,8 @@ export default function Header() {
   const [searchOpen, setSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [cartBump, setCartBump] = useState(false);
+  const [productsMenuOpen, setProductsMenuOpen] = useState(false);
+  const [scrollProgress, setScrollProgress] = useState(0);
 
   const searchInputRef = useRef(null);
   const prevCartCountRef = useRef(null);
@@ -69,12 +71,19 @@ export default function Header() {
     setSearchOpen(false);
   }, [location.pathname]);
 
-  // Track scroll for sticky backdrop blur
+  // Track scroll for sticky backdrop blur & interactive top gold scroll progress bar
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 40);
+      const y = window.scrollY;
+      setIsScrolled(y > 40);
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      if (docHeight > 0) {
+        setScrollProgress(Math.min(100, Math.max(0, (y / docHeight) * 100)));
+      } else {
+        setScrollProgress(0);
+      }
     };
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
@@ -135,6 +144,79 @@ export default function Header() {
             >
               {NAV_LINKS.map((item) => {
                 const isActive = item.match(location.pathname);
+                if (item.hasLeaf) {
+                  return (
+                    <div
+                      key={item.to}
+                      className="relative"
+                      onMouseEnter={() => setProductsMenuOpen(true)}
+                      onMouseLeave={() => setProductsMenuOpen(false)}
+                    >
+                      <Link
+                        to={item.to}
+                        className={`luxury-nav-link text-[14px] lg:text-[15px] py-1 ${
+                          isActive ? 'luxury-nav-link-active' : ''
+                        }`}
+                      >
+                        <Leaf
+                          className={`w-3.5 h-3.5 text-[#D4AF37] shrink-0 transition-transform duration-300 ${
+                            productsMenuOpen ? 'rotate-12 scale-110' : ''
+                          }`}
+                          strokeWidth={2}
+                        />
+                        <span>{item.label}</span>
+                        {isActive && (
+                          <motion.span
+                            layoutId="activeNavDot"
+                            transition={{ duration: 0.35, ease: LUXURY_EASE }}
+                            className="absolute left-1/2 -translate-x-1/2 -bottom-2 w-1.5 h-1.5 rounded-full bg-[#D4AF37]"
+                            aria-hidden="true"
+                          />
+                        )}
+                      </Link>
+
+                      <AnimatePresence>
+                        {productsMenuOpen && (
+                          <motion.div
+                            initial={prefersReducedMotion ? false : { opacity: 0, y: 8, scale: 0.98 }}
+                            animate={{ opacity: 1, y: 0, scale: 1 }}
+                            exit={prefersReducedMotion ? undefined : { opacity: 0, y: 6, scale: 0.98 }}
+                            transition={{ duration: 0.22, ease: LUXURY_EASE }}
+                            className="absolute left-1/2 -translate-x-1/2 top-full pt-3 z-50 w-64"
+                          >
+                            <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-xl border border-[#D4AF37]/30 p-2 space-y-1">
+                              <Link
+                                to="/shop"
+                                onClick={() => setProductsMenuOpen(false)}
+                                className="flex items-center justify-between px-3 py-2 rounded-xl text-xs font-bold text-[#143823] hover:bg-forest-50 hover:text-[#B88629] transition-colors"
+                              >
+                                <span>All 124 Products</span>
+                                <ArrowRight className="w-3.5 h-3.5 text-[#D4AF37]" />
+                              </Link>
+                              <Link
+                                to="/shop?collection=masala"
+                                onClick={() => setProductsMenuOpen(false)}
+                                className="flex items-center justify-between px-3 py-2 rounded-xl text-xs font-semibold text-stone-700 hover:bg-forest-50 hover:text-[#143823] transition-colors"
+                              >
+                                <span>Masala Collection (61)</span>
+                                <ArrowRight className="w-3.5 h-3.5 text-stone-400" />
+                              </Link>
+                              <Link
+                                to="/shop?collection=organic"
+                                onClick={() => setProductsMenuOpen(false)}
+                                className="flex items-center justify-between px-3 py-2 rounded-xl text-xs font-semibold text-stone-700 hover:bg-forest-50 hover:text-[#143823] transition-colors"
+                              >
+                                <span>Farm Products (63)</span>
+                                <ArrowRight className="w-3.5 h-3.5 text-stone-400" />
+                              </Link>
+                            </div>
+                          </motion.div>
+                        )}
+                      </AnimatePresence>
+                    </div>
+                  );
+                }
+
                 return (
                   <Link
                     key={item.to}
@@ -143,12 +225,6 @@ export default function Header() {
                       isActive ? 'luxury-nav-link-active' : ''
                     }`}
                   >
-                    {item.hasLeaf && (
-                      <Leaf
-                        className="w-3.5 h-3.5 text-[#D4AF37] shrink-0 transition-transform duration-300"
-                        strokeWidth={2}
-                      />
-                    )}
                     <span>{item.label}</span>
                     {isActive && (
                       <motion.span
@@ -250,6 +326,15 @@ export default function Header() {
             </div>
           </div>
         </div>
+
+        {/* Subtle Gold Scroll Progress Line along Header Bottom Edge */}
+        {scrollProgress > 1 && (
+          <div
+            className="absolute bottom-0 left-0 h-[2px] bg-gradient-to-r from-[#143823] via-[#D4AF37] to-[#b88629] transition-[width] duration-150 ease-out pointer-events-none"
+            style={{ width: `${scrollProgress}%` }}
+            aria-hidden="true"
+          />
+        )}
       </header>
 
       {/* Instant Search Overlay Modal */}

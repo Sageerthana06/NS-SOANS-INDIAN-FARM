@@ -1185,7 +1185,7 @@ export const PRODUCT_IMAGE_MAP = {
     "category": "Breakfast & Snacks",
     "image": "/images/products/ns-creamy-peanut-butter.jpg",
     "fallbackImage": "/images/products/placeholder-product.svg",
-    "verified": false,
+    "verified": true,
     "isPlaceholder": false
   },
   "farm-58-ns-cruchy-peanut-butter": {

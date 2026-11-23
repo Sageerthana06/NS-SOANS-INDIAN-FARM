@@ -19,12 +19,14 @@ import {
 } from 'lucide-react';
 import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
 import ProductCard from '../components/ProductCard';
+import ProductCarousel from '../components/ProductCarousel';
 import CategoryCard from '../components/CategoryCard';
 import QuickViewModal from '../components/QuickViewModal';
 import { Reveal, StaggerGrid, StaggerItem, AnimatedCounter, LUXURY_EASE } from '../components/LuxuryMotion';
 import { products } from '../data/products';
 import { categories } from '../data/categories';
 import { reviews } from '../data/reviews';
+import { getProductImage, PRODUCT_PLACEHOLDER_IMAGE } from '../data/productImageMap';
 
 // Curated 8 Featured Products: Balanced 4 Masala + 4 Farm Products
 const FEATURED_PRODUCT_IDS = [
@@ -40,6 +42,29 @@ const FEATURED_PRODUCT_IDS = [
   'farm-45-ns-stony-ambemohar-rice'
 ];
 
+// Curated 12 Signature Products for the Interactive Auto-Moving Carousel (6 Masala + 6 Farm)
+const CAROUSEL_PRODUCT_IDS = [
+  'masala-1-lover-s-tea',
+  'farm-2-ns-a2-desi-cow-ghee-bilona-method',
+  'masala-4-ns-special-black-salt',
+  'farm-30-ns-forest-honey-multifloral',
+  'masala-5-ns-special-kabooli-chhole-masala',
+  'farm-15-virgin-coconut-oil',
+  'masala-44-kundapura-chicken-angara',
+  'farm-43-low-gi-rice-kalanamak-varity-ns',
+  'masala-53-kundapura-biryani-kit',
+  'farm-57-ns-creamy-peanut-butter',
+  'masala-61-ginger-garlic-paste',
+  'farm-63-ns-pink-salt-himalaya'
+];
+
+// 3 Hero Spotlight Products (Real Catalogue Items)
+const HERO_SPOTLIGHT_IDS = [
+  'masala-1-lover-s-tea',
+  'farm-2-ns-a2-desi-cow-ghee-bilona-method',
+  'masala-53-kundapura-biryani-kit'
+];
+
 export default function Home() {
   const [quickViewProduct, setQuickViewProduct] = useState(null);
   const heroVideoRef = useRef(null);
@@ -50,6 +75,21 @@ export default function Home() {
   const featuredProducts = FEATURED_PRODUCT_IDS.map((id) =>
     products.find((p) => p.id === id)
   ).filter(Boolean);
+
+  // Curated 12 products for the interactive auto-moving carousel
+  const carouselProducts = CAROUSEL_PRODUCT_IDS.map((id) =>
+    products.find((p) => p.id === id)
+  ).filter(Boolean);
+
+  // 3 Hero spotlight products
+  const heroSpotlightProducts = HERO_SPOTLIGHT_IDS.map((id) =>
+    products.find((p) => p.id === id)
+  ).filter(Boolean);
+
+  // Real catalogue counts for animated counters
+  const totalCatalogueCount = products.length;
+  const masalaCatalogueCount = products.filter((p) => p.collection === 'masala').length;
+  const farmCatalogueCount = products.filter((p) => p.collection === 'organic').length;
 
   useEffect(() => {
     const heroVid = heroVideoRef.current;
@@ -104,42 +144,44 @@ export default function Home() {
         style={{ minHeight: 'calc(100vh - var(--header-height, 100px))' }}
         className="hero-fullscreen relative w-full flex items-center py-10 sm:py-14 md:py-16 px-4 sm:px-6 lg:px-8 bg-forest-950/20 overflow-hidden"
       >
-        {/* Full-Width Full-Screen Background Video & Poster — Bright, Vivid & Vibrant */}
+        {/* Full-Width Full-Screen Background Video & Poster — Bright, Vivid & Vibrant with Subtle Cinematic Zoom */}
         <div className="absolute inset-0 w-full h-full z-0 overflow-hidden">
-          {/* Static fallback behind the video for smooth initialization */}
-          <img
-            src="/images/about-spices-bg.webp"
-            alt="NS SOANS Indian Farm authentic spices"
-            style={{ filter: 'brightness(1.15) contrast(1.05)' }}
-            className="absolute inset-0 w-full h-full object-cover object-center pointer-events-none z-0 brightness-[1.15] contrast-[1.05]"
-          />
-          <motion.video
-            ref={heroVideoRef}
-            src="/videos/homepage-brand-video.mp4"
-            poster="/images/about-spices-bg.webp"
-            autoPlay
-            muted
-            loop
-            playsInline
-            preload="auto"
-            onLoadedMetadata={(e) => {
-              e.currentTarget.defaultMuted = true;
-              e.currentTarget.muted = true;
-              e.currentTarget.play().catch(() => {});
-            }}
-            onCanPlay={(e) => {
-              e.currentTarget.defaultMuted = true;
-              e.currentTarget.muted = true;
-              e.currentTarget.play().catch(() => {});
-            }}
-            initial={prefersReducedMotion ? false : { scale: 1.02 }}
-            animate={prefersReducedMotion ? undefined : { scale: 1 }}
-            transition={{ duration: 1.15, ease: LUXURY_EASE }}
-            style={{ filter: 'brightness(1.15) contrast(1.05)' }}
-            className="relative z-[1] w-full h-full object-cover object-center brightness-[1.15] contrast-[1.05]"
-          >
-            <source src="/videos/homepage-brand-video.mp4" type="video/mp4" />
-          </motion.video>
+          <div className={`w-full h-full ${prefersReducedMotion ? '' : 'hero-cinematic-zoom'}`}>
+            {/* Static fallback behind the video for smooth initialization */}
+            <img
+              src="/images/about-spices-bg.webp"
+              alt="NS SOANS Indian Farm authentic spices"
+              style={{ filter: 'brightness(1.15) contrast(1.05)' }}
+              className="absolute inset-0 w-full h-full object-cover object-center pointer-events-none z-0 brightness-[1.15] contrast-[1.05]"
+            />
+            <motion.video
+              ref={heroVideoRef}
+              src="/videos/homepage-brand-video.mp4"
+              poster="/images/about-spices-bg.webp"
+              autoPlay
+              muted
+              loop
+              playsInline
+              preload="auto"
+              onLoadedMetadata={(e) => {
+                e.currentTarget.defaultMuted = true;
+                e.currentTarget.muted = true;
+                e.currentTarget.play().catch(() => {});
+              }}
+              onCanPlay={(e) => {
+                e.currentTarget.defaultMuted = true;
+                e.currentTarget.muted = true;
+                e.currentTarget.play().catch(() => {});
+              }}
+              initial={prefersReducedMotion ? false : { scale: 1.03, opacity: 0.85 }}
+              animate={prefersReducedMotion ? undefined : { scale: 1, opacity: 1 }}
+              transition={{ duration: 1.2, ease: LUXURY_EASE }}
+              style={{ filter: 'brightness(1.15) contrast(1.05)' }}
+              className="relative z-[1] w-full h-full object-cover object-center brightness-[1.15] contrast-[1.05]"
+            >
+              <source src="/videos/homepage-brand-video.mp4" type="video/mp4" />
+            </motion.video>
+          </div>
         </div>
 
         {/* Subtle 10–15% Ambient & Directional Gradient Overlay for Optimal Text Readability & Natural Video Colors */}
@@ -220,15 +262,15 @@ export default function Home() {
             >
               <Link
                 to="/shop?collection=masala"
-                className="inline-flex items-center justify-center gap-2.5 px-7 sm:px-8 py-3 sm:py-3.5 rounded-full bg-[#D4AF37] hover:bg-[#c29d2b] text-[#102D20] text-xs sm:text-sm font-extrabold tracking-widest uppercase shadow-xl hover:scale-[1.03] active:scale-[0.98] transition-all duration-300"
+                className="cta-sheen-btn inline-flex items-center justify-center gap-2.5 px-7 sm:px-8 py-3 sm:py-3.5 rounded-full bg-[#D4AF37] hover:bg-[#c29d2b] text-[#102D20] text-xs sm:text-sm font-extrabold tracking-widest uppercase shadow-xl hover:scale-[1.03] active:scale-[0.98] transition-all duration-300"
               >
                 <span>Explore Masalas</span>
-                <ArrowRight className="w-4 h-4 text-[#102D20]" />
+                <ArrowRight className="w-4 h-4 text-[#102D20] transition-transform duration-300 group-hover:translate-x-0.5" />
               </Link>
 
               <Link
                 to="/shop?collection=organic"
-                className="inline-flex items-center justify-center gap-2.5 px-7 sm:px-8 py-3 sm:py-3.5 rounded-full bg-[#102D20]/90 hover:bg-[#102D20] text-white hover:text-[#FAF8F3] text-xs sm:text-sm font-extrabold tracking-widest uppercase border border-[#D4AF37]/50 hover:border-[#D4AF37] shadow-lg backdrop-blur-md hover:scale-[1.03] active:scale-[0.98] transition-all duration-300"
+                className="cta-sheen-btn inline-flex items-center justify-center gap-2.5 px-7 sm:px-8 py-3 sm:py-3.5 rounded-full bg-[#102D20]/90 hover:bg-[#102D20] text-white hover:text-[#FAF8F3] text-xs sm:text-sm font-extrabold tracking-widest uppercase border border-[#D4AF37]/50 hover:border-[#D4AF37] shadow-lg backdrop-blur-md hover:scale-[1.03] active:scale-[0.98] transition-all duration-300"
               >
                 <span>Shop Organic Foods</span>
                 <Leaf className="w-4 h-4 text-[#D4AF37]" />
@@ -260,12 +302,58 @@ export default function Home() {
               </div>
               <div>
                 <h4 className="text-lg sm:text-xl font-black font-serif text-[#D4AF37] drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]">
-                  <AnimatedCounter target={124} duration={1.4} /> Items
+                  <AnimatedCounter target={totalCatalogueCount} duration={1.4} /> Items
                 </h4>
                 <p className="text-[10px] sm:text-[11px] text-white/95 font-semibold drop-shadow-[0_1px_6px_rgba(0,0,0,0.9)]">Verified Catalogue</p>
               </div>
             </motion.div>
           </div>
+
+          {/* Desktop Interactive Floating Signature Product Showcase Cards */}
+          {heroSpotlightProducts.length > 0 && (
+            <motion.div
+              initial={prefersReducedMotion ? false : { opacity: 0, x: 24 }}
+              animate={prefersReducedMotion ? undefined : { opacity: 1, x: 0 }}
+              transition={{ duration: 0.85, delay: 0.35, ease: LUXURY_EASE }}
+              className="hidden xl:flex flex-col gap-3.5 absolute right-0 top-1/2 -translate-y-1/2 w-[310px]"
+            >
+              {heroSpotlightProducts.map((sp, idx) => (
+                <Link
+                  key={sp.id}
+                  to={`/product/${sp.slug}`}
+                  className={`group flex items-center gap-3.5 p-3 rounded-2xl bg-[#102D20]/85 hover:bg-[#102D20]/95 border border-[#D4AF37]/40 hover:border-[#D4AF37] backdrop-blur-md shadow-2xl transition-all duration-300 hover:-translate-x-1.5 ${
+                    idx % 2 === 0 ? 'animate-float-slow' : 'animate-float-slow-delayed'
+                  }`}
+                >
+                  <div className="w-14 h-14 rounded-xl bg-white/95 p-1 shrink-0 overflow-hidden border border-[#D4AF37]/30">
+                    <img
+                      src={getProductImage(sp)}
+                      alt={sp.name}
+                      className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-500"
+                      onError={(e) => {
+                        e.currentTarget.onerror = null;
+                        e.currentTarget.src = PRODUCT_PLACEHOLDER_IMAGE;
+                      }}
+                    />
+                  </div>
+                  <div className="min-w-0 flex-1">
+                    <span className="text-[9.5px] font-bold uppercase tracking-wider text-[#D4AF37] block truncate">
+                      {sp.category}
+                    </span>
+                    <h4 className="text-xs font-extrabold text-white truncate group-hover:text-[#D4AF37] transition-colors">
+                      {sp.name}
+                    </h4>
+                    <span className="text-[11px] font-bold text-[#FAF8F3]/90">
+                      {sp.price !== null && sp.price !== undefined
+                        ? `From ₹${Number(sp.price).toLocaleString('en-IN')}`
+                        : 'Explore Pack'}
+                    </span>
+                  </div>
+                  <ArrowRight className="w-4 h-4 text-[#D4AF37] shrink-0 group-hover:translate-x-1 transition-transform" />
+                </Link>
+              ))}
+            </motion.div>
+          )}
         </div>
       </section>
 
@@ -322,12 +410,20 @@ export default function Home() {
             ))}
           </StaggerGrid>
 
-          <Reveal className="text-center mt-12 sm:mt-14">
+          {/* Smooth Auto-Moving Interactive Product Carousel with Manual Controls */}
+          <Reveal className="mt-12 sm:mt-16 pt-10 border-t border-stone-200/80">
+            <ProductCarousel
+              products={carouselProducts}
+              onQuickView={(p) => setQuickViewProduct(p)}
+            />
+          </Reveal>
+
+          <Reveal className="text-center mt-10 sm:mt-12">
             <Link
               to="/shop"
-              className="inline-flex items-center justify-center gap-3 px-8 sm:px-10 py-3.5 sm:py-4 rounded-full bg-forest-900 hover:bg-forest-950 text-[#FAF8F3] hover:text-[#D4AF37] text-xs sm:text-sm font-extrabold tracking-widest uppercase border border-gold-500/40 shadow-xl hover:scale-[1.03] active:scale-[0.98] transition-all duration-300 group"
+              className="cta-sheen-btn inline-flex items-center justify-center gap-3 px-8 sm:px-10 py-3.5 sm:py-4 rounded-full bg-forest-900 hover:bg-forest-950 text-[#FAF8F3] hover:text-[#D4AF37] text-xs sm:text-sm font-extrabold tracking-widest uppercase border border-gold-500/40 shadow-xl hover:scale-[1.03] active:scale-[0.98] transition-all duration-300 group"
             >
-              <span>VIEW ALL 124 PRODUCTS →</span>
+              <span>VIEW ALL {totalCatalogueCount} PRODUCTS →</span>
             </Link>
           </Reveal>
         </div>
@@ -442,7 +538,7 @@ export default function Home() {
           </Reveal>
 
           <Reveal className="lg:col-span-6 grid grid-cols-2 gap-4" delay={0.12}>
-            <div className="overflow-hidden rounded-3xl shadow-md group">
+            <div className="overflow-hidden rounded-3xl shadow-md group animate-float-slow">
               <img
                 src="/images/heritage-spices.webp"
                 alt="NS SOANS Heritage Spices"
@@ -450,7 +546,7 @@ export default function Home() {
                 loading="lazy"
               />
             </div>
-            <div className="overflow-hidden rounded-3xl shadow-md sm:translate-y-6 group">
+            <div className="overflow-hidden rounded-3xl shadow-md sm:translate-y-6 group animate-float-slow-delayed">
               <img
                 src="/images/farm-natural-goodness.webp"
                 alt="NS SOANS Farm Natural Goodness"
@@ -481,13 +577,13 @@ export default function Home() {
             </p>
           </Reveal>
 
-          {/* Animated Brand Statistics Counter Bar */}
+          {/* Animated Brand Statistics Counter Bar (Driven by Real Catalogue Data) */}
           <Reveal className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-5 mb-10 sm:mb-12">
             {[
               { value: 1920, suffix: '', label: 'Established Heritage', sub: 'Kundapura, Karnataka' },
-              { value: 124, suffix: '', label: 'Catalogue Products', sub: 'Complete Authentic Range' },
-              { value: 61, suffix: '', label: 'Traditional Masalas', sub: 'Veg, Non-Veg & Beverages' },
-              { value: 63, suffix: '', label: 'Natural Farm Products', sub: 'Ghee, Oils, Atta & Grains' }
+              { value: totalCatalogueCount, suffix: '', label: 'Catalogue Products', sub: 'Complete Authentic Range' },
+              { value: masalaCatalogueCount, suffix: '', label: 'Traditional Masalas', sub: 'Veg, Non-Veg & Beverages' },
+              { value: farmCatalogueCount, suffix: '', label: 'Natural Farm Products', sub: 'Ghee, Oils, Atta & Grains' }
             ].map((stat) => (
               <div
                 key={stat.label}

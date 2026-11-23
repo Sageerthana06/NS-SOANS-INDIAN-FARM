@@ -24,6 +24,31 @@ export default function ProductCard({ product, onQuickView }) {
 
   const [selectedWeight, setSelectedWeight] = useState(getInitialWeight);
   const [justAdded, setJustAdded] = useState(false);
+  const [imageLoaded, setImageLoaded] = useState(false);
+  const [tiltStyle, setTiltStyle] = useState({});
+
+  const prefersReducedMotion = useReducedMotion();
+
+  const handleMouseMove = (e) => {
+    if (prefersReducedMotion) return;
+    const rect = e.currentTarget.getBoundingClientRect();
+    const x = (e.clientX - rect.left) / rect.width - 0.5;
+    const y = (e.clientY - rect.top) / rect.height - 0.5;
+    const rotateX = Number((-y * 6).toFixed(2));
+    const rotateY = Number((x * 6).toFixed(2));
+    setTiltStyle({
+      transform: `perspective(900px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-5px)`,
+      transition: 'transform 120ms ease-out'
+    });
+  };
+
+  const handleMouseLeave = () => {
+    if (prefersReducedMotion) return;
+    setTiltStyle({
+      transform: 'perspective(900px) rotateX(0deg) rotateY(0deg) translateY(0px)',
+      transition: 'transform 420ms cubic-bezier(0.22, 1, 0.36, 1)'
+    });
+  };
 
   // If prices hydrate asynchronously or update via HMR, auto-select the first priced variant
   // when the currently selected variant has no price.
@@ -69,28 +94,36 @@ export default function ProductCard({ product, onQuickView }) {
     }
   };
 
-  const prefersReducedMotion = useReducedMotion();
-
   return (
     <motion.div
       initial={prefersReducedMotion ? false : { opacity: 0, y: 20 }}
       whileInView={prefersReducedMotion ? undefined : { opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.12 }}
       transition={{ duration: 0.55, ease: LUXURY_EASE }}
+      onMouseMove={handleMouseMove}
+      onMouseLeave={handleMouseLeave}
+      style={tiltStyle}
       className="product-card group relative flex flex-col justify-between bg-white rounded-2xl sm:rounded-3xl p-3 sm:p-3.5 md:p-4 border border-stone-200/80 shadow-xs hover:shadow-luxury-hover hover:border-gold-500/40 transition-all duration-300 card-hover-3d min-w-0 w-full h-full"
     >
       {/* Top Media & Badges */}
       <div className="flex flex-col flex-1 min-w-0">
         <div className="relative aspect-square w-full rounded-xl sm:rounded-2xl overflow-hidden bg-stone-50 border border-stone-100/80 mb-2 sm:mb-2.5">
-          <Link to={`/product/${product.slug}`} className="block w-full h-full">
+          {!imageLoaded && (
+            <div className="absolute inset-0 animate-shimmer bg-stone-100/70 pointer-events-none" aria-hidden="true" />
+          )}
+          <Link to={`/product/${product.slug}`} className="block w-full h-full product-img-float">
             <img
               src={getProductImage(product)}
               alt={product.name}
-              className="w-full h-full object-contain p-1.5 sm:p-2 group-hover:scale-105 transition-transform duration-500 ease-out select-none"
+              onLoad={() => setImageLoaded(true)}
+              className={`w-full h-full object-contain p-1.5 sm:p-2 group-hover:scale-108 transition-all duration-500 ease-out select-none ${
+                imageLoaded ? 'opacity-100' : 'opacity-0'
+              }`}
               loading="lazy"
               onError={(e) => {
                 e.currentTarget.onerror = null;
                 e.currentTarget.src = PRODUCT_PLACEHOLDER_IMAGE;
+                setImageLoaded(true);
               }}
             />
           </Link>
