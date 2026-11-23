@@ -71,13 +71,18 @@ export default function AnnouncementBar() {
           display: flex;
           width: max-content;
           will-change: transform;
-          animation-name: announcementScrollLeftToRight !important;
-          animation-duration: 24s !important;
-          animation-timing-function: linear !important;
-          animation-iteration-count: infinite !important;
+          backface-visibility: hidden;
+          -webkit-backface-visibility: hidden;
+          animation: announcementScrollLeftToRight 26s linear infinite;
         }
         .announcement-marquee-ltr:hover {
           animation-play-state: paused;
+        }
+        @media (prefers-reduced-motion: reduce) {
+          .announcement-marquee-ltr {
+            animation: none !important;
+            transform: translate3d(0, 0, 0) !important;
+          }
         }
       `}</style>
 
