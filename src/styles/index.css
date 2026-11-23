@@ -460,6 +460,34 @@
   left: 140%;
 }
 
+/* Top Announcement Bar Continuous Left-to-Right Marquee */
+@keyframes announcementScrollLeftToRight {
+  0% {
+    transform: translate3d(-50%, 0, 0);
+  }
+  100% {
+    transform: translate3d(0%, 0, 0);
+  }
+}
+
+.announcement-marquee-ltr {
+  display: flex;
+  width: max-content;
+  will-change: transform;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform: translate3d(-50%, 0, 0);
+  animation-name: announcementScrollLeftToRight !important;
+  animation-duration: 18s !important;
+  animation-timing-function: linear !important;
+  animation-iteration-count: infinite !important;
+  animation-direction: normal !important;
+}
+
+.announcement-marquee-ltr:hover {
+  animation-play-state: paused;
+}
+
 /* Reduced motion accessibility */
 @media (prefers-reduced-motion: reduce) {
   .animate-float-slow,

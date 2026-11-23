@@ -10,16 +10,10 @@ const announcements = [
     link: '/shop'
   },
   {
-    icon: Globe,
-    text: 'Authentic Kundapura Masalas & Organic Farm Harvests from Karnataka, India',
-    cta: 'View Recipes',
-    link: '/recipes'
-  },
-  {
-    icon: Truck,
-    text: 'Visit us at \'Ashwin\', Opp. Parijatha Hotel, Main Road, Kundapura – 576201',
-    cta: 'Contact Us',
-    link: '/contact'
+    icon: ShieldCheck,
+    text: 'NS SOANS INDIAN FARM • Soans Home Industries, Kundapura — Legacy Since 1920',
+    cta: 'Explore Products',
+    link: '/shop'
   }
 ];
 
@@ -73,10 +67,12 @@ export default function AnnouncementBar() {
           will-change: transform;
           backface-visibility: hidden;
           -webkit-backface-visibility: hidden;
+          transform: translate3d(-50%, 0, 0);
           animation-name: announcementScrollLeftToRight !important;
-          animation-duration: 24s !important;
+          animation-duration: 18s !important;
           animation-timing-function: linear !important;
           animation-iteration-count: infinite !important;
+          animation-direction: normal !important;
         }
         .announcement-marquee-ltr:hover {
           animation-play-state: paused;
